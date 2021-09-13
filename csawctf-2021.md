@@ -262,5 +262,5 @@ Gửi lời cảm ơn chân thành đến: @Pengu, @j1s0o, @Martin Shelby.
 
 Cut3\_Guys in ur area
 
-Thanks for reading. Have a good day &lt;3
+Thanks for reading. Have a nice day &lt;3
 
