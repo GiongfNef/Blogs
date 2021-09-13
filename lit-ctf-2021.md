@@ -1,6 +1,6 @@
 # LIT CTF 2021
 
- _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
+_**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
 **crypto/7 More Caesar Salads**
 
@@ -60,9 +60,9 @@ Dành cả ngày để mò cho đúng form, nhưng không đây mới là flag :
 
 **crypto/Scottish Flag**
 
- [Đề](https://github.com/rongtruong26012002/ChallFile/blob/main/LIT_Scottish%20Flag_chall.py) mình để ở đây
+[Đề](https://github.com/rongtruong26012002/ChallFile/blob/main/LIT_Scottish%20Flag_chall.py) mình để ở đây
 
-Về cơ bản, mình có 3 phương trình 3 ẩn dễ dàng để giải nhưng ở đây mình cần tìm ct0 và ct1 thôi nên thay một xíu là ra. Vấn đề chỉ nằm ở việc khi tính sqrt mình dùng sage vì python sqrt dạng float, chuyển kiểu dữ liệu về int sẽ gây sai số dẫn đến sai đoạn sau của flag \( flag{6t............  \)
+Về cơ bản, mình có 3 phương trình 3 ẩn dễ dàng để giải nhưng ở đây mình cần tìm ct0 và ct1 thôi nên thay một xíu là ra. Vấn đề chỉ nằm ở việc khi tính sqrt mình dùng sage vì python sqrt dạng float, chuyển kiểu dữ liệu về int sẽ gây sai số dẫn đến sai đoạn sau của flag \( flag{6t............ \)
 
 [Solve](https://github.com/rongtruong26012002/SolveFile/blob/main/solve_crypto/solve_Scottish%20Flag.sage) của mình
 

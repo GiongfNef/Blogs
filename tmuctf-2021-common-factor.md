@@ -1,7 +1,5 @@
 # TMUCTF 2021 - Common factor
 
-
-
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
 ```python
@@ -60,9 +58,5 @@ phi = (n1-1)*(n2-1)*(n3-1)
 d = pow(e,-1,phi)
 e = 65537
 print(long_to_bytes(pow(c,d,n)))
-
-
-
-
 ```
 

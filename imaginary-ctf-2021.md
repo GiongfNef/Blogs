@@ -1,12 +1,12 @@
 # Imaginary CTF 2021
 
- _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
+_**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
 ![source: idul n3mo &#x1F420;](https://giongfnefvblog.files.wordpress.com/2021/07/image-15.png?w=624)
 
 Giải này mình học thêm một xíu về mảng **Misc** và **Forensics**
 
-**\#Misc** 
+**\#Misc**
 
 **Spelling Test**
 
@@ -18,7 +18,7 @@ Tóm tắt: bài này cho mình một file txt có 2175 từ vựng, trong đó 
 
 **flag: ictf{youpassedthespellingtest}**
 
-**Formatting** 
+**Formatting**
 
 file: [Chall](https://github.com/rongtruong26012002/ChallFile/blob/main/ImaginaryCTF2021/Formatting_chall.py)
 
@@ -34,9 +34,9 @@ Mình sẽ gửi dạng {people\_obj.\_\_init\_\_.\_\_globals\_\_\[CONFIG\]\[KEY
 
 Mình không thể làm được bài này nếu thiếu sự giúp đỡ của ông hoàng Hướng Đối Tượng FuckAdapt, aligatooooooo \(⸝⸝ᵕᴗᵕ⸝⸝\).
 
-**\#Forensics** 
+**\#Forensics**
 
-**Vacation** 
+**Vacation**
 
 bài này mình được bạn j1s0o cùng team chỉ cho \(🌼❛ ֊ ❛„\)![](https://giongfnefvblog.files.wordpress.com/2021/07/image-11.png?w=1024)
 
@@ -51,7 +51,7 @@ Quan sát 2 vị trí trên ta có thể search với key word "city of south la
 
 **\#Crypto**
 
-**Rock Solid Algorithm** 
+**Rock Solid Algorithm**
 
 ```python
 n = 18718668654839418101060350414897678724581774081742102287908765212690862231899547405582997157020093499506177632395430572542600019258424947803591395926472246347413986531437177801754324606200243710836609694453888894668656807471052095014376204102474311740080044776201105722801365112971807912406879483156845216746137339614577267869908065296042390812575960639865867729920434603853708907147465162697098688239587320232595412227310236678367
@@ -84,10 +84,10 @@ def find_invpow(x,n):
             return mid
     return mid + 1
 while True:
-	flag = long_to_bytes(find_invpow(i*n+c,5))
-	if b'ictf' in flag:
-		print(flag,i)
-	i+=1
+    flag = long_to_bytes(find_invpow(i*n+c,5))
+    if b'ictf' in flag:
+        print(flag,i)
+    i+=1
 #b'ictf{3_isnt_th3_0nly_sm4ll_3xp0n3nt}'
 ```
 
@@ -111,7 +111,7 @@ ta lấy kí tự đầu tiên của chuỗi sau khi encode ở dạng hex là :
 
 **flag: ictf{fl1p\_fl0p\_b1ts\_fl1pped\_b6731f96}**
 
-**Lines** 
+**Lines**
 
 file: [Chall](https://github.com/rongtruong26012002/ChallFile/blob/main/ImaginaryCTF2021/Lines.py)
 
@@ -143,7 +143,7 @@ print(long_to_bytes((inverse(s,p) * flag_enc )%p))
 
 **flag: ictf{m0d\_4r1th\_ftw\_1c963241}**
 
-### \#**Misc** 
+## \#**Misc**
 
 **Puzzle 2**
 
@@ -157,7 +157,7 @@ Bài này rất thú vị, chall là một game như minecraft mình có thể d
 
 ![](https://giongfnefvblog.files.wordpress.com/2021/07/image-17.png?w=1024)
 
- ta có source game rồi, sử dụng dnspy thêm 1 dòng code này để tắt collision và cheat đi xuyên tường :\)\). Tham khảo [thêm](https://docs.unity3d.com/ScriptReference/Rigidbody-detectCollisions.html).
+ta có source game rồi, sử dụng dnspy thêm 1 dòng code này để tắt collision và cheat đi xuyên tường :\)\). Tham khảo [thêm](https://docs.unity3d.com/ScriptReference/Rigidbody-detectCollisions.html).
 
 ![](https://giongfnefvblog.files.wordpress.com/2021/07/image-18.png?w=1024)
 
