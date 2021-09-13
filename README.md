@@ -1,4 +1,4 @@
-# SUMMARY.md for table of contents
+# Check SUMMARY.md for table of contents
 
 
 
