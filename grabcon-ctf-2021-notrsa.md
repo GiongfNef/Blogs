@@ -1,7 +1,3 @@
----
-description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
----
-
 # GrabCon CTF 2021 - NotRSA
 
 ```python

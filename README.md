@@ -1,7 +1,3 @@
----
-description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
----
-
 # CASAWCTF 2021
 
 **Gotta Decrypt Them All**
