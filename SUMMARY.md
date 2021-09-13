@@ -9,4 +9,5 @@
 * [Zh3R0 CTF+Shell CTF](zh3r0-ctf+shell-ctf.md)
 * [redpwnCTF 2021](redpwnctf-2021.md)
 * [CryptoHack](cryptohack.md)
+* [CSAWCTF 2021](csawctf-2021.md)
 
