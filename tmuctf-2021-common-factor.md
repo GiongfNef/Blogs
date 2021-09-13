@@ -4,7 +4,7 @@
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-```text
+```python
 from Crypto.Util.number import *
 from functools import reduce
 
@@ -43,7 +43,7 @@ with open('flag', 'rb') as f:
 
 ![t&#x1EEB; &#x111;&#xE2;y ta vi&#x1EBF;t &#x111;&#x1B0;&#x1EE3;c script](https://giongfnefvblog.files.wordpress.com/2021/09/image-1.png?w=968)
 
-```text
+```python
 from Crypto.Util.number import *
 from functools import reduce
 from sympy import *
