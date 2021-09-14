@@ -18,7 +18,7 @@ ta dễ dằng decrypt bằng 3√c, đến đây ta thấy kí tự khá quen m
 
 \*Part2:
 
-sau khi gửi "Pokemon Names" server lại trả về mã morse tương tự, làm lại các bước ở Part1 ta sẽ được tên của một con pokemon, tiếp tục part 3,4,5... ta sẽ được các pokemon riêng biệt . Có 800+ pokemons và mỗi lần connect với server kết quả các pokemon lại khác nhau tại các part nên bỏ ngay ý định brute force. Mình viết script nhận dữ liệu từ server và respond lập tức vì mỗi lần connect server chỉ verify đúng 1 lần.
+sau khi gửi "Pokemon Names" server lại trả về mã morse tương tự, làm lại các bước ở Part1 ta sẽ được tên của một con pokemon, tiếp tục part 3,4,5... ta sẽ được các pokemon riêng biệt . Có 800+ pokemons và mỗi lần connect với server kết quả các pokemon lại khác nhau tại các part nên bỏ ngay ý định brute force. Mình viết script nhận dữ liệu từ server và response lập tức vì mỗi lần connect server chỉ verify đúng 1 lần.
 
 * Đầu tiên mình [decrypt mã Morse](https://www.geeksforgeeks.org/morse-code-translator-python/)
 * Connect với server bằng [pwntool](https://docs.pwntools.com/en/stable/tubes.html)
