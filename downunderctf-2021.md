@@ -26,7 +26,7 @@ We just convert cipher to int and solve the quadratic equation to get flag
 
 \# DUCTF{sh0uld'v3\_us3d\_r0t\_13}
 
-**\# Substitution Cipher II**
+### **\# Substitution Cipher II**
 
 ```text
 from string import ascii_lowercase, digits
@@ -81,7 +81,7 @@ After bruteforcing we get a = 41 :\)\)\)\). Analysicing base d will faster  . [F
 
 \#DUCTF{go0d\_0l'\_l4gr4ng3}
 
-**\#Break Me!**
+### **\#Break Me!**
 
 ```text
 #!/usr/bin/python3
