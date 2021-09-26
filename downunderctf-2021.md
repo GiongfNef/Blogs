@@ -20,7 +20,7 @@ print(enc)
 
 Comment:
 
-* Through map f\(plaintext\) -&gt; cipher
+* Through by mapping f\(plaintext\) -&gt; cipher
 
 We just convert cipher to int and solve the quadratic equation to get flag
 
