@@ -2,7 +2,7 @@
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-**\#Substitution Cipher I**
+### **\#Substitution Cipher I**
 
 ```text
 def encrypt(msg, f):
