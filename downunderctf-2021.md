@@ -125,7 +125,7 @@ Comment:
 * flag is in block1 and block2, we input from block 3
 * \(flag + input + key\) then padding by '0'
 
-![](https://giongfnefvblog.files.wordpress.com/2021/09/image-2.png?w=575)
+![](.gitbook/assets/image%20%281%29.png)
 
 Idea:
 
