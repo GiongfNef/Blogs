@@ -1,0 +1,132 @@
+# Joined PicoCTF  2021 for the first time  &&  Some challenges were solved.
+
+
+
+> **PicoCTF 2021 && Some challenges were solved.**
+
+ _Note : A JOURNEY TO GAIN KNOWLEDGE_
+
+### Mod 26
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image.png?w=750)
+
+For fun :V
+
+Key word " ROT13 online" .
+
+> picoCTF{next\_time\_I'll\_try\_2\_rounds\_of\_rot13\_wqWOSBKW}
+
+### Mind your Ps and Qs
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-2.png?w=964)
+
+Link : https://play.picoctf.org/practice/challenge/162?category=2&page=1
+
+Decrypt my super sick RSA:  
+c: 964354128913912393938480857590969826308054462950561875638492039363373779803642185  
+n: 1584586296183412107468474423529992275940096154074798537916936609523894209759157543  
+e: 65537
+
+Form RSA so let visit https://www.alpertron.com.ar/ECM.HTM to factor n . Easily n= q\*p with:
+
+q = 2434792384523484381583634042478415057961  
+p = 650809615742055581459820253356987396346063 \(q, p are prime\)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-13.png?w=1024)
+
+That RSA bro :v,
+
+\*We can calculate d by many way with key word "Modular multiplicative inverse". or
+
+d = pow\(e,-1,phi\) according to Group theory from "Abstract-Algebra" e^-1 is modulo inverse. Final, we decode 7069636f4354467b736d6131315f4e5f6e305f67306f645f37333931383936327d from Hex
+
+> picoCTF{sma11\_N\_n0\_g0od\_73918962}
+
+### Mini RSA 
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-4.png?w=965)
+
+link : https://play.picoctf.org/practice/challenge/188?category=2&page=1
+
+N: 1615765684321463054078226051959887884233678317734892901740763321135213636796075462401950274602405095138589898087428337758445013281488966866073355710771864671726991918706558071231266976427184673800225254531695928541272546385146495736420261815693810544589811104967829354461491178200126099661909654163542661541699404839644035177445092988952614918424317082380174383819025585076206641993479326576180793544321194357018916215113009742654408597083724508169216182008449693917227497813165444372201517541788989925461711067825681947947471001390843774746442699739386923285801022685451221261010798837646928092277556198145662924691803032880040492762442561497760689933601781401617086600593482127465655390841361154025890679757514060456103104199255917164678161972735858939464790960448345988941481499050248673128656508055285037090026439683847266536283160142071643015434813473463469733112182328678706702116054036618277506997666534567846763938692335069955755244438415377933440029498378955355877502743215305768814857864433151287  
+e: 3
+
+ciphertext \(c\): 1220012318588871886132524757898884422174534558055593713309088304910273991073554732659977133980685370899257850121970812405700793710546674062154237544840177616746805668666317481140872605653768484867292138139949076102907399831998827567645230986345455915692863094364797526497302082734955903755050638155202890599808146919581675891411119628108546342758721287307471723093546788074479139848242227243523617899178070097350912870635303707113283010669418774091018728233471491573736725568575532635111164176010070788796616348740261987121152288917179932230769893513971774137615028741237163693178359120276497700812698199245070488892892209716639870702721110338285426338729911942926177029934906215716407021792856449586278849142522957603215285531263079546937443583905937777298337318454706096366106704204777777913076793265584075700215822263709126228246232640662350759018119501368721990988895700497330256765579153834824063344973587990533626156498797388821484630786016515988383280196865544019939739447062641481267899176504155482
+
+Idea: RSA have small e, my first attempt is C = m^e mod N if small e and large N, we can deduce that C = m^e or m = e√C.
+
+However, i read hint and look up clearly N and C are same len, just having small e and we knew " `pico` is in the flag, but not at the beginning" =&gt; key word "pico" -&gt;"7069636F" that is Hex. Idea: brute force with m = **3**√ \(k\*N + C\) \(with k is interger \)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-10.png?w=1024)
+
+I used Python to support for calculating. We can search with key word "cube root of large number in python".
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-11.png?w=1024)
+
+First idea: i run from 1-&gt;5000 \(fear crashing :v\)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-12.png?w=1024)
+
+Final, we find " 7069636F " in that bunch, we can try by a lot of ways but Word is " familiar" \(o･ω･o\).
+
+plain:0x20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020207069636f4354467b655f7368307531645f62335f6c41726733725f36306566323432307d
+
+decode from Hex and done.
+
+> picoCTF{e\_sh0u1d\_b3\_lArg3r\_60ef2420}
+
+### Dachshund Attacks 
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-14.png?w=968)
+
+link : https://play.picoctf.org/practice/challenge/159?category=2&page=1
+
+Welcome to my RSA challenge!  
+e: 5718731386618236606181048265624611383346963956740462355094514322081145284206617654084713813129720371888448475227075733160863010765923821727752130949593229782290150354265528107254658213943724255996714104377127438231842407810406686398520614834219925560301124126953241520824153564789577433897162800536634626427  
+n: 154242267138099686888659381956161547361968180399074250810617994500012255244959018269776726336308371233352596814222955283388154645815931639818849069301116237712804150483120592041932598154856278874771510204812947611453202246257619215158344708443325737757499391336294850833879780995603083628225913806000589859941  
+c: 106820591144043316533733837561911761046535874829192272233003545856732567390403585199983364857491026330127087464704673907188780092846574821456900121063598980397453899326807600783565147343850376216697899151644574522859180112680848213956558568681635763939436076380567336782245441727297959681440219225009826183831
+
+HintKhi click vào hint sẽ hiện ra một cún này \( ´ ▽ \` \)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/dachshund.jpg?w=1024)
+
+"Khi mới đọc đề mọi sự chú ý của mình đề xoay quanh con cún mập địt này khoảng 2 ngày từ việc tra nguồn gốc bức anh đến chuyển sang URl hay Hash nó ra, nhưng tất cả vô dụng. Mình cay đến nỗi ghét cay ghét đắng tấm hình, ghét luôn cả mấy con cún cả tuần lễ "
+
+\(￣ω￣\)
+
+Đọc đề ta nhận thấy e\*d ≡ Phi \(mod n\) =&gt; ta thấy rõ e quá lớn nên d sẽ nhỏ =&gt; liên tưởng ngay đến Wiener's attack key word "Attack RSA with small d" hoặc là " Wiener's attack ".Ta tìm được d với Wiener's attack .
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-15.png?w=1024)
+
+Có d mọi chuyện đã trở nên đơn gian ốp công thức m = c^d mod n là ok. Chúng ta có thể giải mà không cần dùng đến con cún kia = \)\)\)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-16.png?w=1024)
+
+> picoCTF{proving\_wiener\_6907362}
+
+### Pixelated 
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-17.png?w=964)
+
+link đề: https://play.picoctf.org/practice/challenge/100?category=2&page=1![](https://giongfnefvblog.files.wordpress.com/2021/04/scrambled1-1.png?w=256)![](https://giongfnefvblog.files.wordpress.com/2021/04/scrambled2.png?w=256)
+
+Về ý tưởng bài này chỉ cần XOR 2 bức ảnh vì đều là 256x256 nói cách khác là "stack" hay "đè" hai bức ảnh lên nhau sẽ ra flag. Vấn đề ở việc dùng tool, ban đầu mình thử CryptoTool nhưng củ cuối quá, may mắn một lần tình cờ ở thư viện thằng BF nó chỉ mình xài PHOTOSHOP : DAdobe Photoshop Premiere 2020 full KEY :D
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-18.png?w=1024)
+
+Các bước đơn giản không cần phải thạo pts vẫn làm được nha. \(￣ω￣\)
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-19.png?w=1024)
+
+Ở mục "Nomal" mình chỉnh sang "Hard Mix". Tới đây bạn nào tinh mắt sẽ nhìn ra flag hen còn mắt kém như mình thì nhờ thằng BF chỉ tiếp \(´∀｀\*\) .
+
+![](https://giongfnefvblog.files.wordpress.com/2021/04/image-20.png?w=1024)
+
+Với vài thao tác đơn giản, merge 2 pic lại rồi dùng "đũa thần" -&gt;chọn phần màu trắng trong chữ sau đó click phải chọn new layer via copy -&gt; chọn màu đen -&gt; chọn layer dưới -&gt; ctrl +shift + delete.
+
+Hooray! Thanks best ptser : Phúc Adapt &lt;3.
+
+> picoCTF{2a4d45c7}
+
+ Thanks for reading. Have a good day &lt;3
+
