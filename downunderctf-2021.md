@@ -55,7 +55,7 @@ Comment:
 * The idea as **Substitution Cipher I** but we don't have f in this challenge
 * Suppose: f\(x\) = a\*x^6 + b\*x^5 + c\*x^4 + d\*x^3 + e\*x^2 + f\*x + g
 
-Idea: We can get whole data from exploiting P.random\_element\(6\) function. Evidently, first base starts at 1, others in \(0,x\) with x &lt; 50 . If we analysic data and calculate the probability, we'll get :
+Idea: We can get whole data from exploiting P.random\_element\(6\) function. Evidently, first base starts at 1, others in \[0,x\) with x &lt; 50 . If we analysic data and calculate the probability, we'll get :
 
 * Value a &gt; 40 : 30%
 * The average value of other bases : 15-29
