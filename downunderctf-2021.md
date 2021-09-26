@@ -77,7 +77,7 @@ for a in range(1,50):
     #41 15 40 9 28 27
 ```
 
-After bruteforcing we get a = 41 :\)\)\)\). Analysicing base c will faster  . [F](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)[ull\_solve](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)
+After bruteforcing we get a = 41 :\)\)\)\). Analysicing base d will faster  . [F](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)[ull\_solve](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)
 
 \#DUCTF{go0d\_0l'\_l4gr4ng3}
 
