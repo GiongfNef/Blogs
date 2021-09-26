@@ -52,7 +52,7 @@ Comment:
 
 * P.random\_element\(6\) creates polynomial of degree 6, sometimes it misses 1 variable
 * f.substitute\(\) substitutes value x then modulo for n because of GF\(n\)
-* The idea as **Substitution Cipher I** but we don't have f at this challenge
+* The idea as **Substitution Cipher I** but we don't have f in this challenge
 * Suppose: f\(x\) = a\*x^6 + b\*x^5 + c\*x^4 + d\*x^3 + e\*x^2 + f\*x + g
 
 Idea: We can get whole data from exploiting P.random\_element\(6\) function. Evidently, first base starts at 1, others in \(0,x\) with x &lt; 50 . If we analysic data and calculate the probability, we'll get :
