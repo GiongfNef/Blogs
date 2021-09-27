@@ -64,12 +64,12 @@ From that data, we can bruteforce all the bases:
 
 ```text
 # bảng bruteforce
-for a in range(1,50):
-    for b in range(0,50):
-        for c in range(0,50):
-            for d in range(0,50):
-                for e in range(0,50):
-                    for f in range(0,50):
+for a in range(1,47):
+    for b in range(1,47):
+        for c in range(1,47):
+            for d in range(1,47):
+                for e in range(1,47):
+                    for f in range(1,47):
                         if (a+b+c+d+e+f+1)%47 == 20 and (17a+32b+16c+8d+4e+2f +1)%47 ==35 and (24a+8b +34c+27d+9e+3f+1) % 47 ==33 and (7a+37b+21c+17d+16e+4f +1)%47 == 42 and (21a+23b +14c+31d+25e+5f+1)%47 == 14 and (32a+21b+27c+28d+36e+6f+1)%47 == 41:
                             print(a,b,c,d,e,f)
                             break;
