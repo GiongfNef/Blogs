@@ -73,6 +73,7 @@ for a in range(1,47):
                             print(a,b,c,d,e,f)
                             break;
     print(a)
+    # 41 15 40 9 28 27
 ```
 
 After bruteforcing we get a = 41 :\)\)\)\). Analysicing base d will faster  . [F](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)[ull\_solve](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)
