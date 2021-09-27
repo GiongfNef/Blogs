@@ -63,18 +63,16 @@ Idea: We can get whole data from exploiting P.random\_element\(6\) function. Evi
 From that data, we can bruteforce all the bases:
 
 ```text
-# bruteforce
 for a in range(1,47):
     for b in range(0,47):
         for c in range(0,47):
             for d in range(0,47):
                 for e in range(0,47):
                     for f in range(0,47):
-                        if (a+b+c+d+e+f+1)%47 == 20 and (17a+32b+16c+8d+4e+2f +1)%47 ==35 and (24a+8b +34c+27d+9e+3f+1) % 47 ==33 and (7a+37b+21c+17d+16e+4f +1)%47 == 42 and (21a+23b +14c+31d+25e+5f+1)%47 == 14 and (32a+21b+27c+28d+36e+6f+1)%47 == 41:
+                        if (a+b+c+d+e+f+1)%47 == 20 and (17*a+32*b+16*c+8*d+4e+2*f +1)%47 ==35 and (24*a+8*b +34*c+27*d+9*e+3*f+1) % 47 ==33 and (7*a+37*b+21*c+17*d+16*e+4*f +1)%47 == 42 and (21*a+23*b +14*c+31*d+25*e+5*f+1)%47 == 14 and (32*a+21*b+27*c+28*d+36*e+6*f+1)%47 == 41:
                             print(a,b,c,d,e,f)
                             break;
     print(a)
-    #41 15 40 9 28 27
 ```
 
 After bruteforcing we get a = 41 :\)\)\)\). Analysicing base d will faster  . [F](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)[ull\_solve](https://github.com/GiongfNef/SolveFile/blob/main/DownUnderCTF2021/Substitution%20Cipher%20II_solve.py)
