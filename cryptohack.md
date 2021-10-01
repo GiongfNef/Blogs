@@ -88,6 +88,8 @@ Adobe Photoshop why not ? :&gt;
 
 ### \#Break RSA
 
+[Tonelli–Shanks algorithm](https://en.wikipedia.org/wiki/Tonelli%E2%80%93Shanks_algorithm)
+
 ```python
 def legendre(a, p):
     return pow(a, (p - 1) // 2, p)
