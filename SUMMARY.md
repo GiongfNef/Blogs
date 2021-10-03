@@ -11,4 +11,5 @@
 * [GrabCon CTF 2021 - NotRSA](grabcon-ctf-2021-notrsa.md)
 * [CSAWCTF 2021](csawctf-2021.md)
 * [DownUnderCTF 2021](downunderctf-2021.md)
+* [TSGCTF 2021](tsgctf-2021.md)
 
