@@ -7,7 +7,7 @@ coverY: 0
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-_**#Warmup**_
+## _**#Warmup**_
 
 ```
 #!/usr/bin/env python3
@@ -41,6 +41,8 @@ print(f'enc = {enc}')
 ```
 
 [output.txt](https://github.com/GiongfNef/ChallFile/blob/main/ASISCTF2021/output.txt)
+
+\#Solve
 
 ```
 with open('output.txt') as f:

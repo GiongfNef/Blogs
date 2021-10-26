@@ -2,7 +2,7 @@
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-#### **#Beginner's Crypto 2021**
+### **#Beginner's Crypto 2021**
 
 ```
 from secret import e
@@ -67,7 +67,7 @@ print (long_to_bytes(M))
 # b'TSGCTF{You are intuitively understanding the distribution of prime numbers! Bonus: You can solve this challenge w/ N instead of p and q!}'
 ```
 
-#### **** **#Minimalist's Private**
+### **** **#Minimalist's Private**
 
 ```
 from Crypto.Util.number import isPrime

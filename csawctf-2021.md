@@ -2,7 +2,7 @@
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-**Gotta Decrypt Them All**
+### **#Gotta Decrypt Them All**
 
 Bài này khi ta connect với server ta nhận đc mã Morse, khi decode mã Morse ta được bài RSA cổ điển với cipher cố định, e = 3 và N random nhưng điểm chung là rất lớn đối với c
 
@@ -144,15 +144,15 @@ for i in range(0,5):
 p.interactive()
 ```
 
-**\# flag{We're\_ALrEadY\_0N\_0uR\_waY\_7HE\_j0UrnEY\_57aR75\_70day!}**
+**# flag{We're\_ALrEadY\_0N\_0uR\_waY\_7HE\_j0UrnEY\_57aR75\_70day!}**
 
-### \#RSA Pop Quiz
+### #RSA Pop Quiz
 
 Bài này có 5 part, cần connect với server như bài Gotta Decrypt Them All.
 
-* Part1: Weiner's attack =&gt; key1: "Wiener wiener chicken dinner"
-* Part2: Factorization using quadratic equation =&gt; key2: "Who came up with this math term anyway?"
-* Part3: [LSB oracle \(done by bitsdeep\)](https://github.com/ashutosh1206/Crypton/tree/master/RSA-encryption/Attack-LSBit-Oracle) -&gt; ở đây mình cần viết code để connect với server
+* Part1: Weiner's attack => key1: "Wiener wiener chicken dinner"
+* Part2: Factorization using quadratic equation => key2: "Who came up with this math term anyway?"
+* Part3: [LSB oracle (done by bitsdeep)](https://github.com/ashutosh1206/Crypton/tree/master/RSA-encryption/Attack-LSBit-Oracle) -> ở đây mình cần viết code để connect với server
 
 ```python
 from pwn import * 
@@ -196,7 +196,7 @@ p.interactive()
 # key3: "Totally did not mean to put an oracle there"
 ```
 
-* Part4: [lower half of private exponent exposed](https://github.com/p4-team/ctf/tree/master/2016-09-16-csaw/still_broken_box)
+* Part4: [lower half of private exponent exposed](https://github.com/p4-team/ctf/tree/master/2016-09-16-csaw/still\_broken\_box)
 
 ```python
 from sage.all import *
@@ -250,11 +250,11 @@ nBits = 1024
 
 * Part5: gửi key4 cho server và ...... ra flag
 
-**\#flag{mình\_quên\_lưu\_flag\_rồi\_mn\_tự\_tưởng\_tượng\_nhaaa}**
+**#flag{mình\_quên\_lưu\_flag\_rồi\_mn\_tự\_tưởng\_tượng\_nhaaa}**
 
 ### \*Lời kết:
 
-Đây là giải vui nhất mình từng chơi tính đến thời điểm hiện tại. Phần dùng pwntool connect vào server mình không biết làm từ giải hcmus, về sau cứ hễ gặp bài nào tựa vậy là quá khứ ùa về :&lt; .Mình làm được 2 bài trên do các bạn trong team hỗ trợ rất nhiều, ae chỉ từng dòng code, cỗ vũ từng phút. Đây cũng là lần đầu 4 ae cùng thức thâu đêm đến end giải. Cảm giác vui cực kì! chỉ có thể nói: Quá đãaaaaaaaaaaaaaa.
+Đây là giải vui nhất mình từng chơi tính đến thời điểm hiện tại. Phần dùng pwntool connect vào server mình không biết làm từ giải hcmus, về sau cứ hễ gặp bài nào tựa vậy là quá khứ ùa về :< .Mình làm được 2 bài trên do các bạn trong team hỗ trợ rất nhiều, ae chỉ từng dòng code, cỗ vũ từng phút. Đây cũng là lần đầu 4 ae cùng thức thâu đêm đến end giải. Cảm giác vui cực kì! chỉ có thể nói: Quá đãaaaaaaaaaaaaaa.
 
 Gửi lời cảm ơn chân thành đến: @Pengu, @j1s0o, @Martin Shelby.
 
@@ -262,5 +262,4 @@ Gửi lời cảm ơn chân thành đến: @Pengu, @j1s0o, @Martin Shelby.
 
 Cut3\_Guys in ur area
 
-Thanks for reading. Have a nice day &lt;3
-
+Thanks for reading. Have a nice day <3

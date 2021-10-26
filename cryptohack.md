@@ -4,7 +4,7 @@
 
 ### General
 
-**XOR Properties**
+### **#XOR Properties**
 
 ```python
 import binascii
@@ -34,7 +34,7 @@ a ^ b = c => a = b ^ c
 
 > crypto{x0r\_i5\_ass0c1at1v3}
 
-**Favourite byte**
+### **#Favourite byte**
 
 ```python
 s1 = "73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d"
@@ -76,7 +76,7 @@ Idea: Find key by xor encrypt message and key\_form then xor key with encrypt.
 
 > crypto{1f\_y0u\_Kn0w\_En0uGH\_y0u\_Kn0w\_1t\_4ll}
 
-**Lemur XOR**
+### **#Lemur XOR**
 
 What do you think about Adobe?
 

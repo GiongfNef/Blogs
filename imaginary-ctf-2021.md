@@ -6,9 +6,9 @@ _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
 Giải này mình học thêm một xíu về mảng **Misc** và **Forensics**
 
-**#Misc**
+### **#Misc**
 
-**Spelling Test**
+#### **Spelling Test**
 
 ![](https://giongfnefvblog.files.wordpress.com/2021/07/image-8.png?w=990)
 
@@ -34,9 +34,9 @@ Mình sẽ gửi dạng {people\_obj.\_\_init\_\_.\_\_globals\_\_\[CONFIG]\[KEY]
 
 Mình không thể làm được bài này nếu thiếu sự giúp đỡ của ông hoàng Hướng Đối Tượng FuckAdapt, aligatooooooo (⸝⸝ᵕᴗᵕ⸝⸝).
 
-**#Forensics**
+### **#Forensics**
 
-**Vacation**
+#### **Vacation**
 
 bài này mình được bạn j1s0o cùng team chỉ cho (🌼❛ ֊ ❛„)![](https://giongfnefvblog.files.wordpress.com/2021/07/image-11.png?w=1024)
 
@@ -49,9 +49,9 @@ Quan sát 2 vị trí trên ta có thể search với key word "city of south la
 
 **flag: ictf{38.947\_-119.961}**
 
-**#Crypto**
+### **#Crypto**
 
-**Rock Solid Algorithm**
+#### **Rock Solid Algorithm**
 
 ```python
 n = 18718668654839418101060350414897678724581774081742102287908765212690862231899547405582997157020093499506177632395430572542600019258424947803591395926472246347413986531437177801754324606200243710836609694453888894668656807471052095014376204102474311740080044776201105722801365112971807912406879483156845216746137339614577267869908065296042390812575960639865867729920434603853708907147465162697098688239587320232595412227310236678367
@@ -93,7 +93,7 @@ while True:
 
 **flag: ictf{3\_isnt\_th3\_0nly\_sm4ll\_3xp0n3nt}**
 
-**Flip Flops**
+#### **Flip Flops**
 
 file: [Chall](https://github.com/rongtruong26012002/ChallFile/blob/main/ImaginaryCTF2021/FlipFlop\_chall.py)
 
@@ -143,7 +143,7 @@ print(long_to_bytes((inverse(s,p) * flag_enc )%p))
 
 **flag: ictf{m0d\_4r1th\_ftw\_1c963241}**
 
-## #**Misc**
+### #**Misc**
 
 **Puzzle 2**
 
