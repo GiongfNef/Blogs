@@ -2,9 +2,9 @@
 
 _**Note : A JOURNEY TO GAIN KNOWLEDGE**_
 
-#### **\#Beginner's Crypto 2021**
+#### **#Beginner's Crypto 2021**
 
-```text
+```
 from secret import e
 from Crypto.Util.number import getStrongPrime, isPrime
 
@@ -41,9 +41,9 @@ print(f'c3 = {c3}')
 # c3 = 3193069356811106774640161554961405075257002069448498144279061282023129342916422283816661697787316681475161942522570615456264481238277711114193792510286127129056376618422336477707825009085263623755329815306483253646072909132096678270667136193038337386976289222105363398033633185639402128949635525665502328717781718263894690234837016959581149138917064108193064639981137359869717065147934752707676203651598070046066514316196771853484143158367616177332902152347890310640338106015356361617700741042461419248117687350565094928451141103632305400493998164788411031832078388030194992306440474662871408938796429927990102583837
 ```
 
-Đề cho e, e+2,e+4 là số nguyên tố nên e chỉ có thể là 3, vì những số lớn hơn khoảng cách giữa các số nguyên tố là rất lớn. Từ đó giải theo hướng Common modulus \(same n\) - External Attack .
+Đề cho e, e+2,e+4 là số nguyên tố nên e chỉ có thể là 3, vì những số lớn hơn khoảng cách giữa các số nguyên tố là rất lớn. Từ đó giải theo hướng Common modulus (same n) - External Attack .
 
-```text
+```
 from Crypto.Util.number import *
 from gmpy2 import *
 
@@ -67,9 +67,9 @@ print (long_to_bytes(M))
 # b'TSGCTF{You are intuitively understanding the distribution of prime numbers! Bonus: You can solve this challenge w/ N instead of p and q!}'
 ```
 
-####  **\#Minimalist's Private**
+#### **** **#Minimalist's Private**
 
-```text
+```
 from Crypto.Util.number import isPrime
 from random import randrange
 from secret import p, q, L, e, d
@@ -117,13 +117,13 @@ print(f'c = {encrypted}')
 #c = 254705401581808316199469430068831357413481187288921393400711004895837418302514065107811330660948313420965140464021505716810909691650540609799307500282957438243553742714371028405100267860418626513481187170770328765524251710154676478766892336610743824131087888798846367363259860051983889314134196889300426
 ```
 
-ta thấy: lcm\(_p_−1,_q_−1\) = \(_p_−1\)\(_q_−1\) / gcd\(\(_p_−1\),\(_q_−1\)\)
+ta thấy: lcm(_p_−1,_q_−1) = (_p_−1)(_q_−1) / gcd((_p_−1),(_q_−1))
 
-N có 304 digits = &gt; p,q ~ 151,153 digits nên UCLN sẽ rất lớn:
+N có 304 digits = > p,q \~ 151,153 digits nên UCLN sẽ rất lớn:
 
 gọi: _p_=_s\*a_+1 và _q_=_s\*b_+1
 
-```text
+```
 N = p*q
   = (s*a + 1) * (s*b +1 )
   = a*b*s^2 +(a+b)*s +1
@@ -131,11 +131,11 @@ N = p*q
 # Giải pt bậc 2 tình s rồi từ đó có a,b
 ```
 
- bruteforce a,b để tìm p,q.
+&#x20;bruteforce a,b để tìm p,q.
 
 Đây là code mình dùng để solve:
 
-```text
+```
 from Crypto.Util.number import *
 from sympy import *
 
@@ -190,7 +190,7 @@ for a in range(1, 5000):
 
 Code tối ưu hơn, mình tham khảo từ [joseph](https://jsur.in/posts/2021-10-03-tsg-ctf-2021-crypto-writeups#minimalists-private):
 
-```text
+```
 from Crypto.Util.number import isPrime, long_to_bytes
 from gmpy2 import iroot
 
@@ -216,5 +216,4 @@ for a in range(1, 2**15):
 # code by joseph
 ```
 
-Thanks for reading. Have a nice day &lt;3 .
-
+Thanks for reading. Have a nice day <3 .
