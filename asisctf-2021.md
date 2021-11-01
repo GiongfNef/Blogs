@@ -63,3 +63,6 @@ for s in range(9900,p-1):
         break
     print(s)
 ```
+
+Thanks for reading. Have a nice day <3 .
+
