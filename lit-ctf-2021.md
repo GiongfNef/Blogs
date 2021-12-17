@@ -24,7 +24,7 @@ Thường thì phi = (p-1)(q-1) (với q,p là số nguyên tố)
 
 Hiểu sâu hơn một tí thì số nguyên tố là trường hợp hơi đặc biệt xíu của Euler's totient , số nguyên tố có euler bằng chính số đó trừ 1 . Nếu factor ra tích của nhiều số nguyên tố, ta chỉ việc lấy các SNT trừ 1 rồi nhân lại. Mau hơn thì [factor ](https://www.alpertron.com.ar/ECM.HTM) lấy Euler's totient từ đây luôn.
 
-[Solve](https://github.com/GiongfNef/SolveFile/blob/main/crypto/LIT\_RSA%20Improved\_solve.py) của mình.
+[Solve](https://github.com/GiongfNef/SolveFile/blob/main/LITCTF%202021/LIT_RSA%20Improved_solve.py) của mình.
 
 > flag{rsa\_1s\_4\_pr3tty\_imp0rt4nt\_crypt0\_4lg0r1thm}
 
@@ -60,11 +60,11 @@ Dành cả ngày để mò cho đúng form, nhưng không đây mới là flag :
 
 ### **#crypto/Scottish Flag**
 
-[Đề](https://github.com/GiongfNef/ChallFile/blob/main/LIT\_Scottish%20Flag\_chall.py) mình để ở đây
+[Đề](https://github.com/GiongfNef/ChallFile/blob/main/LITCTF%202021/LIT_Scottish%20Flag_chall.py) mình để ở đây
 
 Về cơ bản, mình có 3 phương trình 3 ẩn dễ dàng để giải nhưng ở đây mình cần tìm ct0 và ct1 thôi nên thay một xíu là ra. Vấn đề chỉ nằm ở việc khi tính sqrt mình dùng sage vì python sqrt dạng float, chuyển kiểu dữ liệu về int sẽ gây sai số dẫn đến sai đoạn sau của flag ( flag{6t............ )
 
-[Solve](https://github.com/GiongfNef/SolveFile/blob/main/solve\_crypto/solve\_Scottish%20Flag.sage) của mình
+[Solve](https://github.com/GiongfNef/SolveFile/blob/main/LITCTF%202021/solve_Scottish%20Flag.sage) của mình
 
 > flag{6r1t15h\_cr0s5\_mak35\_g00d\_pro6I3m}
 
@@ -72,11 +72,11 @@ Về cơ bản, mình có 3 phương trình 3 ẩn dễ dàng để giải nhưn
 
 Bài này do anh lttn làm, mình có tham khảo anh khi giải kết thúc. Do ảnh không viết Wu lần này nên mình mạn phép để ở đây sau này đọc lại.
 
-[Đề](https://github.com/GiongfNef/ChallFile/blob/main/LIT\_Leftovers\_chall.py)
+[Đề](https://github.com/GiongfNef/ChallFile/blob/main/LITCTF%202021/LIT_Leftovers_chall.py)
 
 source khá giống bài **crypto/Scottish Flag** . Có seed của random, sẽ biết đc sympy.prevprime(x) với x là random.randint(1,4e10) đó chính là modulo như trong RSA là n , c là đề cho . Giải ra đc 1 số nhưng mà không phải flag ,check điều kiện assert(math.log10(ct) <= 128), thì có thể flag lớn hơn nên brure force [CRT](https://www.geeksforgeeks.org/chinese-remainder-theorem-set-1-introduction/) ra đc x mod tích(n) , brute force cho i chay: x+i\*n.
 
-[Solve](https://github.com/GiongfNef/SolveFile/blob/main/solve\_crypto/LIT\_Leftovers\_solve.py) của anh lttn ٩(๑> ₃ <)۶♥
+[Solve](https://github.com/GiongfNef/SolveFile/blob/main/LITCTF%202021/LIT_Leftovers_solve.py) của anh lttn ٩(๑> ₃ <)۶♥
 
 (chạy bằng python hay sage đều được)
 
