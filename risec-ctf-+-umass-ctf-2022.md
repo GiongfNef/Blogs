@@ -90,6 +90,11 @@ Workflow:
 
 * At first, i just try to find around the key work "SHA256 collision" but we got [<mark style="color:blue;">this one</mark> ](https://crypto.stackexchange.com/questions/47809/why-havent-any-sha-256-collisions-been-found-yet)<mark style="color:blue;">,</mark> it takes about ≈3.6×1013 years to find, so that it's not a practical option.
 * After that i focused on '==' in php. Searching around and i got [<mark style="color:blue;">this</mark> ](https://www.invicti.com/blog/web-security/php-type-juggling-vulnerabilities/)and [<mark style="color:blue;">this</mark>](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)<mark style="color:blue;"></mark>
-* <mark style="color:blue;"></mark>
+* Now you just put \[] in input and get flag.
 
 ## UMass CTF
+
+## venting
+
+
+
