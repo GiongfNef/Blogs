@@ -59,6 +59,8 @@ Từ đó:
 
 Viết dưới dạng ma trận: ![](<.gitbook/assets/image (17).png>)
 
+Lúc này d\*(e, sqrt(N)) + k\*(N, 0) = (ed_+k_N, d\*sqrt(N))
+
 như vậy vector v =( ed − kN, d√N ) là [<mark style="color:blue;">`a short vector of the lattice`</mark>](https://en.wikipedia.org/wiki/Lattice\_problem), đến đây dùng thuật toán [`Gaussian Reduction`](https://www.codesansar.com/numerical-methods/gauss-elimination-method-python-program.htm) hoặc [<mark style="color:blue;">`LLL`</mark>](https://cims.nyu.edu/\~regev/teaching/lattices\_fall\_2004/ln/lll.pdf) <mark style="color:blue;"></mark> để tìm vecto v từ đó tính được d.
 
 solve của mình:
