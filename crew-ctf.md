@@ -4,6 +4,62 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # Crew CTF
 
+### ez-x0r
+
+```
+BRQDER1VHDkeVhQ5BRQfFhIJGw==
+```
+
+* Convert to hex than xor with some char?
+* i brute force xor string with ascii and got flag when i xor with 66
+
+> crew{3z\_x0r\_crypto}
+
+### The HUGE e
+
+chall
+
+```
+from Crypto.Util.number import getPrime, bytes_to_long, inverse, isPrime
+from secret import flag
+
+m = bytes_to_long(flag)
+
+def getSpecialPrime():
+    a = 2
+    for i in range(40):
+        a*=getPrime(20)
+    while True:
+        b = getPrime(20)
+        if isPrime(a*b+1):
+            return a*b+1
+
+
+p = getSpecialPrime()
+e1 = getPrime(128)
+e2 = getPrime(128)
+e3 = getPrime(128)
+
+e = pow(e1,pow(e2,e3))
+c = pow(m,e,p)
+
+assert pow(c,inverse(e,p-1),p) == m
+
+print(f'p = {p}')
+print(f'e1 = {e1}')
+print(f'e2 = {e2}')
+print(f'e3 = {e3}')
+print(f'c = {c}')
+
+# p = 127557933868274766492781168166651795645253551106939814103375361345423596703884421796150924794852741931334746816404778765897684777811408386179315837751682393250322682273488477810275794941270780027115435485813413822503016999058941190903932883823
+# e1 = 219560036291700924162367491740680392841
+# e2 = 325829142086458078752836113369745585569
+# e3 = 237262361171684477270779152881433264701
+# c = 962976093858853504877937799237367527464560456536071770645193845048591657714868645727169308285896910567283470660044952959089092802768837038911347652160892917850466319249036343642773207046774240176141525105555149800395040339351956120433647613
+```
+
+solve
+
 ```
 from Crypto.Util.number import long_to_bytes
 
@@ -22,6 +78,35 @@ d = pow(e, -1, p - 1)
 pt = pow(c, d, p)
 print(long_to_bytes(pt))
 ```
+
+### Malleable Metal
+
+```
+from Crypto.PublicKey import RSA
+from Crypto.Util.number import bytes_to_long
+import random
+import binascii
+from secret import flag
+
+e = 3
+BITSIZE =  8192
+key = RSA.generate(BITSIZE)
+n = key.n
+flag = bytes_to_long(flag)
+m = floor(BITSIZE/(e*e)) - 400
+assert (m < BITSIZE - len(bin(flag)[2:]))
+r1 = random.randint(1,pow(2,m))
+r2 = random.randint(r1,pow(2,m))
+msg1 = pow(2,m)*flag + r1
+msg2 = pow(2,m)*flag + r2
+C1 = Integer(pow(msg1,e,n))
+C2 = Integer(pow(msg2,e,n))
+print(f'{n = }\n{C1 = }\n{C2 = }')
+```
+
+![](<.gitbook/assets/image (2).png>)
+
+### toydl
 
 ```
 import sys
