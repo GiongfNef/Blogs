@@ -487,4 +487,5 @@ key = RSA.construct((n,e,d,p,q))
 cipher = PKCS1_OAEP.new(key=key,hashAlgo=SHA256)
 flag = cipher.decrypt(long_to_bytes(c))
 print(flag)
+#crew{m0dp_3qu4710n_l34d5_u5_f4c70r1n6}
 ```
