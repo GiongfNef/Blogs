@@ -489,3 +489,13 @@ flag = cipher.decrypt(long_to_bytes(c))
 print(flag)
 #crew{m0dp_3qu4710n_l34d5_u5_f4c70r1n6}
 ```
+
+
+
+Thanks for reading. Have a good day :heart: !
+
+
+
+Contact:
+
+* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>

@@ -87,3 +87,11 @@ phi2=(p2-1)*(q2-1)
 d2=pow(e,-1,phi2)
 print(long_to_bytes(pow(c1,d1,n1))+long_to_bytes(pow(c2,d2,n2)))
 ```
+
+Thanks for reading. Have a good day :heart: !
+
+
+
+Contact:
+
+* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
