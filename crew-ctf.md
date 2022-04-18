@@ -104,7 +104,7 @@ C2 = Integer(pow(msg2,e,n))
 print(f'{n = }\n{C1 = }\n{C2 = }')
 ```
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (34).png>)
 
 ### toydl
 
