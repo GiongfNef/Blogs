@@ -63,16 +63,16 @@ When connect to the server:
 #### Analysis:
 
 * Easily to see that we have to bypass 50 levels of this chall to get the flag
-* Length of the key is 4
+* The length of key is 4
 * The strange code is {start}{encrypt(fleg + 'fleg', key)}{end}
-* That means,  {start} and {end} is random from noise
-* Fake flag is random from inner, from this we can determind the position of char '{', '}' and '\_' because they aren't encrypted
+* That means,  {start} and {end} are random from noise
+* Fake flag is random from inner, now we can determind the position of char '{', '}' and '\_' because they aren't encrypted
 * The most important thing is: the server has a 20 second timeout so that we have to use pwntools  for scripting.
 
 #### Idea:
 
-* Notice that encrypt(fleg + 'fleg', key) that means when plaintext's encrypted it would be like: ![](<.gitbook/assets/image (37).png>)
-* From this we can guess that from that last 4 character is the cipher of 'fleg' then we can find the key easily by decrypt Vigenere, finally use the key to decrypt flag.
+* Notice that encrypt(fleg + 'fleg', key) this means when plaintext's encrypted it would be like: ![](<.gitbook/assets/image (37).png>)
+* From this we can guess the last 4 characters is the cipher of 'fleg' then we can find the key easily by decrypt Vigenere, finally use the key to decrypt flag.
 
 #### Solve
 
