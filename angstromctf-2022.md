@@ -62,7 +62,7 @@ When connect to the server:
 
 #### Analysis:
 
-* Easily to see that we hav to bypass 50 levels of this chall to get the flag
+* Easily to see that we have to bypass 50 levels of this chall to get the flag
 * Length of the key is 4
 * The strange code is {start}{encrypt(fleg + 'fleg', key)}{end}
 * That means,  {start} and {end} is random from noise
