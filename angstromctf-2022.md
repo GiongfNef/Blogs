@@ -202,7 +202,7 @@ print(flagbits)
 #880
 ```
 
-#### Analysi
+#### Analysis
 
 * p = q \* 2^1024 + 1
 * Actually, from 3 lines we know that the 880 lowest bits of e are the bits of flag
