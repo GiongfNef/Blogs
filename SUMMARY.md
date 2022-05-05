@@ -7,3 +7,5 @@
 * [RISEC CTF + UMass CTF 2022](risec-ctf-+-umass-ctf-2022.md)
 * [Securinets CTF Quals 2022](page-1.md)
 * [Crew CTF](crew-ctf.md)
+* [NsuCrypto](nsucrypto.md)
+* [ångstromCTF 2022](angstromctf-2022.md)

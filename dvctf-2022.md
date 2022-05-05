@@ -15,7 +15,7 @@ coverY: 0
 
 ## #small weiner
 
-![](<.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (13) (1).png>)
 
 ```
 m = 0x596f7520686176652073756368206120736d616c6c207765696e65722e2049204841544520594f5521212121
@@ -91,7 +91,7 @@ demo:
 * username tối da 8 kí tự, password  tối đa 16 kí tự
 * Login đúng cookie sẽ có flag&#x20;
 
-![](<.gitbook/assets/image (25).png>)
+![](<.gitbook/assets/image (25) (1).png>)
 
 Quan sát:
 
@@ -134,7 +134,7 @@ Có cookie fake rồi mình login thử xem
 
 ## #Cwyptographic Owacle
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (11) (1).png>)
 
 source:
 

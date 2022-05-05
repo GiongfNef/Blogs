@@ -200,7 +200,7 @@ flag: picoCTF{94287e17}
 
 flag: picoCTF{_Yu\_toi\_nho\_em!_}
 
-****![](<.gitbook/assets/image (27).png>)****
+****![](<.gitbook/assets/image (27) (1).png>)****
 
 ****
 
@@ -309,7 +309,7 @@ Workflow:
 
 * Hmm this one's no meaning. May i am wrong in somewhere ?&#x20;
 
-![](<.gitbook/assets/image (37).png>)
+![](<.gitbook/assets/image (37) (1).png>)
 
 * No, i ensure my result !
 * At this time i review the code and notice that:&#x20;
@@ -366,7 +366,7 @@ we can see this clearly in [<mark style="color:blue;">SSRF</mark> ](https://book
 
 Actually this one is standard of host and port for example:
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
 
 In this situation,the host is gg.com, we connect to this one.
 

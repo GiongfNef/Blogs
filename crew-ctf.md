@@ -4,6 +4,8 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # Crew CTF
 
+![](<.gitbook/assets/image (11).png>)
+
 ### ez-x0r
 
 ```
