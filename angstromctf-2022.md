@@ -215,7 +215,7 @@ print(flagbits)
 
 #### Idea
 
-* To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol) <mark style="color:blue;"></mark> then i got some interesthing :
+* To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol) <mark style="color:blue;"></mark> then i got an interesting thing:
 
 ![](<.gitbook/assets/image (16).png>)
 
