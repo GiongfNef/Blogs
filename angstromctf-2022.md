@@ -4,6 +4,16 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # ångstromCTF 2022
 
+### Caesar and Desister
+
+> sulx{klgh\_jayzl\_lzwjw\_ujqhlgyjshzwj\_kume}
+
+![](<.gitbook/assets/image (13).png>)
+
+### Randomly Sampled Algorithm
+
+![](<.gitbook/assets/image (39).png>)
+
 ### Vinegar Factory
 
 #### Source
