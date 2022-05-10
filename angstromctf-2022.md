@@ -4,6 +4,8 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # ångstromCTF 2022
 
+![](<.gitbook/assets/image (24).png>)
+
 ### Caesar and Desister
 
 > sulx{klgh\_jayzl\_lzwjw\_ujqhlgyjshzwj\_kume}
