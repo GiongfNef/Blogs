@@ -141,7 +141,7 @@ decrypt Vigenere with key: "CYLAB". That's quite easy.
 
 #### Very Smooth
 
-``[`smooth number`](https://en.wikipedia.org/wiki/Smooth\_number#:\~:text=In%20number%20theory%2C%20an%20n,13%20are%20not%207%2Dsmooth.)``
+``[`smooth number`](https://en.wikipedia.org/wiki/Smooth\_number)``
 
 ```
 def get_prime(state, bits):
