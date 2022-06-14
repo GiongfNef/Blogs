@@ -44,7 +44,7 @@ Giả định có 2 phương trình tuyến tính:
 * 53172 = 137\*t1 + 215\*t2
 * 81743 = 312\*t1 − 187\*t2
 
-Dạng ma trận như sau:![](<.gitbook/assets/image (29).png>)  thường thì ta dễ dàng tính được t1,t2 bằng ma trận nghịch đảo. Ngược lại, [`Babai’s algorithm`](http://www.noahsd.com/mini\_lattices/05\_\_babai.pdf) giúp ta tìm t1,t2 gần đúng từ đó có thể tìm lại vecto v.
+Dạng ma trận như sau:![](<.gitbook/assets/image (29) (1).png>)  thường thì ta dễ dàng tính được t1,t2 bằng ma trận nghịch đảo. Ngược lại, [`Babai’s algorithm`](http://www.noahsd.com/mini\_lattices/05\_\_babai.pdf) giúp ta tìm t1,t2 gần đúng từ đó có thể tìm lại vecto v.
 
 ![](<.gitbook/assets/image (21).png>)
 
@@ -83,7 +83,7 @@ for d in D:
 
 ## #Secure Or Not Secure
 
-![](<.gitbook/assets/image (19) (1).png>)
+![](<.gitbook/assets/image (19) (1) (1).png>)
 
 demo:
 
