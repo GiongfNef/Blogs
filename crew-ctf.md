@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# Crew CTF
+# Crew CTF 2022
 
 ![](<.gitbook/assets/image (11).png>)
 

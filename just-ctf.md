@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# just CTF
+# just CTF 2022
 
 ### Simply Powered
 
@@ -1114,3 +1114,6 @@ for i in range(100):
         connect.recvline()
         connect.sendline(str(s))
 ```
+
+Thanks for reading. Have a good day :heart: !
+
