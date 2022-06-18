@@ -11,3 +11,4 @@
 * [ångstromCTF 2022](angstromctf-2022.md)
 * [SEETF 2022](seetf-2022.md)
 * [just CTF](just-ctf.md)
+* [KMA chall 2022](kma-chall-2022.md)
