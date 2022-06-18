@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/1708747 (1).webp
+cover: .gitbook/assets/Cryptography.jpg
 coverY: 0
 ---
 
