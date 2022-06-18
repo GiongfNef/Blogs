@@ -1,5 +1,7 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+cover: .gitbook/assets/Hachi.jpg
+coverY: 0
 ---
 
 # 🐤 picoCTF 2022 + wscCTF 2022

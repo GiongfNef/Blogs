@@ -1,5 +1,7 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+cover: .gitbook/assets/Kawaii-Anime-Cat-Wallpapers-1024x576 (2).jpg
+coverY: 0
 ---
 
 # 🐥 zer0pts CTF 2022
