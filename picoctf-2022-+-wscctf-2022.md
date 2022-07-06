@@ -202,7 +202,7 @@ flag: picoCTF{94287e17}
 
 flag: picoCTF{_Yu\_toi\_nho\_em!_}
 
-****![](<.gitbook/assets/image (27) (1).png>)****
+****![](<.gitbook/assets/image (27) (1) (1).png>)****
 
 ****
 
@@ -303,7 +303,7 @@ Workflow:
 
 * A = pow(g,a,p) of course that's discrete log, i used sage math to calculate easily and get this result:
 
-![](<.gitbook/assets/image (38).png>)
+![](<.gitbook/assets/image (38) (1).png>)
 
 * Nice, let's decrypt and gonna flag
 
@@ -311,7 +311,7 @@ Workflow:
 
 * Hmm this one's no meaning. May i am wrong in somewhere ?&#x20;
 
-![](<.gitbook/assets/image (37) (1).png>)
+![](<.gitbook/assets/image (37) (1) (1).png>)
 
 * No, i ensure my result !
 * At this time i review the code and notice that:&#x20;
@@ -368,7 +368,7 @@ we can see this clearly in [<mark style="color:blue;">SSRF</mark> ](https://book
 
 Actually this one is standard of host and port for example:
 
-![](<.gitbook/assets/image (10) (1).png>)
+![](<.gitbook/assets/image (10) (1) (1).png>)
 
 In this situation,the host is gg.com, we connect to this one.
 
@@ -386,5 +386,5 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
+* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
 

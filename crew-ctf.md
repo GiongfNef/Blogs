@@ -4,7 +4,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # Crew CTF 2022
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (11) (1).png>)
 
 ### ez-x0r
 
@@ -106,7 +106,7 @@ C2 = Integer(pow(msg2,e,n))
 print(f'{n = }\n{C1 = }\n{C2 = }')
 ```
 
-![](<.gitbook/assets/image (34).png>)
+![](<.gitbook/assets/image (34) (1).png>)
 
 ### toydl
 
@@ -623,4 +623,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
+* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>

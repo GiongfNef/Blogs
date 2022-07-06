@@ -6,7 +6,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 Nay lười viết quá để script thôi : D
 
-![](<.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (14) (1).png>)
 
 ### UniveRSAlity <a href="#universality" id="universality"></a>
 

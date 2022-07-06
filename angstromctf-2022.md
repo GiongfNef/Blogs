@@ -4,7 +4,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # ångstromCTF 2022
 
-![](<.gitbook/assets/image (24).png>)
+![](<.gitbook/assets/image (24) (1).png>)
 
 ### Caesar and Desister
 
@@ -14,7 +14,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ### Randomly Sampled Algorithm
 
-![](<.gitbook/assets/image (39).png>)
+![](<.gitbook/assets/image (39) (1).png>)
 
 ### Vinegar Factory
 
@@ -83,7 +83,7 @@ When connect to the server:
 
 #### Idea:
 
-* Notice that encrypt(fleg + 'fleg', key) this means when plaintext's encrypted it would be like: ![](<.gitbook/assets/image (37).png>)
+* Notice that encrypt(fleg + 'fleg', key) this means when plaintext's encrypted it would be like: ![](<.gitbook/assets/image (37) (1).png>)
 * From this we can guess the last 4 characters is the cipher of 'fleg' then we can find the key easily by decrypt Vigenere, finally use the key to decrypt flag.
 
 #### Solve
