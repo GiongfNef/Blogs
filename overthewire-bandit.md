@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# OverTheWire: Bandit
+# 🍀 OverTheWire: Bandit
 
 ``[`Bandit`](https://overthewire.org/wargames/bandit/bandit0.html)``
 

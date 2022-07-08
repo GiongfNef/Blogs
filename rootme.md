@@ -4,7 +4,7 @@ cover: .gitbook/assets/78502427_449202159124891_8895684590723661824_n.jpg
 coverY: 0
 ---
 
-# Rootme
+# 🏝 Rootme
 
 ## Web - Server
 
