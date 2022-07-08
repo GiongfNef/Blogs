@@ -30,4 +30,4 @@ Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
 It combines URL and hash md5 of that one, so that we just put other URL and hash of it.
 
-![](<.gitbook/assets/image (29).png>)
+![](<.gitbook/assets/image (29) (1).png>)

@@ -190,3 +190,9 @@ bandit11@bandit:~$
 
 ![](<.gitbook/assets/image (5).png>)
 
+In this challenge, you just have to know decompress a file with gzip, bzip2 and xxd . Knowing how to know file extention by `file command`
+
+![](<.gitbook/assets/image (29).png>)
+
+> 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
