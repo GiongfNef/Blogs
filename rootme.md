@@ -20,7 +20,7 @@ F12 for flag
 
 > **Syntax: X-Forwarded-For: \<client>,\<proxy1>,\<proxy2>,\<proxy3>**
 
-Change IP to at client to private IP by adding _**an X-Forwarded-For**_ header
+Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
 ![](<.gitbook/assets/image (13).png>)
 
