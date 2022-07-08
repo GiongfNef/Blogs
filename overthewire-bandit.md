@@ -52,7 +52,7 @@ bandit2@bandit:~$
 
 ## Bandit Level 2 → Level 3
 
-![](<.gitbook/assets/image (39).png>)
+![](<.gitbook/assets/image (39) (1).png>)
 
 ![](<.gitbook/assets/image (9).png>)
 

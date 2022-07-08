@@ -15,7 +15,7 @@ coverY: 0
 
 ## #small weiner
 
-![](<.gitbook/assets/image (13) (1) (1).png>)
+![](<.gitbook/assets/image (13) (1) (1) (1).png>)
 
 ```
 m = 0x596f7520686176652073756368206120736d616c6c207765696e65722e2049204841544520594f5521212121

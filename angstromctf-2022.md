@@ -10,11 +10,11 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 > sulx{klgh\_jayzl\_lzwjw\_ujqhlgyjshzwj\_kume}
 
-![](<.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (13) (1).png>)
 
 ### Randomly Sampled Algorithm
 
-![](<.gitbook/assets/image (39) (1).png>)
+![](<.gitbook/assets/image (39) (1) (1).png>)
 
 ### Vinegar Factory
 
