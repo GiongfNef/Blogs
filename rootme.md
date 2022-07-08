@@ -24,5 +24,10 @@ Change IP to at client to private IP by adding _**an X-Forwarded-For**_ header
 
 ![](<.gitbook/assets/image (13).png>)
 
+### [HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
+![](<.gitbook/assets/image (35).png>)
 
+It combines URL and hash md5 of that one, so that we just put other URL and hash of it.
+
+![](<.gitbook/assets/image (29).png>)
