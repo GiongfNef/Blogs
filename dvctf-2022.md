@@ -8,7 +8,7 @@ coverY: 0
 
 ## #Intro
 
-### ![](<.gitbook/assets/image (7) (1) (1).png>)
+![](<.gitbook/assets/image (7) (1) (1).png>)
 
 * [x] Đây là giải đầu tiên trong năm 2022 mình nghiêm túc dành thời gian nghiên cứu.
 * [x] Mình học được thêm một số kiến thức rất thú vị nên muốn note lại cũng như chia sẻ năng lượng tích cực này đến với mọi người.
