@@ -1,7 +1,5 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: .gitbook/assets/yugei.jpg
-coverY: 0
 ---
 
 # RISEC CTF + UMass CTF 2022
