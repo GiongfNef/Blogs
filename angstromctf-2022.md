@@ -14,7 +14,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ### Randomly Sampled Algorithm
 
-![](<.gitbook/assets/image (39) (1) (1).png>)
+![](<.gitbook/assets/image (39) (1) (1) (1).png>)
 
 ### Vinegar Factory
 

@@ -40,7 +40,7 @@ bandit1@bandit:~$
 
 ## Bandit Level 1 → Level 2
 
-![](<.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (14) (1).png>)
 
 ```
 bandit2@bandit:~$ ls
@@ -52,7 +52,7 @@ bandit2@bandit:~$
 
 ## Bandit Level 2 → Level 3
 
-![](<.gitbook/assets/image (39) (1).png>)
+![](<.gitbook/assets/image (39) (1) (1).png>)
 
 ![](<.gitbook/assets/image (9).png>)
 
@@ -113,7 +113,7 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 [`2>&1 meaning`](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)``
 
-![](<.gitbook/assets/image (30).png>)
+![](<.gitbook/assets/image (30) (1).png>)
 
 ```
 bandit6@bandit:/home$ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission | grep -F -v directory

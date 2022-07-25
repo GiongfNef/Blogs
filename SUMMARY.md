@@ -14,3 +14,4 @@
 * [KMA chall 2022](kma-chall-2022.md)
 * [🍀 OverTheWire: Bandit](overthewire-bandit.md)
 * [🏝 Rootme](rootme.md)
+* [LIT 2022](lit-2022.md)

@@ -84,7 +84,7 @@ flag: picoCTF{WH47 H47H 90D W20U9H7}
 
 [tool](https://www.boxentriq.com/code-breaking/rail-fence-cipher)
 
-![](<.gitbook/assets/image (18).png>)
+![](<.gitbook/assets/image (18) (1).png>)
 
 #### substitution0
 
@@ -340,7 +340,7 @@ for i in range(10000000):
 	print(i)
 ```
 
-![](<.gitbook/assets/image (32).png>)
+![](<.gitbook/assets/image (32) (1).png>)
 
 After bruteforcing 8300951 times, you will get the flag :))))))&#x20;
 
