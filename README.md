@@ -13,3 +13,4 @@ coverY: 0
 Contact:
 
 * [facebook](https://www.facebook.com/rong.truong.372)
+* <mark style="color:blue;">`giongnef26@gmail.com`</mark>
