@@ -4,7 +4,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # Crew CTF 2022
 
-![](<.gitbook/assets/image (11) (1).png>)
+![](<.gitbook/assets/image (11) (1) (2).png>)
 
 ### ez-x0r
 

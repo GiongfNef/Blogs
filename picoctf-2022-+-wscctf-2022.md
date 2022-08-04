@@ -372,7 +372,7 @@ Actually this one is standard of host and port for example:
 
 In this situation,the host is gg.com, we connect to this one.
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (5).png>)
 
 However, if we insert the symbol @ it will undertstand user:pass before @ and host:port after.
 

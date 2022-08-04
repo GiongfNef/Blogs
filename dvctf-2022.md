@@ -130,7 +130,7 @@ print(base64.b64encode(enc[:18]+ tmp ))
 
 Có cookie fake rồi mình login thử xem
 
-![](<.gitbook/assets/image (5) (1).png>)
+![](<.gitbook/assets/image (5) (1) (1).png>)
 
 ## #Cwyptographic Owacle
 

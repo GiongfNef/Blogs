@@ -15,3 +15,4 @@
 * [🍀 OverTheWire: Bandit](overthewire-bandit.md)
 * [🏝 Rootme](rootme.md)
 * [LIT 2022](lit-2022.md)
+* [UIUCTF 2022](uiuctf-2022.md)

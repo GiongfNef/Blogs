@@ -54,7 +54,7 @@ bandit2@bandit:~$
 
 ![](<.gitbook/assets/image (39) (1) (1).png>)
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (2).png>)
 
 ```
 bandit3@bandit:~$ ls
@@ -125,7 +125,7 @@ bandit6@bandit:/home$
 
 ## Bandit Level 7 → Level 8
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (2).png>)
 
 ```
 bandit7@bandit:~$ cat data.txt | grep millionth
@@ -135,7 +135,7 @@ bandit7@bandit:~$
 
 ## Bandit Level 8 → Level 9
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (8) (2).png>)
 
 ```
 bandit8@bandit:~$ cat data.txt |sort |uniq -u
@@ -188,7 +188,7 @@ bandit11@bandit:~$
 
 ## Bandit Level 12 → Level 13
 
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (5) (1).png>)
 
 In this challenge, you just have to know decompress a file with gzip, bzip2 and xxd . Knowing how to know file extention by `file command`
 
