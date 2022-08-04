@@ -6,7 +6,7 @@
 
 ![chall](<.gitbook/assets/image (6).png>)
 
-analysis:
+### Analysis:
 
 ```
 <?php
@@ -46,7 +46,7 @@ error_reporting(E_ALL);
 * know that: $allowed\_extensions = array(".jpg", ".jpeg", ".png", ".gif"); -> we can use ".gif" extension file. Finding around and i got [<mark style="color:blue;">`this doc`</mark>](https://doddsecurity.com/94/remote-code-execution-in-the-avatars/)<mark style="color:blue;">``</mark>
 * We can use `gifsicle`  to embedd PHP code that runs the Linux command into a malicious image named output.php.gif.
 
-Exploit:
+### Exploit:
 
 * Firstly, we convert png file that we received from chall to gif file
 * I have tried change file extension from png to gif but it doesn't work, of course.
