@@ -10,12 +10,12 @@
 * [Securinets CTF Quals 2022](writeup-ctf/page-1.md)
 * [Crew CTF 2022](writeup-ctf/crew-ctf-2022.md)
 * [KMA chall 2022](writeup-ctf/kma-chall-2022.md)
-* [LIT 2022](writeup-ctf/lit-2022.md)
-* [UIUCTF 2022](writeup-ctf/uiuctf-2022.md)
 * [RISEC CTF + UMass CTF 2022](writeup-ctf/risec-ctf-+-umass-ctf-2022.md)
 * [ångstromCTF 2022](writeup-ctf/angstromctf-2022.md)
 * [SEETF 2022](writeup-ctf/seetf-2022.md)
 * [just CTF 2022](writeup-ctf/just-ctf-2022.md)
+* [LIT 2022 (web)](writeup-ctf/lit-2022-web.md)
+* [UIUCTF 2022 (web)](writeup-ctf/uiuctf-2022-web.md)
 
 ## 🫖 Wargame && Others
 
