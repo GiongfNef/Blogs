@@ -6,7 +6,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 Nay lười viết quá để script thôi : D
 
-![](<.gitbook/assets/image (14) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 ### UniveRSAlity <a href="#universality" id="universality"></a>
 
@@ -141,7 +141,7 @@ d=crt([tmp1,tmp2],[p-1,q-1])
 print(d)
 ```
 
-![](<.gitbook/assets/image (19) (1).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 ### The True ECC <a href="#the-true-ecc" id="the-true-ecc"></a>
 

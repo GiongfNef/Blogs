@@ -1,10 +1,10 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: .gitbook/assets/Hachi.jpg
+cover: ../.gitbook/assets/Hachi.jpg
 coverY: 0
 ---
 
-# 🐤 picoCTF 2022 + wscCTF 2022
+# picoCTF 2022 + wscCTF 2022
 
 ## picoCTF 2022
 
@@ -84,7 +84,7 @@ flag: picoCTF{WH47 H47H 90D W20U9H7}
 
 [tool](https://www.boxentriq.com/code-breaking/rail-fence-cipher)
 
-![](<.gitbook/assets/image (18) (1).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 #### substitution0
 
@@ -184,7 +184,7 @@ def get_smooth_prime(state, bits, smoothness=16):
 
 > In my situation, i use the [primefac](https://pypi.org/project/primefac/)
 
-![](<.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 flag: picoCTF{94287e17}
 
@@ -202,7 +202,7 @@ flag: picoCTF{94287e17}
 
 flag: picoCTF{_Yu\_toi\_nho\_em!_}
 
-****![](<.gitbook/assets/image (27) (1) (1).png>)****
+****![](<../.gitbook/assets/image (27) (1) (1).png>)****
 
 ****
 
@@ -303,15 +303,15 @@ Workflow:
 
 * A = pow(g,a,p) of course that's discrete log, i used sage math to calculate easily and get this result:
 
-![](<.gitbook/assets/image (38) (1).png>)
+![](<../.gitbook/assets/image (38) (1).png>)
 
 * Nice, let's decrypt and gonna flag
 
-![](<.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 * Hmm this one's no meaning. May i am wrong in somewhere ?&#x20;
 
-![](<.gitbook/assets/image (37) (1) (1).png>)
+![](<../.gitbook/assets/image (37) (1) (1).png>)
 
 * No, i ensure my result !
 * At this time i review the code and notice that:&#x20;
@@ -340,7 +340,7 @@ for i in range(10000000):
 	print(i)
 ```
 
-![](<.gitbook/assets/image (32) (1).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 After bruteforcing 8300951 times, you will get the flag :))))))&#x20;
 
@@ -368,11 +368,11 @@ we can see this clearly in [<mark style="color:blue;">SSRF</mark> ](https://book
 
 Actually this one is standard of host and port for example:
 
-![](<.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 In this situation,the host is gg.com, we connect to this one.
 
-![](<.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 However, if we insert the symbol @ it will undertstand user:pass before @ and host:port after.
 
@@ -386,5 +386,5 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
+* <mark style="color:blue;">``</mark><img src="../.gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
 

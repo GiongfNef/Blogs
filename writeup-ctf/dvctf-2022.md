@@ -1,21 +1,21 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: .gitbook/assets/7c53bda77091dfa2535e5a276a0e0571.jpg
+cover: ../.gitbook/assets/7c53bda77091dfa2535e5a276a0e0571.jpg
 coverY: 0
 ---
 
-# 🐣 dvCTF 2022
+# dvCTF 2022
 
 ## #Intro
 
-![](<.gitbook/assets/image (7) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1).png>)
 
 * [x] Đây là giải đầu tiên trong năm 2022 mình nghiêm túc dành thời gian nghiên cứu.
 * [x] Mình học được thêm một số kiến thức rất thú vị nên muốn note lại cũng như chia sẻ năng lượng tích cực này đến với mọi người.
 
 ## #small weiner
 
-![](<.gitbook/assets/image (13) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 ```
 m = 0x596f7520686176652073756368206120736d616c6c207765696e65722e2049204841544520594f5521212121
@@ -44,20 +44,20 @@ Giả định có 2 phương trình tuyến tính:
 * 53172 = 137\*t1 + 215\*t2
 * 81743 = 312\*t1 − 187\*t2
 
-Dạng ma trận như sau:![](<.gitbook/assets/image (29) (1) (1) (1).png>)  thường thì ta dễ dàng tính được t1,t2 bằng ma trận nghịch đảo. Ngược lại, [`Babai’s algorithm`](http://www.noahsd.com/mini\_lattices/05\_\_babai.pdf) giúp ta tìm t1,t2 gần đúng từ đó có thể tìm lại vecto v.
+Dạng ma trận như sau:![](<../.gitbook/assets/image (29) (1) (1) (1).png>)  thường thì ta dễ dàng tính được t1,t2 bằng ma trận nghịch đảo. Ngược lại, [`Babai’s algorithm`](http://www.noahsd.com/mini\_lattices/05\_\_babai.pdf) giúp ta tìm t1,t2 gần đúng từ đó có thể tìm lại vecto v.
 
-![](<.gitbook/assets/image (21) (1).png>)
+![](<../.gitbook/assets/image (21) (1).png>)
 
 Vậy nó liên quan gì đến challenge trên ?
 
-* Bởi vì p và q cân bằng nhau nên ta có thể viết ![](<.gitbook/assets/image (9) (1).png>)
+* Bởi vì p và q cân bằng nhau nên ta có thể viết ![](<../.gitbook/assets/image (9) (1).png>)
 * Public exponent được chọn có gần như cùng kích cỡ với φ(N) nên k gần như cùng kích cỡ với d, ta có thể viết:  k = O(d)
 
 Từ đó:
 
 > ed = 1 + k\*φ(N)  <=>   ed =1 + k( N + O(√N) )  <=>   ed − k\*N = O(d√N)
 
-Viết dưới dạng ma trận: ![](<.gitbook/assets/image (17) (1).png>)
+Viết dưới dạng ma trận: ![](<../.gitbook/assets/image (17) (1).png>)
 
 Lúc này d\*(e, sqrt(N)) + k\*(N, 0) = (ed_+k_N, d\*sqrt(N))
 
@@ -83,7 +83,7 @@ for d in D:
 
 ## #Secure Or Not Secure
 
-![](<.gitbook/assets/image (19) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1).png>)
 
 demo:
 
@@ -91,7 +91,7 @@ demo:
 * username tối da 8 kí tự, password  tối đa 16 kí tự
 * Login đúng cookie sẽ có flag&#x20;
 
-![](<.gitbook/assets/image (25) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 Quan sát:
 
@@ -130,11 +130,11 @@ print(base64.b64encode(enc[:18]+ tmp ))
 
 Có cookie fake rồi mình login thử xem
 
-![](<.gitbook/assets/image (5) (1) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 ## #Cwyptographic Owacle
 
-![](<.gitbook/assets/image (11) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 source:
 
@@ -200,7 +200,7 @@ while True:
 
 demo:&#x20;
 
-![](<.gitbook/assets/image (34) (1) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (1).png>)
 
 Sau khi đọc code và demo:
 
@@ -330,4 +330,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src=".gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
+* <mark style="color:blue;">``</mark><img src="../.gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
