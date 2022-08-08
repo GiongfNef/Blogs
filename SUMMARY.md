@@ -22,3 +22,4 @@
 * [🍀 OverTheWire: Bandit](wargame-and-and-others/overthewire-bandit.md)
 * [🏝 Rootme](wargame-and-and-others/rootme.md)
 * [NsuCrypto](wargame-and-and-others/nsucrypto.md)
+* [Pentest](https://funky-dime-7e4.notion.site/4ec26c1b26b9418bb5a2aa850899ec2e?v=6976af4dc1ff49caa9eb9067fc491621)
