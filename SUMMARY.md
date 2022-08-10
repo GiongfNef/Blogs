@@ -11,7 +11,7 @@
 * [NsuCrypto](writeup-ctf/nsucrypto.md)
 * [Crew CTF 2022](writeup-ctf/crew-ctf-2022.md)
 * [KMA chall 2022](writeup-ctf/kma-chall-2022.md)
-* [RISEC CTF + UMass CTF 2022](writeup-ctf/risec-ctf-+-umass-ctf-2022.md)
+* [RISEC CTF + UMass CTF 2022 (web)](writeup-ctf/risec-ctf-+-umass-ctf-2022.md)
 * [ångstromCTF 2022](writeup-ctf/angstromctf-2022.md)
 * [SEETF 2022](writeup-ctf/seetf-2022.md)
 * [just CTF 2022](writeup-ctf/just-ctf-2022.md)
