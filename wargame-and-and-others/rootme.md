@@ -20,7 +20,7 @@ F12 for flag
 
 Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (2).png>)
 
 ### [HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
@@ -30,13 +30,13 @@ It combines URL and hash md5 of that one, so that we just put other URL and hash
 
 ![](<../.gitbook/assets/image (29) (1).png>)
 
-## HTTP - User-agent
+### HTTP - User-agent
 
 change User-Agent to \`admin\`
 
 ![](<../.gitbook/assets/image (18).png>)
 
-## Weak password
+### Weak password
 
 ```
 import requests
@@ -58,14 +58,27 @@ for pwd in words:
 
 ![](<../.gitbook/assets/image (39).png>)
 
-## PHP - Command injection
+### PHP - Command injection
 
 ![](<../.gitbook/assets/image (32).png>)
 
 ![](<../.gitbook/assets/image (33).png>)
 
-
-
 ``[`document`](https://portswigger.net/web-security/os-command-injection)``
 
-##
+### Backup file
+
+Use dirsearch find some interesting files:
+
+![](<../.gitbook/assets/image (24).png>)
+
+> /web-serveur/ch11/index.php\~
+
+### HTTP - Directory indexing
+
+> [http://challenge01.root-me.org/web-serveur/ch4/admin/backup/admin.txt](http://challenge01.root-me.org/web-serveur/ch4/admin/backup/admin.txt)
+>
+>
+
+![](<../.gitbook/assets/image (5).png>)
+

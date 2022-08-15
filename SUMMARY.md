@@ -17,6 +17,7 @@
 * [just CTF 2022](writeup-ctf/just-ctf-2022.md)
 * [LIT 2022 (web)](writeup-ctf/lit-2022-web.md)
 * [UIUCTF 2022 (web)](writeup-ctf/uiuctf-2022-web.md)
+* [nullcon CTF2022 (web)](writeup-ctf/nullcon-ctf2022-web.md)
 
 ## 🫖 Wargame && Others
 

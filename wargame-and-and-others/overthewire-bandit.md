@@ -164,7 +164,7 @@ bandit9@bandit:~$
 
 ## Bandit Level 10 → Level 11
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (2).png>)
 
 ```
 bandit10@bandit:~$ cat data.txt | base64 -d
