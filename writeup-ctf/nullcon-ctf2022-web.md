@@ -155,7 +155,7 @@ From that we can writeup the simple query:
 
 > ?show=1\&obj={"class":"Flag","properties":{"isAllowedToSeeFlag":"i:1;","flagfile":"s:8:"flag.php";"\}}\&flagfile=naiailoveyou
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (1) (2) (1).png>)
 
 ## Unis Love Code
 

