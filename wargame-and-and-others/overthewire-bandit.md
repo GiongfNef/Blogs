@@ -70,7 +70,7 @@ bandit3@bandit:~/inhere$
 
 ## Bandit Level 3 → Level 4
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 ![](<../.gitbook/assets/image (25).png>)
 

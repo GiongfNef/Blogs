@@ -229,7 +229,7 @@ print(flagbits)
 
 * To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol) <mark style="color:blue;"></mark> then i got an interesting thing:
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (2).png>)
 
 * That mean if r is even or the least significant bit is 0 then x is a quadratic residue (legendre\_symbol(a, p) == 1)&#x20;
 * Otherwise, r is odd and (legendre\_symbol(a, p) == 0)&#x20;

