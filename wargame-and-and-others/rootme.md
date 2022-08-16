@@ -86,7 +86,7 @@ Use dirsearch find some interesting files:
 
 With normal request we will get:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 add Header to request:
 
@@ -122,7 +122,7 @@ temper ở đây là chỉ cần đổi method khác ngoài GET và POST là đ�
 
 set file.php.png and send to the server
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (3).png>)
 
 ```
 ?cmd=cd;cat .passwd
@@ -137,4 +137,34 @@ Change Content-Type to image/png and rce
 ```
 ?id=cd;cat .passwd
 ```
+
+### HTTP - Cookies
+
+![chan](<../.gitbook/assets/image (1).png>)
+
+change cookie from `visiteur` to `admin`
+
+### JSON Web Token (JWT) - Introduction
+
+![](<../.gitbook/assets/image (45).png>)
+
+"none" signature algorithms
+
+### Directory traversal
+
+![](<../.gitbook/assets/image (7).png>)
+
+Try with ../ and fuzz
+
+### JSON Web Token (JWT) - Weak secret
+
+![](<../.gitbook/assets/image (46).png>)
+
+bruteforce secret key: lol
+
+![sign new signature](<../.gitbook/assets/image (4).png>)
+
+POST and look for the flag hm....
+
+![](<../.gitbook/assets/image (11).png>)
 

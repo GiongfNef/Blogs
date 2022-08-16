@@ -103,7 +103,7 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 ## Bandit Level 5 → Level 6
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (2).png>)
 
 > `find / -user bandit7 -group bandit6 -size 33c`
 

