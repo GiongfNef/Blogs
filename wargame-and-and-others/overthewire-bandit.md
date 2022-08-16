@@ -135,7 +135,7 @@ bandit7@bandit:~$
 
 ## Bandit Level 8 → Level 9
 
-![](<../.gitbook/assets/image (8) (2).png>)
+![](<../.gitbook/assets/image (8) (2) (1).png>)
 
 ```
 bandit8@bandit:~$ cat data.txt |sort |uniq -u

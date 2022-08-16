@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# RISEC CTF + UMass CTF 2022
+# RISEC CTF + UMass CTF 2022 (web)
 
 <mark style="color:blue;">`Web Challenge`</mark>
 
@@ -32,7 +32,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 demo:
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (8) (1).png>)
 

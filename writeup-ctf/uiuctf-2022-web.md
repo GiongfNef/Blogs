@@ -4,7 +4,7 @@
 
 ### [source](https://github.com/GiongfNef/ChallFile/blob/main/UIUCTF2022/frame/handout.tar)
 
-![chall](<../.gitbook/assets/image (6).png>)
+![chall](<../.gitbook/assets/image (6) (3).png>)
 
 ### Analysis
 
@@ -99,7 +99,7 @@ Now we can rce ez by web shell
 
 > /uploads/c654036b5974c786-output.php.gif?command=ls%20-a
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (3).png>)
 
 
 

