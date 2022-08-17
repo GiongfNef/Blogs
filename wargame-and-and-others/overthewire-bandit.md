@@ -144,7 +144,7 @@ UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 ## Bandit Level 9 → Level 10
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (27) (2).png>)
 
 ```
 bandit9@bandit:~$ strings data.txt  | grep =
@@ -192,7 +192,7 @@ bandit11@bandit:~$
 
 In this challenge, you just have to know decompress a file with gzip, bzip2 and xxd . Knowing how to know file extention by `file command`
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (2).png>)
 
 > 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 

