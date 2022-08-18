@@ -18,6 +18,6 @@ pow(a,3)+pow(b,3)+pow(c,3)+pow(d,3)+pow(e,3)+pow(f,3)+pow(g,3) == 2016
 
 A lot of number can be found:
 
-&#x20;![](<../.gitbook/assets/image (26) (1).png>)
+&#x20;![](<../.gitbook/assets/image (26) (1) (2).png>)
 
 Now we just provide the number with 2016^672 to get the answer !

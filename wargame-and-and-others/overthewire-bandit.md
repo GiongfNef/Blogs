@@ -174,7 +174,7 @@ bandit10@bandit:~$
 
 ## Bandit Level 11 → Level 12
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26) (1).png>)
 
 ![](<../.gitbook/assets/image (21).png>)
 

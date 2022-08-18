@@ -282,17 +282,39 @@ print(x.text)
 
 The problem that we have to bypass blacklist because with each access\_token it will be added to blacklist:
 
-* with **rfc3548 we can** see that the character out of alphabet will be **** skiped
+* with **rfc3548 we can** see that the character out of alphabet will be **** skipped
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 ![](<../.gitbook/assets/image (29).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
-* underscore **“\_” ,** then replace with “/”&#x20;
+* underscore **“\_” ,** then replace with “/” &#x20;
 
 ![](<../.gitbook/assets/image (33).png>)
 
-* add == in the end of jwt
+* add == in the end of jwt -> fast way to understand
+
+![](<../.gitbook/assets/image (14).png>)
+
+![](<../.gitbook/assets/image (26).png>)
+
+### CRLF
+
+Input -> fuzz&#x20;
+
+Thử nhập bừa username và passoword ta thấy rõ log ghi lại username -> tấn công từ đây
+
+![](../.gitbook/assets/image.png)
+
+Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
+
+```
+?username=admin authenticated.%0d%0aa&password=b
+```
+
+gửi payload trên url và urlencode để server decode lại&#x20;
+
+![](<../.gitbook/assets/image (1).png>)
 
