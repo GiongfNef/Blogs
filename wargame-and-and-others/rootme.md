@@ -108,7 +108,7 @@ Capture before it redirect
 
 Ban đầu tưởng bruteforce ngồi xài hydra và cái rockyou.txt ra spam cả tiếng&#x20;
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (4).png>)
 
 temper ở đây là chỉ cần đổi method khác ngoài GET và POST là được, cứ PUT với DELETE mà phang
 
@@ -152,7 +152,7 @@ change cookie from `visiteur` to `admin`
 
 ### 17.Directory traversal
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (3).png>)
 
 Try with ../ and fuzz
 
@@ -184,7 +184,7 @@ create: `file.php%0a.png`
 
 use dirsearch: /web-serveur/ch6/phpbb/install
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (3).png>)
 
 ### 21. JWT - Revoked token
 
@@ -284,11 +284,11 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * with **rfc3548 we can** see that the character out of alphabet will be **** skipped
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ![](<../.gitbook/assets/image (29).png>)
 
-![](<../.gitbook/assets/image (1) (3).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 * underscore **“\_” ,** then replace with “/” &#x20;
 
@@ -296,17 +296,17 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * add == in the end of jwt -> fast way to understand
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (9).png>)
 
-![](<../.gitbook/assets/image (26).png>)
+![](../.gitbook/assets/image.png)
 
-### CRLF
+### 22. CRLF
 
 Input -> fuzz&#x20;
 
 Thử nhập bừa username và passoword ta thấy rõ log ghi lại username -> tấn công từ đây
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (7).png>)
 
 Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
@@ -316,5 +316,14 @@ Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
 gửi payload trên url và urlencode để server decode lại&#x20;
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (8).png>)
 
+### 23. Insecure Code Management
+
+``[<mark style="color:blue;">`doc`</mark>](https://levelup.gitconnected.com/exploiting-insecure-code-management-23fcd00eba60)<mark style="color:blue;">``</mark>
+
+> [http://challenge01.root-me.org/web-serveur/ch61/.git](http://challenge01.root-me.org/web-serveur/ch61/.git)
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

