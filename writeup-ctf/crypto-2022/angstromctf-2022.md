@@ -4,17 +4,17 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # ångstromCTF 2022
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 ### Caesar and Desister
 
 > sulx{klgh\_jayzl\_lzwjw\_ujqhlgyjshzwj\_kume}
 
-![](<../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 ### Randomly Sampled Algorithm
 
-![](<../.gitbook/assets/image (39) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (39) (1) (1) (1).png>)
 
 ### Vinegar Factory
 
@@ -70,7 +70,7 @@ while True:
 
 When connect to the server:
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 #### Analysis:
 
@@ -83,7 +83,7 @@ When connect to the server:
 
 #### Idea:
 
-* Notice that encrypt(fleg + 'fleg', key) this means when plaintext's encrypted it would be like: ![](<../.gitbook/assets/image (37) (1).png>)
+* Notice that encrypt(fleg + 'fleg', key) this means when plaintext's encrypted it would be like: ![](<../../.gitbook/assets/image (37) (1).png>)
 * From this we can guess the last 4 characters is the cipher of 'fleg' then we can find the key easily by decrypt Vigenere, finally use the key to decrypt flag.
 
 #### Solve
@@ -229,7 +229,7 @@ print(flagbits)
 
 * To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol) <mark style="color:blue;"></mark> then i got an interesting thing:
 
-![](<../.gitbook/assets/image (16) (2).png>)
+![](<../../.gitbook/assets/image (16) (2).png>)
 
 * That mean if r is even or the least significant bit is 0 then x is a quadratic residue (legendre\_symbol(a, p) == 1)&#x20;
 * Otherwise, r is odd and (legendre\_symbol(a, p) == 0)&#x20;

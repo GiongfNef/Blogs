@@ -1,6 +1,6 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: ../.gitbook/assets/Kawaii-Anime-Cat-Wallpapers-1024x576 (2).jpg
+cover: ../../.gitbook/assets/Kawaii-Anime-Cat-Wallpapers-1024x576 (2).jpg
 coverY: 0
 ---
 
@@ -89,4 +89,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src="../.gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
+* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>

@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# nullcon CTF2022 (web)
+# nullcon CTF2022
 
 ## Jsonify
 
@@ -155,7 +155,7 @@ From that we can writeup the simple query:
 
 > ?show=1\&obj={"class":"Flag","properties":{"isAllowedToSeeFlag":"i:1;","flagfile":"s:8:"flag.php";"\}}\&flagfile=naiailoveyou
 
-![](<../.gitbook/assets/image (1) (2) (1).png>)
+![](<../../.gitbook/assets/image (1) (2) (1).png>)
 
 ## Unis Love Code
 
@@ -266,6 +266,6 @@ print(_check_access('admın'))
 
 Finally, sedning the request by burpsuit. Remember to urlencode the `ı` character because it's not ascii
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 Thanks for reading. Have a good day :heart: !

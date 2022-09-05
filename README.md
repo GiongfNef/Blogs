@@ -9,6 +9,9 @@ coverY: 0
 
 * [CTF 2021](https://giongfnef.gitbook.io/ctf-2021/)
 * [CTF 2022](SUMMARY.md)
+* Some interesting videos:
+
+{% embed url="https://www.youtube.com/playlist?list=PLZFAAoMs_LnXdLuCgJtDR3f4OWJNQEBKn" %}
 
 Contact:
 

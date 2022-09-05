@@ -4,20 +4,22 @@
 
 ## ☕ Writeup CTF
 
-* [dvCTF 2022](writeup-ctf/dvctf-2022.md)
-* [zer0pts CTF 2022](writeup-ctf/zer0pts-ctf-2022.md)
-* [picoCTF 2022 + wscCTF 2022](writeup-ctf/picoctf-2022-+-wscctf-2022.md)
-* [Securinets CTF Quals 2022](writeup-ctf/page-1.md)
-* [NsuCrypto](writeup-ctf/nsucrypto.md)
-* [Crew CTF 2022](writeup-ctf/crew-ctf-2022.md)
-* [KMA chall 2022](writeup-ctf/kma-chall-2022.md)
-* [RISEC CTF + UMass CTF 2022 (web)](writeup-ctf/risec-ctf-+-umass-ctf-2022.md)
-* [ångstromCTF 2022](writeup-ctf/angstromctf-2022.md)
-* [SEETF 2022](writeup-ctf/seetf-2022.md)
-* [just CTF 2022](writeup-ctf/just-ctf-2022.md)
-* [LIT 2022 (web)](writeup-ctf/lit-2022-web.md)
-* [UIUCTF 2022 (web)](writeup-ctf/uiuctf-2022-web.md)
-* [nullcon CTF2022 (web)](writeup-ctf/nullcon-ctf2022-web.md)
+* [Crypto 2022](writeup-ctf/crypto-2022/README.md)
+  * [picoCTF 2022 + wscCTF 2022](writeup-ctf/crypto-2022/picoctf-2022-+-wscctf-2022.md)
+  * [Securinets CTF Quals 2022](writeup-ctf/crypto-2022/page-1.md)
+  * [NsuCrypto](writeup-ctf/crypto-2022/nsucrypto.md)
+  * [Crew CTF 2022](writeup-ctf/crypto-2022/crew-ctf-2022.md)
+  * [KMA chall 2022](writeup-ctf/crypto-2022/kma-chall-2022.md)
+  * [ångstromCTF 2022](writeup-ctf/crypto-2022/angstromctf-2022.md)
+  * [SEETF 2022](writeup-ctf/crypto-2022/seetf-2022.md)
+  * [just CTF 2022](writeup-ctf/crypto-2022/just-ctf-2022.md)
+  * [zer0pts CTF 2022](writeup-ctf/crypto-2022/zer0pts-ctf-2022.md)
+  * [dvCTF 2022](writeup-ctf/crypto-2022/dvctf-2022.md)
+* [Web 2022](writeup-ctf/web-2022/README.md)
+  * [RISEC CTF + UMass CTF 2022](writeup-ctf/web-2022/risec-ctf-+-umass-ctf-2022.md)
+  * [LIT 2022](writeup-ctf/web-2022/lit-2022.md)
+  * [UIUCTF 2022](writeup-ctf/web-2022/uiuctf-2022.md)
+  * [nullcon CTF2022](writeup-ctf/web-2022/nullcon-ctf2022.md)
 
 ## 🫖 Wargame && Others
 

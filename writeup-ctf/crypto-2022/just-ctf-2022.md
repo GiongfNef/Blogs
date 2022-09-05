@@ -6,7 +6,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ### Simply Powered
 
-![](<../.gitbook/assets/image (19) (2).png>)
+![](<../../.gitbook/assets/image (19) (2).png>)
 
 From round 1-50 that is matrix 2x2 , 50-75 is 3x3, 75 - 98 is 11x11. So write the code to correspond case
 
