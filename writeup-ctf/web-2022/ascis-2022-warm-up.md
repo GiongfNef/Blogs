@@ -187,7 +187,7 @@ solve()py
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-### Lời thú tội của một đá thủ
+## Lời thú tội của một đá thủ
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam</p></figcaption></figure>
 
