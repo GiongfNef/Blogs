@@ -195,7 +195,9 @@ solve()py
 >
 > Lâu rồi mới có cảm giác thú vị như những ngày đầu tiên tham gia CTF.
 >
-> 4 tiếng thi đấu - Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi. Cảm ơn ae
+> 4 tiếng thi đấu - Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi.&#x20;
+>
+> Cảm ơn ae
 
 
 
