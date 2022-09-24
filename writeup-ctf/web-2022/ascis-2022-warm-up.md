@@ -125,6 +125,7 @@ flag' and ord(substring(password,{index},1)) = {char} --
 
 * and ở đây để cố định password cho username đã biết là flag
 * nếu dùng or như ở trên sẽ dẫn đến trường hợp kết quả password query được chính là của toàn bộ database -> brute sai
+* Ở đây mình không dùng query ở dạng char để so sánh vì SQL không phân biệt chữ hoa hay chữ thường, đúng vậy 's' = 'S' là **true** đấy. Lúc còn 30' cuối một thằng trong team la lên mới nhận ra chổ này, chuyển sang lại dec để brute, nếu không hẳn là quằng lắm :)).
 
 #### solve
 
