@@ -167,7 +167,7 @@ solve()py
 
 * Chấm mút quanh chức năng mới -> chức năng profile cho đăng ảnh lên
 * Rất có khả năng là File up load to RCE hoặc path travesal
-* Up thử tấm ảnh nyc lên tình hình:
+* Up thử tấm ảnh nyc lên :
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
