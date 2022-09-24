@@ -96,7 +96,7 @@ add Header to request:
 
 ### 10.HTTP - POST
 
-![](<../.gitbook/assets/image (2) (3).png>)
+![](<../.gitbook/assets/image (2) (3) (1).png>)
 
 ### 11.HTTP - Improper redirect
 

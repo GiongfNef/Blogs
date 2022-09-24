@@ -65,8 +65,25 @@ else:
 
 #### Work-flow
 
+* Từ code ta phân tích được cần tìm một chuỗi có crc32 trùng với crc32 của FLAG
+* Lúc này ta nhập bừa trước để có crc32 của flag
+* Nhập thử nhiều lần để chắc rằng flag không bị refresh
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Đến đây ta decode hex và tìm được crc32 cần phải có là: **1706263782**
+
+Lúc mới vào nhìn bài 1 mình hơi phân vân nên có nhảy sang bài 2 scout trước, ai ngờ đề có lỗi do không có trường hợp else để ra dạng crc32 của FLAG, lúc đó mình hơi hoảng và nghĩ brute ntn.   Tìm được vài tài liệu hay ho rồi thì BTC fix lại đề, cập nhập theeo vế else, đến đây thì như cá trong nước rồi .
+
 * Search quanh một xíu và tìm được doc [<mark style="color:blue;">này</mark>](https://github.com/fyxme/crc-32-hash-collider)<mark style="color:blue;"></mark>
-* Người ta đã code sẳn tool rồi việc còn lại là đổi số target và lenght string cần tìm
+* Người ta đã code sẳn tool rồi việc còn lại là đổi số **target** và **length** string cần tìm
+
+```
+const target = 1706263782 & 0xffffffff
+
+// max string length
+maxLen := 16
+```
 
 #### solve
 
@@ -154,7 +171,7 @@ solve()py
 
 * Sau khi up lên ta thấy path trong đó có file image.php thì không còn nghi ngờ gì nữa -> path traversal for sure
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### solve
 
