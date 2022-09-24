@@ -191,13 +191,13 @@ solve()py
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam</p></figcaption></figure>
 
-> Gửi lời cảm ơn chân thành nhất đến với các người ae trong team.
+> Gửi lời cảm ơn chân thành nhất đến với các người ae trong team
 >
-> Lâu rồi mới có cảm giác thú vị như những ngày đầu tiên tham gia CTF.
+> Lâu rồi mới có cảm giác thú vị như những ngày đầu tiên tham gia CTF
 >
-> 4 tiếng thi đấu - Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi.&#x20;
+> 4 tiếng thi đấu - Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi
 >
-> Cảm ơn ae
+> Cảm ơn ae.
 
 
 
