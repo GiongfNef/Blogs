@@ -70,7 +70,7 @@ while True:
 
 When connect to the server:
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 #### Analysis:
 

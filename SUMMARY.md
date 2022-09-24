@@ -20,6 +20,7 @@
   * [LIT 2022](writeup-ctf/web-2022/lit-2022.md)
   * [UIUCTF 2022](writeup-ctf/web-2022/uiuctf-2022.md)
   * [nullcon CTF2022](writeup-ctf/web-2022/nullcon-ctf2022.md)
+  * [ASCIS 2022 - warm up](writeup-ctf/web-2022/ascis-2022-warm-up.md)
 
 ## 🫖 Wargame && Others
 

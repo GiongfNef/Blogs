@@ -112,7 +112,7 @@ Ban đầu tưởng bruteforce ngồi xài hydra và cái rockyou.txt ra spam c�
 
 temper ở đây là chỉ cần đổi method khác ngoài GET và POST là được, cứ PUT với DELETE mà phang
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (2).png>)
 
 ### 13.File upload - Double extensions
 
@@ -130,7 +130,7 @@ set file.php.png and send to the server
 
 ### 14.File upload - MIME type
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (3).png>)
 
 Change Content-Type to image/png and rce
 
@@ -296,9 +296,9 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * add == in the end of jwt -> fast way to understand
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (3).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (4).png>)
 
 ### 22. CRLF
 

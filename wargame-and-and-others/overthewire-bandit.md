@@ -22,7 +22,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ## Bandit Level 0 → Level 1
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (42) (2).png>)
 
 ![](<../.gitbook/assets/image (36).png>)
 
@@ -176,7 +176,7 @@ bandit10@bandit:~$
 
 ![](<../.gitbook/assets/image (26).png>)
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (2).png>)
 
 ![](<../.gitbook/assets/image (22).png>)
 
