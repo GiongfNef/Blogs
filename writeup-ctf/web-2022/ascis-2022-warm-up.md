@@ -177,7 +177,7 @@ solve()py
 
 #### solve
 
-* Lần thep path rồi thử mọi cách path traversal thoi, chân ái is here:
+* Lần theo path rồi thử mọi cách path traversal thoi, chân ái is here:
 
 ```
 ....//....//....//....//....//....//....//....//....//etc/passwd
