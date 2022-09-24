@@ -75,7 +75,7 @@ else:
 
 Lúc mới vào nhìn bài 1 mình hơi phân vân nên có nhảy sang bài 2 scout trước, ai ngờ đề có lỗi do không có trường hợp else để ra dạng crc32 của FLAG, lúc đó mình hơi hoảng và tư duy theo hướng brute force như thế nào?
 
-Search quanh một xíu được vài tài liệu hay ho rồi thì BTC fix lại đề, cập nhập thêm vế else, đến đây thì như cá trong nước rồi .
+Search quanh một xíu được vài tài liệu hay ho rồi thì BTC fix lại đề, cập nhập thêm vế else, đến đây thì như cá gặp được nước rồi :)).
 
 * Mình tìm được được doc [<mark style="color:blue;">này</mark>](https://github.com/fyxme/crc-32-hash-collider)<mark style="color:blue;"></mark>
 * Người ta đã code sẳn tool rồi việc còn lại là đổi số **target** và **length** string cần tìm
