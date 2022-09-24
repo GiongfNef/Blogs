@@ -22,7 +22,7 @@ jhlzhy dhz uvd thzaly vm yvtl huk thkl optzlsm jvuzbs huk kpjahavy. ol bzlk opz 
 
 #### Work-flow
 
-* Brute Decryt Caesar
+* Brute Decryt Caesar -> với key bằng 7 ta có được plaintext
 * Để ý các chữ cái viết hoa
 * Viết một đoạn script ngắn nối chúng lại
 
