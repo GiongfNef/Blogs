@@ -193,9 +193,9 @@ solve()py
 
 > Gửi lời cảm ơn chân thành nhất đến với các người ae trong team.
 >
-> Lâu rồi mới có cảm giác như những ngày đầu tiên tham gia CTF.
+> Lâu rồi mới có cảm giác thú vị như những ngày đầu tiên tham gia CTF.
 >
-> Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi. Cảm ơn ae
+> 4 tiếng thi đấu - Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi. Cảm ơn ae
 
 
 
