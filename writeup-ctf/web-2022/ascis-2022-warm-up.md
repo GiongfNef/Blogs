@@ -95,7 +95,7 @@ else:
 
 * Lúc này nhận thấy server trả về với user **`flag`**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 * Như vậy có thể đoán được password của user flag chính là secret cần tìm
 * Lúc này ta chỉnh lại query userser cho đúng với target, để tránh brute force sai
@@ -167,5 +167,17 @@ solve()py
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Lời thú tội của một đá thủ
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam</p></figcaption></figure>
+
+> Gửi lời cảm ơn chân thành nhất đến với các người ae trong team.
+>
+> Lâu rồi mới có cảm giác như những ngày đầu tiên tham gia CTF.
+>
+> Một ngày vui và học được nhiều thứ, đến lúc lui về ở ẩn rồi. Cảm ơn ae
+
+
 
 Thanks for reading. Have a good day :heart: !
