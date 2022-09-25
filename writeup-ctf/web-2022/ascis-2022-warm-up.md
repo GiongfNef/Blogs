@@ -190,7 +190,7 @@ solve()py
 
 ## Lời thú tội của một đá thủ
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam - một câu RE2 chưa solve được</p></figcaption></figure>
 
 > Gửi lời cảm ơn chân thành nhất đến với các người ae trong team
 >
