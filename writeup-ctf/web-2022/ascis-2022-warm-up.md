@@ -105,18 +105,24 @@ maxLen := 16
 
 #### Work-flow
 
-* Chọt phá dòng quanh -> khai thác SQLI ở login
+* Chọt phá dòng quanh -> khai thác SQLi ở login
+* Khi thực hiện đăng nhập vào một user đã register -> sẽ đăng nhập vào tài khoản với tên user tương ứng hiện ở góc trên bên trái
+* Ở login phần username, thử đoạn payload quốc dân:
+
+```
+' or 1=1 --  
+```
+
+* Lúc này nhận thấy server trả về với user **`flag`**
 * Thử với username như sau (có khoảng trắng ở sau dấu comment -- )
 
 ```
 ' or ord(substring(password,1,1)) = 65 --  
 ```
 
-* Lúc này nhận thấy server trả về với user **`flag`**
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Thử với 65 do ta biết chữ cái đầu tiên của format là A</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
-
-* Như vậy có thể đoán được password của user flag chính là secret cần tìm
+* Như vậy có thể đoán được khá chắc password của user **flag** chính là secret cần tìm
 * Lúc này ta chỉnh lại query userser cho đúng với target, để tránh brute force sai
 
 ```

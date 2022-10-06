@@ -2,33 +2,33 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# 🍀 OverTheWire: Bandit
+# 🍃 OverTheWire: (old) - Bandit
 
 ``[`Bandit`](https://overthewire.org/wargames/bandit/bandit0.html)``
 
 ## Bandit Level 0
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 > ssh username@hostname
 >
 > so that the command is: \`ssh bandit0@bandit.labs.overthewire.org -p 2220\`
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../../.gitbook/assets/image (37).png>)
 
 > boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 ## Bandit Level 0 → Level 1
 
-![](<../.gitbook/assets/image (42) (2).png>)
+![](<../../.gitbook/assets/image (42) (2).png>)
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (36).png>)
 
 [command](https://unix.stackexchange.com/questions/189251/how-to-read-dash-files)
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 ```
 bandit1@bandit:~$ cat ./-
@@ -40,7 +40,7 @@ bandit1@bandit:~$
 
 ## Bandit Level 1 → Level 2
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 ```
 bandit2@bandit:~$ ls
@@ -52,9 +52,9 @@ bandit2@bandit:~$
 
 ## Bandit Level 2 → Level 3
 
-![](<../.gitbook/assets/image (39) (1) (1).png>)
+![](<../../.gitbook/assets/image (39) (1) (1).png>)
 
-![](<../.gitbook/assets/image (9) (2).png>)
+![](<../../.gitbook/assets/image (9) (2).png>)
 
 ```
 bandit3@bandit:~$ ls
@@ -70,9 +70,9 @@ bandit3@bandit:~/inhere$
 
 ## Bandit Level 3 → Level 4
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25).png>)
 
 ```
 bandit4@bandit:~$ ls
@@ -93,27 +93,27 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 ## Bandit Level 4 → Level 5
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 ``[`human-readable file`](https://unix.stackexchange.com/questions/313442/find-human-readable-files)``
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
 
 ## Bandit Level 5 → Level 6
 
-![](<../.gitbook/assets/image (7) (2).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 > `find / -user bandit7 -group bandit6 -size 33c`
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (40).png>)
 
 > `find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission`
 
 [`2>&1 meaning`](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)``
 
-![](<../.gitbook/assets/image (30) (1).png>)
+![](<../../.gitbook/assets/image (30) (1).png>)
 
 ```
 bandit6@bandit:/home$ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission | grep -F -v directory
@@ -125,7 +125,7 @@ bandit6@bandit:/home$
 
 ## Bandit Level 7 → Level 8
 
-![](<../.gitbook/assets/image (6) (2) (1).png>)
+![](<../../.gitbook/assets/image (6) (2) (1).png>)
 
 ```
 bandit7@bandit:~$ cat data.txt | grep millionth
@@ -135,7 +135,7 @@ bandit7@bandit:~$
 
 ## Bandit Level 8 → Level 9
 
-![](<../.gitbook/assets/image (8) (2) (1).png>)
+![](<../../.gitbook/assets/image (8) (2) (1).png>)
 
 ```
 bandit8@bandit:~$ cat data.txt |sort |uniq -u
@@ -144,7 +144,7 @@ UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 ## Bandit Level 9 → Level 10
 
-![](<../.gitbook/assets/image (27) (2).png>)
+![](<../../.gitbook/assets/image (27) (2).png>)
 
 ```
 bandit9@bandit:~$ strings data.txt  | grep =
@@ -164,7 +164,7 @@ bandit9@bandit:~$
 
 ## Bandit Level 10 → Level 11
 
-![](<../.gitbook/assets/image (24) (2).png>)
+![](<../../.gitbook/assets/image (24) (2).png>)
 
 ```
 bandit10@bandit:~$ cat data.txt | base64 -d
@@ -174,11 +174,11 @@ bandit10@bandit:~$
 
 ## Bandit Level 11 → Level 12
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26).png>)
 
-![](<../.gitbook/assets/image (21) (2).png>)
+![](<../../.gitbook/assets/image (21) (2).png>)
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
 ```
 bandit11@bandit:~$ cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-N'
@@ -188,11 +188,11 @@ bandit11@bandit:~$
 
 ## Bandit Level 12 → Level 13
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 In this challenge, you just have to know decompress a file with gzip, bzip2 and xxd . Knowing how to know file extention by `file command`
 
-![](<../.gitbook/assets/image (29) (2).png>)
+![](<../../.gitbook/assets/image (29) (2).png>)
 
 > 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
