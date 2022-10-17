@@ -25,7 +25,7 @@
 ## 🫖 Wargame && Others
 
 * [🍀 OverTheWire: Bandit](wargame-and-and-others/overthewire-bandit/README.md)
-  * [🌱 OverTheWire:  Bandit 2022](wargame-and-and-others/overthewire-bandit/overthewire-bandit-2022.md)
+  * [🌱 OverTheWire: Bandit 2022 (new) ](https://funky-dime-7e4.notion.site/OverTheWire-Bandit-2022-69d6efe638cc450fab3b76652512bad3)
   * [🍃 OverTheWire: (old) - Bandit](wargame-and-and-others/overthewire-bandit/overthewire-old-bandit.md)
 * [🏝 Rootme](wargame-and-and-others/rootme.md)
 * [🏆 Pentest](https://funky-dime-7e4.notion.site/4ec26c1b26b9418bb5a2aa850899ec2e?v=6976af4dc1ff49caa9eb9067fc491621)
