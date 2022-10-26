@@ -21,6 +21,7 @@
   * [UIUCTF 2022](writeup-ctf/web-2022/uiuctf-2022.md)
   * [nullcon CTF2022](writeup-ctf/web-2022/nullcon-ctf2022.md)
   * [ASCIS 2022 - warm up](writeup-ctf/web-2022/ascis-2022-warm-up.md)
+  * [🎃 Hack The Boo 2022](writeup-ctf/web-2022/hack-the-boo-2022.md)
 
 ## 🫖 Wargame && Others
 

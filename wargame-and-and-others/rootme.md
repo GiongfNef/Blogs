@@ -24,7 +24,7 @@ Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
 ### 3.[HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (2).png>)
 
 It combines URL and hash md5 of that one, so that we just put other URL and hash of it.
 
@@ -34,7 +34,7 @@ It combines URL and hash md5 of that one, so that we just put other URL and hash
 
 change User-Agent to \`admin\`
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (2).png>)
 
 ### 5.Weak password
 
@@ -176,9 +176,9 @@ create: `file.php%0a.png`
 <?php echo shell_exec('id'); ?>
 ```
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (3).png>)
 
-![](<../.gitbook/assets/image (6) (2).png>)
+![](<../.gitbook/assets/image (6) (2) (2).png>)
 
 ### 20.Install files
 
@@ -298,7 +298,7 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 ![](<../.gitbook/assets/image (9) (3).png>)
 
-![](<../.gitbook/assets/image (1) (4).png>)
+![](<../.gitbook/assets/image (1) (4) (1).png>)
 
 ### 22. CRLF
 
@@ -348,5 +348,5 @@ command:
 ' and die(system("cat .passwd")) or '
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 

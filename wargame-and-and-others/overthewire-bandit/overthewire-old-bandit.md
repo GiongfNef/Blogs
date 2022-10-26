@@ -8,7 +8,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 ## Bandit Level 0
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (2).png>)
 
 > ssh username@hostname
 >
@@ -70,7 +70,7 @@ bandit3@bandit:~/inhere$
 
 ## Bandit Level 3 → Level 4
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (3).png>)
 
 ![](<../../.gitbook/assets/image (25).png>)
 
@@ -174,9 +174,9 @@ bandit10@bandit:~$
 
 ## Bandit Level 11 → Level 12
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (2).png>)
 
-![](<../../.gitbook/assets/image (21) (2).png>)
+![](<../../.gitbook/assets/image (21) (2) (1).png>)
 
 ![](<../../.gitbook/assets/image (22).png>)
 

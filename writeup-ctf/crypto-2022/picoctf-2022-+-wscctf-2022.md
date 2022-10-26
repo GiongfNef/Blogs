@@ -184,7 +184,7 @@ def get_smooth_prime(state, bits, smoothness=16):
 
 > In my situation, i use the [primefac](https://pypi.org/project/primefac/)
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (23) (1).png>)
 
 flag: picoCTF{94287e17}
 

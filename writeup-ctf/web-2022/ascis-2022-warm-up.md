@@ -69,7 +69,7 @@ else:
 * Lúc này ta nhập bừa trước để có crc32 của flag
 * Nhập thử nhiều lần để chắc rằng flag không bị refresh
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Đến đây ta decode hex và tìm được crc32 cần phải có là: **1706263782**
 
@@ -89,9 +89,9 @@ maxLen := 16
 
 #### solve
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Lúc brute tool này thì cơ bản xem máy nào mạnh hơn thôi</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Lúc brute tool này thì cơ bản xem máy nào mạnh hơn thôi</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Lâu lâu hóa chaos được lần </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption><p>Lâu lâu hóa chaos được lần </p></figcaption></figure>
 
 * Kỉ niệm lâu lâu được lần solve thứ 2 :smile:
 
@@ -101,7 +101,7 @@ maxLen := 16
 
 #### chall
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Trang web bán hàng có chức năng login và register</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Trang web bán hàng có chức năng login và register</p></figcaption></figure>
 
 #### Work-flow
 
@@ -176,7 +176,7 @@ solve()py
 * Rất có khả năng là File up load to RCE hoặc path travesal
 * Up thử tấm ảnh nyc lên :
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Sau khi up lên ta thấy path trong đó có file image.php thì không còn nghi ngờ gì nữa -> path traversal for sure
 
@@ -190,13 +190,13 @@ solve()py
 ....//....//....//....//....//....//....//....//....//etc/passwd
 ```
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Lời thú tội của một đá thủ
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Top 10 khu vực miền nam - một câu RE2 chưa solve được</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>Top 10 khu vực miền nam - một câu RE2 chưa solve được</p></figcaption></figure>
 
 > Gửi lời cảm ơn chân thành nhất đến với các người ae trong team
 >
