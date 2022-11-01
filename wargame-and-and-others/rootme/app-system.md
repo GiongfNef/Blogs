@@ -44,7 +44,7 @@ Work flow:
     * 0 là padding khi không đủ số lượng
     * 8 là số lượng giá trị hiển thị
     * x là hiển thị giá trị hex
-    * và kí tụ . để phân cách mỗi 8 kí tự cho dễ quan sát
+    * Kí tự . để phân cách mỗi 8 kí tự cho dễ quan sát
 
 
 
