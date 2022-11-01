@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# 🏝 Rootme
+# 🏝 Web - Server
 
 ## Web - Server
 
@@ -14,27 +14,27 @@ F12 for flag
 
 ``[`document`](https://medium.com/r3d-buck3t/bypass-ip-restrictions-with-burp-suite-fb4c72ec8e9c)``
 
-![](<../.gitbook/assets/image (39) (1).png>)
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 > **Syntax: X-Forwarded-For: \<client>,\<proxy1>,\<proxy2>,\<proxy3>**
 
 Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
-![](<../.gitbook/assets/image (13) (2).png>)
+![](<../../.gitbook/assets/image (13) (2).png>)
 
 ### 3.[HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
-![](<../.gitbook/assets/image (35) (2).png>)
+![](<../../.gitbook/assets/image (35) (2).png>)
 
 It combines URL and hash md5 of that one, so that we just put other URL and hash of it.
 
-![](<../.gitbook/assets/image (29) (1).png>)
+![](<../../.gitbook/assets/image (29) (1).png>)
 
 ### 4.HTTP - User-agent
 
 change User-Agent to \`admin\`
 
-![](<../.gitbook/assets/image (18) (2).png>)
+![](<../../.gitbook/assets/image (18) (2).png>)
 
 ### 5.Weak password
 
@@ -56,13 +56,13 @@ for pwd in words:
 	cnt +=1
 ```
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39).png>)
 
 ### 6.PHP - Command injection
 
-![](<../.gitbook/assets/image (32) (2).png>)
+![](<../../.gitbook/assets/image (32) (2).png>)
 
-![](<../.gitbook/assets/image (33) (2).png>)
+![](<../../.gitbook/assets/image (33) (2).png>)
 
 ``[`document`](https://portswigger.net/web-security/os-command-injection)``
 
@@ -70,7 +70,7 @@ for pwd in words:
 
 Use dirsearch find some interesting files:
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24).png>)
 
 > /web-serveur/ch11/index.php\~
 
@@ -80,39 +80,39 @@ Use dirsearch find some interesting files:
 >
 >
 
-![](<../.gitbook/assets/image (5) (3).png>)
+![](<../../.gitbook/assets/image (5) (3).png>)
 
 ### 9.HTTP - Headers
 
 With normal request we will get:
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (2).png>)
 
 add Header to request:
 
 > Header-RootMe-Admin: True
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../../.gitbook/assets/image (32).png>)
 
 ### 10.HTTP - POST
 
-![](<../.gitbook/assets/image (2) (3) (1).png>)
+![](<../../.gitbook/assets/image (2) (3) (1).png>)
 
 ### 11.HTTP - Improper redirect
 
 Capture before it redirect
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 ### 12.HTTP - Verb tampering
 
 Ban đầu tưởng bruteforce ngồi xài hydra và cái rockyou.txt ra spam cả tiếng&#x20;
 
-![](<../.gitbook/assets/image (5) (4).png>)
+![](<../../.gitbook/assets/image (5) (4).png>)
 
 temper ở đây là chỉ cần đổi method khác ngoài GET và POST là được, cứ PUT với DELETE mà phang
 
-![](<../.gitbook/assets/image (10) (2).png>)
+![](<../../.gitbook/assets/image (10) (2).png>)
 
 ### 13.File upload - Double extensions
 
@@ -122,7 +122,7 @@ temper ở đây là chỉ cần đổi method khác ngoài GET và POST là đ�
 
 set file.php.png and send to the server
 
-![](<../.gitbook/assets/image (16) (3).png>)
+![](<../../.gitbook/assets/image (16) (3).png>)
 
 ```
 ?cmd=cd;cat .passwd
@@ -130,7 +130,7 @@ set file.php.png and send to the server
 
 ### 14.File upload - MIME type
 
-![](<../.gitbook/assets/image (19) (3).png>)
+![](<../../.gitbook/assets/image (19) (3).png>)
 
 Change Content-Type to image/png and rce
 
@@ -140,33 +140,33 @@ Change Content-Type to image/png and rce
 
 ### 15.HTTP - Cookies
 
-![chan](<../.gitbook/assets/image (1) (1) (4).png>)
+![chan](<../../.gitbook/assets/image (1) (1) (4).png>)
 
 change cookie from `visiteur` to `admin`
 
 ### 16.JSON Web Token (JWT) - Introduction
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 "none" signature algorithms
 
 ### 17.Directory traversal
 
-![](<../.gitbook/assets/image (7) (3).png>)
+![](<../../.gitbook/assets/image (7) (3).png>)
 
 Try with ../ and fuzz
 
 ### 18.JSON Web Token (JWT) - Weak secret
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 bruteforce secret key: lol
 
-![sign new signature](<../.gitbook/assets/image (4) (1).png>)
+![sign new signature](<../../.gitbook/assets/image (4) (1).png>)
 
 POST and look for the flag hm....
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
 ### 19.File upload - Null byte
 
@@ -176,15 +176,15 @@ create: `file.php%0a.png`
 <?php echo shell_exec('id'); ?>
 ```
 
-![](<../.gitbook/assets/image (2) (1) (3).png>)
+![](<../../.gitbook/assets/image (2) (1) (3).png>)
 
-![](<../.gitbook/assets/image (6) (2) (2).png>)
+![](<../../.gitbook/assets/image (6) (2) (2).png>)
 
 ### 20.Install files
 
 use dirsearch: /web-serveur/ch6/phpbb/install
 
-![](<../.gitbook/assets/image (8) (3).png>)
+![](<../../.gitbook/assets/image (8) (3).png>)
 
 ### 21. JWT - Revoked token
 
@@ -284,21 +284,21 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * with **rfc3548 we can** see that the character out of alphabet will be **** skipped
 
-![](<../.gitbook/assets/image (1) (3).png>)
+![](<../../.gitbook/assets/image (1) (3).png>)
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 * underscore **“\_” ,** then replace with “/” &#x20;
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33).png>)
 
 * add == in the end of jwt -> fast way to understand
 
-![](<../.gitbook/assets/image (9) (3).png>)
+![](<../../.gitbook/assets/image (9) (3).png>)
 
-![](<../.gitbook/assets/image (1) (4) (1).png>)
+![](<../../.gitbook/assets/image (1) (4) (1).png>)
 
 ### 22. CRLF
 
@@ -306,7 +306,7 @@ Input -> fuzz&#x20;
 
 Thử nhập bừa username và passoword ta thấy rõ log ghi lại username -> tấn công từ đây
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
@@ -316,7 +316,7 @@ Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
 gửi payload trên url và urlencode để server decode lại&#x20;
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 ### 23. Insecure Code Management
 
@@ -324,9 +324,9 @@ gửi payload trên url và urlencode để server decode lại&#x20;
 
 > [http://challenge01.root-me.org/web-serveur/ch61/.git](http://challenge01.root-me.org/web-serveur/ch61/.git)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 24.PHP - assert()
 
@@ -348,5 +348,5 @@ command:
 ' and die(system("cat .passwd")) or '
 ```
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
