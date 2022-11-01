@@ -102,7 +102,7 @@ add Header to request:
 
 Capture before it redirect
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (2).png>)
 
 ### 12.HTTP - Verb tampering
 
@@ -306,7 +306,7 @@ Input -> fuzz&#x20;
 
 Thử nhập bừa username và passoword ta thấy rõ log ghi lại username -> tấn công từ đây
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
@@ -316,7 +316,7 @@ Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
 gửi payload trên url và urlencode để server decode lại&#x20;
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 ### 23. Insecure Code Management
 
@@ -324,9 +324,9 @@ gửi payload trên url và urlencode để server decode lại&#x20;
 
 > [http://challenge01.root-me.org/web-serveur/ch61/.git](http://challenge01.root-me.org/web-serveur/ch61/.git)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 24.PHP - assert()
 

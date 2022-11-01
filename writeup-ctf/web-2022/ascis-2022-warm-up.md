@@ -69,7 +69,7 @@ else:
 * Lúc này ta nhập bừa trước để có crc32 của flag
 * Nhập thử nhiều lần để chắc rằng flag không bị refresh
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Đến đây ta decode hex và tìm được crc32 cần phải có là: **1706263782**
 

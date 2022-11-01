@@ -307,7 +307,7 @@ Workflow:
 
 * Nice, let's decrypt and gonna flag
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 * Hmm this one's no meaning. May i am wrong in somewhere ?&#x20;
 

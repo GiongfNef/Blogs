@@ -188,7 +188,7 @@ bandit11@bandit:~$
 
 ## Bandit Level 12 → Level 13
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (2).png>)
 
 In this challenge, you just have to know decompress a file with gzip, bzip2 and xxd . Knowing how to know file extention by `file command`
 
