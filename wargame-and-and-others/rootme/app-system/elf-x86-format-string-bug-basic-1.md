@@ -82,7 +82,5 @@ for x in s:
 
 > flag: **Dpa9d6)(Epamd**
 
-## ELF x86 - Format string bug basic 2
-
 
 
