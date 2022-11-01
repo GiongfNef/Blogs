@@ -1,13 +1,10 @@
 ---
-cover: ../../.gitbook/assets/image.png
+description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+cover: ../../../.gitbook/assets/image.png
 coverY: 0
 ---
 
-# 🎰 App - System
-
-Note : A JOURNEY TO GAIN KNOWLEDGE
-
-## ELF x86 - Format string bug basic 1
+# 🎰 ELF x86 - Format string bug basic 1
 
 chall:
 
@@ -32,12 +29,12 @@ Work flow:
 * Hàm trigger đáng ngờ ở đây chính là printf với argv\[1]
 * Thật vậy, khi đọc tài liệu về hàm printf ta thấy điều thú vị sau:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * Như vậy tham số đầu tiên luôn là kiểu dữ liệu như %d, %s tương ứng với giá trị theo sau đó
 * Nhưng ở đây lại truyền vào hàm printf với các giá trị không kiểm duyệt, dẫn đến hiện trạng nếu ta nhập các kiểu dữ liệu hex %x sẽ khiến hàm trả về các giá trị trong stack (bao gồm địa chỉ các function và flag)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 *   Để dễ quan sát hơn ta dùng %0x.
 
@@ -48,7 +45,7 @@ Work flow:
 
 
 
-    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 * Như vậy ý tưởng ở đây, ta chỉ việc leak hết các dữ liệu có thể đọc trong stack và tìm cụm có nghĩa
 
 ```
@@ -61,7 +58,7 @@ for x in list_hex:
         print(bytes.fromhex(x).decode(errors="ignore"),end="")
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 * Tuy nhiên do đang ở dạng little-endian, ta có thể viết đoạn script cơ bản sau để chuyển lại big-endian
 
@@ -81,7 +78,7 @@ for x in s:
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > flag: **Dpa9d6)(Epamd**
 
