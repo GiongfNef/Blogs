@@ -35,7 +35,7 @@ Work flow:
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * Như vậy tham số đầu tiên luôn là kiểu dữ liệu như %d, %s tương ứng với giá trị theo sau đó
-* Nhưng ở đây lại truyền vào hàm printf với các giá trị không kiểm duyệt, dẫn đến hiện trạng nếu ta nhập các kiểu dữ liệu hex %x sẽ khiến hàm trả về các địa chỉ trong stack
+* Nhưng ở đây lại truyền vào hàm printf với các giá trị không kiểm duyệt, dẫn đến hiện trạng nếu ta nhập các kiểu dữ liệu hex %x sẽ khiến hàm trả về các giá trị trong stack(bao gồm địa chỉ các function và flag)
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,4 +84,8 @@ for x in s:
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > flag: **Dpa9d6)(Epamd**
+
+## ELF x86 - Format string bug basic 2
+
+
 
