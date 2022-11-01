@@ -1,5 +1,7 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+cover: ../../.gitbook/assets/web.webp
+coverY: 0
 ---
 
 # 🏝 Web - Server
