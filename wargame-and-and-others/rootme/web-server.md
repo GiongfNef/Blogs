@@ -166,7 +166,7 @@ bruteforce secret key: lol
 
 POST and look for the flag hm....
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 ### 19.File upload - Null byte
 

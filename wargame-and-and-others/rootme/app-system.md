@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/image.png
+coverY: 0
+---
+
 # 🎰 App - System
 
 Note : A JOURNEY TO GAIN KNOWLEDGE
@@ -27,7 +32,7 @@ Work flow:
 * Hàm trigger đáng ngờ ở đây chính là printf với argv\[1]
 * Thật vậy, khi đọc tài liệu về hàm printf ta thấy điều thú vị sau:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * Như vậy tham số đầu tiên luôn là kiểu dữ liệu như %d, %s tương ứng với giá trị theo sau đó
 * Nhưng ở đây lại truyền vào hàm printf với các giá trị không kiểm duyệt, dẫn đến hiện trạng nếu ta nhập các kiểu dữ liệu hex %x sẽ khiến hàm trả về các địa chỉ trong stack

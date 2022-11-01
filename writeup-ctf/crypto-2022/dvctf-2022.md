@@ -134,7 +134,7 @@ Có cookie fake rồi mình login thử xem
 
 ## #Cwyptographic Owacle
 
-![](<../../.gitbook/assets/image (11) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 source:
 
