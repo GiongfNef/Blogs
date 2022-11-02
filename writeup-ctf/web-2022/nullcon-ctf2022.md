@@ -266,6 +266,6 @@ print(_check_access('admın'))
 
 Finally, sedning the request by burpsuit. Remember to urlencode the `ı` character because it's not ascii
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 Thanks for reading. Have a good day :heart: !

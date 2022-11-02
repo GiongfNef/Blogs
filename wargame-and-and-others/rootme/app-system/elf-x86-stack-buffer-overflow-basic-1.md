@@ -1,3 +1,7 @@
+---
+description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+---
+
 # 🐰 ELF x86 - Stack buffer overflow basic 1
 
 Code chall:
@@ -41,14 +45,14 @@ Phân tích:
 * Giá trị ta có thể control được là buf, khi khai báo buff có giới hạn 40 kí tự tương đương với 40 bytes
 * Hàm fget cho phép ta nhập 45 kí tự vào buff tương đương 40 bytes cho buf và 5 bytes tràn, tuy nhiên ta chỉ nhập được 4 bytes kí tự còn lại chính là null
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Địa chỉ buff lúc này chính là 4 kí tự A</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Địa chỉ buff lúc này chính là 4 kí tự A</p></figcaption></figure>
 
 Ý tưởng và khai thác:
 
 * Như vậy ý tưởng lúc này chính là viết 40 bytes để chứa đủ biến buff sau đó truyền vào địa chỉ 0xdeadbeef
 *
 
-    <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 * Đến đây có vẻ đúng hướng rồi, cuối cùng chuyển địa chỉ cần nhập sang little-endian là ok
 * Có thể dùng [<mark style="color:blue;">`pwntool`</mark> ](https://github.com/Gallopsled/pwntools)để đổi nhanh
 

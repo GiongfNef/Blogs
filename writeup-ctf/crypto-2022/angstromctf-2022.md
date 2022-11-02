@@ -10,7 +10,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 > sulx{klgh\_jayzl\_lzwjw\_ujqhlgyjshzwj\_kume}
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (2).png>)
 
 ### Randomly Sampled Algorithm
 

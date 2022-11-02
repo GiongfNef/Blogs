@@ -40,7 +40,7 @@ bandit1@bandit:~$
 
 ## Bandit Level 1 → Level 2
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 ```
 bandit2@bandit:~$ ls

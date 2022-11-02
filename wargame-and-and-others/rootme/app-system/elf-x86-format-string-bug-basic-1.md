@@ -8,7 +8,7 @@ coverY: 0
 
 chall:
 
-```
+```c
 #include <stdio.h>
 #include <unistd.h>
  

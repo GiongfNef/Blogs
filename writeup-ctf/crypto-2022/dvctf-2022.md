@@ -50,7 +50,7 @@ Dạng ma trận như sau:![](<../../.gitbook/assets/image (29) (1) (1) (1).png>
 
 Vậy nó liên quan gì đến challenge trên ?
 
-* Bởi vì p và q cân bằng nhau nên ta có thể viết ![](<../../.gitbook/assets/image (9) (1).png>)
+* Bởi vì p và q cân bằng nhau nên ta có thể viết ![](<../../.gitbook/assets/image (9) (1) (1).png>)
 * Public exponent được chọn có gần như cùng kích cỡ với φ(N) nên k gần như cùng kích cỡ với d, ta có thể viết:  k = O(d)
 
 Từ đó:
@@ -330,4 +330,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
+* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
