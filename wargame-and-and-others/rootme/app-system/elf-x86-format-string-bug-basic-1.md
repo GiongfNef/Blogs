@@ -1,6 +1,6 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: ../../../.gitbook/assets/image.png
+cover: ../../../.gitbook/assets/image (1).png
 coverY: 0
 ---
 
@@ -34,7 +34,7 @@ Work flow:
 * Như vậy tham số đầu tiên luôn là kiểu dữ liệu như %d, %s tương ứng với giá trị theo sau đó
 * Nhưng ở đây lại truyền vào hàm printf với các giá trị không kiểm duyệt, dẫn đến hiện trạng nếu ta nhập các kiểu dữ liệu hex %x sẽ khiến hàm trả về các giá trị trong stack (bao gồm địa chỉ các function và flag)
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 *   Để dễ quan sát hơn ta dùng %0x.
 
@@ -58,7 +58,7 @@ for x in list_hex:
         print(bytes.fromhex(x).decode(errors="ignore"),end="")
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (5).png" alt=""><figcaption></figcaption></figure>
 
 * Tuy nhiên do đang ở dạng little-endian, ta có thể viết đoạn script cơ bản sau để chuyển lại big-endian
 
@@ -78,7 +78,7 @@ for x in s:
 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 > flag: **Dpa9d6)(Epamd**
 
