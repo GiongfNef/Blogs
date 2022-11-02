@@ -125,7 +125,7 @@ bandit6@bandit:/home$
 
 ## Bandit Level 7 → Level 8
 
-![](<../../.gitbook/assets/image (6) (2) (1).png>)
+![](<../../.gitbook/assets/image (6) (2) (1) (1).png>)
 
 ```
 bandit7@bandit:~$ cat data.txt | grep millionth

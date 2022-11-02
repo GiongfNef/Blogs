@@ -45,7 +45,7 @@ Phân tích:
 * Giá trị ta có thể control được là buf, khi khai báo buff có giới hạn 40 kí tự tương đương với 40 bytes
 * Hàm fget cho phép ta nhập 45 kí tự vào buff tương đương 40 bytes cho buf và 5 bytes tràn, tuy nhiên ta chỉ nhập được 4 bytes kí tự còn lại chính là null
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Địa chỉ buff lúc này chính là 4 kí tự A</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>Địa chỉ buff lúc này chính là 4 kí tự A</p></figcaption></figure>
 
 Ý tưởng và khai thác:
 
@@ -62,6 +62,6 @@ Phân tích:
 
 * Ý tưởng có vẻ đúng rồi, vấn đề lúc này shell đóng lại quá nhanh, do vậy ta thêm câu lệnh cat để duy trì shell và cuối cùng là cat flag
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 flag: 1w4ntm0r3pr0np1s

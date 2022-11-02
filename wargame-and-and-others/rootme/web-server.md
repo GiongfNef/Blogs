@@ -26,7 +26,7 @@ Change IP at client to private IP by adding _**an X-Forwarded-For**_ header
 
 ### 3.[HTTP - Open redirect](https://www.root-me.org/en/Challenges/Web-Server/HTTP-Open-redirect)
 
-![](<../../.gitbook/assets/image (35) (2).png>)
+![](<../../.gitbook/assets/image (35) (2) (1).png>)
 
 It combines URL and hash md5 of that one, so that we just put other URL and hash of it.
 
@@ -104,7 +104,7 @@ add Header to request:
 
 Capture before it redirect
 
-![](<../../.gitbook/assets/image (3) (1) (2).png>)
+![](<../../.gitbook/assets/image (3) (1) (2) (1).png>)
 
 ### 12.HTTP - Verb tampering
 
@@ -286,7 +286,7 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 * with **rfc3548 we can** see that the character out of alphabet will be **** skipped
 
-![](<../../.gitbook/assets/image (1) (3).png>)
+![](<../../.gitbook/assets/image (1) (3) (1).png>)
 
 ![](<../../.gitbook/assets/image (29).png>)
 
@@ -350,5 +350,5 @@ command:
 ' and die(system("cat .passwd")) or '
 ```
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

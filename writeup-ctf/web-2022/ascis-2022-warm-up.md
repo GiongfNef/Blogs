@@ -89,7 +89,7 @@ maxLen := 16
 
 #### solve
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Lúc brute tool này thì cơ bản xem máy nào mạnh hơn thôi</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption><p>Lúc brute tool này thì cơ bản xem máy nào mạnh hơn thôi</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption><p>Lâu lâu hóa chaos được lần </p></figcaption></figure>
 
@@ -101,7 +101,7 @@ maxLen := 16
 
 #### chall
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Trang web bán hàng có chức năng login và register</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (2).png" alt=""><figcaption><p>Trang web bán hàng có chức năng login và register</p></figcaption></figure>
 
 #### Work-flow
 

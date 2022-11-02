@@ -34,5 +34,6 @@
     * [🎰 ELF x86 - Format string bug basic 1](wargame-and-and-others/rootme/app-system/elf-x86-format-string-bug-basic-1.md)
     * [🐰 ELF x86 - Stack buffer overflow basic 1](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-1.md)
     * [🦊 ELF x86 - Stack buffer overflow basic 2](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-2.md)
+    * [🐻 ELF x86 - Stack buffer overflow basic 3](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-3.md)
 * [🏆 Pentest](https://funky-dime-7e4.notion.site/4ec26c1b26b9418bb5a2aa850899ec2e?v=6976af4dc1ff49caa9eb9067fc491621)
 * [🖇 Blockchain](https://funky-dime-7e4.notion.site/Blockchain-courses-2f5442cbe7444aa58d13d2ca1d0fcf17)

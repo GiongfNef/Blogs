@@ -1,6 +1,6 @@
 ---
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
-cover: ../../../.gitbook/assets/image (1).png
+cover: ../../../.gitbook/assets/image (1) (3).png
 coverY: 0
 ---
 
