@@ -1,3 +1,7 @@
+---
+description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
+---
+
 # 🐻 ELF x86 - Stack buffer overflow basic 3
 
 ```c
