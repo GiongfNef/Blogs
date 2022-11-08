@@ -62,7 +62,7 @@ for x in list_hex:
 
 * Tuy nhiên do đang ở dạng little-endian, ta có thể viết đoạn script cơ bản sau để chuyển lại big-endian
 
-```
+```python
 from pwn import *
 hex_val = "00000020.0804b160.0804853d.00000009.bffffcc9.b7e1b679.bffffb94.b7fc3000.b7fc3000.0804b160.39617044.28293664.6d617045.bf000a64.0804861b.00000002.bffffb94.bffffba0.f3004700.bffffb00.00000000.00000000.b7e03fa1.b7fc3000.b7fc3000.00000000.b7e03fa1.00000002.bffffb94.bffffba0.bffffb24.00000001"
 

