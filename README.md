@@ -6,9 +6,11 @@ coverY: 0
 
 # 📧 Readme
 
+{% hint style="info" %}
 Hi there!, i'm GiongfNef
 
 This is my blog which includes write-up for CTF challenges and some notes about interesting things in my journey
+{% endhint %}
 
 ### `Table of content:`
 
