@@ -4,6 +4,6 @@ cover: ../../.gitbook/assets/web.jpg
 coverY: 0
 ---
 
-# Web 2022
+# Web&#x20;
 
 Web is naiiiiiiii

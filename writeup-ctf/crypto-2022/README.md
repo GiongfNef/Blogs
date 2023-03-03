@@ -4,7 +4,7 @@ cover: ../../.gitbook/assets/math.jpeg
 coverY: 0
 ---
 
-# Crypto 2022
+# Crypto&#x20;
 
 Some crypto CTF challs
 
