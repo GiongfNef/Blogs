@@ -58,7 +58,7 @@ Phân tích:
 
 <figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (6).png" alt=""><figcaption></figcaption></figure>
 
 * Ý tưởng có vẻ đúng rồi, vấn đề lúc này shell đóng lại quá nhanh, do vậy ta thêm câu lệnh cat để duy trì shell và cuối cùng là cat flag
 
