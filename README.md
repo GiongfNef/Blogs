@@ -29,7 +29,7 @@ This is my blog which includes write-up for CTF challenges and some notes about 
 
 * Some interesting videos
 
-{% embed url="https://www.youtube.com/playlist?list=PLZFAAoMs_LnXdLuCgJtDR3f4OWJNQEBKn" %}
+{% embed url="https://www.youtube.com/watch?v=uhZRdHSuujQ" %}
 
 Contact:
 
