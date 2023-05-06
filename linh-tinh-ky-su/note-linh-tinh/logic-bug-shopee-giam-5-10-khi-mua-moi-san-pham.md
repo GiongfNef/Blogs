@@ -13,15 +13,15 @@ description: cheatsheet túi tiền cuộc sống :))))
 
 * Bigsale hay đại giảm giá từ nhằm kích cầu sản lượng mua hàng không có gì quá là mới mẻ thông thường có thể giảm từ 10-50%
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 * Phương thức thanh toán cũng rất đa dạng, phổ biến có thể kể đến như thanh toán khi nhận hàng và chuyển khoản, ngoài ra đối với Shoppe còn có ví ShopeePay có thể nạp tiền từ ngân hàng vào hoặc liên kết với tài khoản ngân hàng để được giảm giá
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 *   Thông thường khi dùng ví ShopeePay sẽ được giảm maximum là 40k (tất nhiên là đối với đơn hàng trên 40k) -> mua đơn vài củ để giảm 40k yeah yeah
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -30,47 +30,47 @@ description: cheatsheet túi tiền cuộc sống :))))
 * Thông thường khi mua lại một sản phẩm đã mua trước đó mình sẽ được hỗ trợ từ 5-10% giá tiền tùy vào hỗ trợ của cửa hàng
 * Chính sách rất thú vị nhằm tri ân khách hàng cũ, tuy nhiên sẽ ra sao nếu là lần đầu tiên mua hàng nhưng vẫn nhận được chính sách này ?
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### Tính năng chắc chắn là tÍnH NĂnG
 
 *   Quay lại với ví ShopeePay, khi mua hàng ta được chọn lựa&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * Để confirm lại với bên thứ 3 ta cần nhập số điện thoại và thanh toán như bình thường là xong
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 * Tuy nhiên, cùng đặt ra giả thuyết: chuyện gì sẽ xãy ra nếu ta bỏ qua bước này ?
 * Cùng nhảy sang URL giỏ hàng để xem thử
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 * Lúc này sản phẩm được đưa và queue trong giỏ hàng và chờ thanh toán, sao dễ ăn zay được đúng hong
 * Tuy nhiên lần 2, chuyện gì xãy ra nếu ta mua thêm sản phẩm khác vào lúc này ?
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 * Yeah đúng vậy giờ đây chúng ta đã là khách hàng cũ và được hỗ trợ khoảng 5% từ 876k -> 826k cụ thể nữa là 50k đấy :)))))
 * Vậy .... vậy ....  liệu ta có thể nâng impact không ? chuyện gì xãy ra nữa nếu ta lại dùng queue đang thanh toán và mua sản phẩm mới ? Phải chăng sẽ mua được sản phẩm 0đ ????
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * &#x20;Tỉnh ngủ đi bạn eiiii, như đã đề cập ở trên đây chỉ là sale của cửa hàng dành riêng cho khách hàng cũ, tức là mã giảm giác thay vì áp vào thì giờ đây bạn được hỗ trợ và trừ thẳng từ phía cửa hàng có vẻ sẽ nhiều hơn nếu mua số lượng lớn 100 cái chẳng hạn ...
 * Thật ra lỗi này chính là `logic bug - skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm [lab này](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * Tiêu biểu như trên mình được hỗ trợ 17k khoản 9% từ shop
 * Tuy nhiên do đây là hỗ trợ từ cửa hàng nên vẫn có thể áp dụng thêm các mã giảm giá khác và freeship&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * Về cơ bản lỗi này là do khi được đưa vào danh sách giỏ hàng chờ thanh toán có vẻ đã được xử lý là mua hàng và chuyển ngay về phía các shop
 * Impact có vẻ không cao lắm nhưng chuyện gì xãy ra nếu ta mua sản phẩm với số tiền lớn hơn ?
 * Quay lại với chiếc đồng hồ trên, dù không có tiền mua nhưng nhìn giảm gần 400k cũng khoái lắm,.... ước ai đó donate
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 * Vậy đó trick nhỏ để được giảm từ 5-10% khi chưa áp mã giảm giá, mà xem để biết thôi nha đừng áp dụng tội người ta (dù mình đã thanh toán và nhận thành công 2 đơn hàng nhưng vẫn thấy có lỗi hic).
 
