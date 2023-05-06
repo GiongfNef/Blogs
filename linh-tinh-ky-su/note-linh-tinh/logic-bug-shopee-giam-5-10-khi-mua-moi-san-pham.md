@@ -72,6 +72,9 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Về cơ bản lỗi này là do khi được đưa vào danh sách giỏ hàng chờ thanh toán có vẻ đã được xử lý là mua hàng và chuyển ngay về phía các shop
 * Impact có vẻ không cao lắm nhưng chuyện gì xãy ra nếu ta mua sản phẩm với số tiền lớn hơn ?
+
+#### Vậy thử đặt ra một giả thiết cho đơn hàng có trị giá lớn của một shop nào đó ... ?
+
 * Quay lại với chiếc đồng hồ trên, dù không có tiền mua nhưng nhìn giảm gần 400k cũng khoái lắm,.... ước ai đó donate
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
