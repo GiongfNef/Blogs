@@ -50,7 +50,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-* Lúc này sản phẩm được đưa và queue trong giỏ hàng và chờ thanh toán, sao dễ ăn zay được đúng hong
+* Lúc này sản phẩm được đưa vào queue trong giỏ hàng và chờ thanh toán, sao dễ ăn zay được đúng hong
 * Tuy nhiên lần 2, chuyện gì xãy ra nếu ta mua thêm sản phẩm khác vào lúc này ?
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
