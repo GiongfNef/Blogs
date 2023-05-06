@@ -26,7 +26,7 @@
 ## 🍄 Linh tinh ký sự
 
 * [note linh tinh](linh-tinh-ky-su/note-linh-tinh/README.md)
-  * [Logic bug shopee: Giảm 5-10% khi mua mọi sản phẩm ?](linh-tinh-ky-su/note-linh-tinh/logic-bug-shopee-giam-5-10-khi-mua-moi-san-pham.md)
+  * [Logic bug shopee: Giảm 5-10% khi mua sản phẩm ?](linh-tinh-ky-su/note-linh-tinh/logic-bug-shopee-giam-5-10-khi-mua-san-pham.md)
 
 ## 🫖 Wargame && Others
 
