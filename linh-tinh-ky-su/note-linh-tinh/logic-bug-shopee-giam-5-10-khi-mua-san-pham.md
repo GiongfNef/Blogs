@@ -6,7 +6,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 #### Tản mạn
 
-* Từ đầu năm đến giờ chủ yếu viết trên notion, bỏ bê github lâu quá nhân dịp 5/5 big sale shopee mình muốn viết vài dòng về ~~logic~~ mẹo vặt khi mua hàng shopee để giảm 10% với mọi mặc hàng :))))
+* Từ đầu năm đến giờ chủ yếu viết trên notion, bỏ bê github lâu quá nhân dịp 5/5 big sale shopee mình muốn viết vài dòng về ~~logic~~ mẹo vặt khi mua hàng shopee để giảm 10% với mọi mặt hàng :))))
 * Nói logic bug cho vui vậy thôi, thật ra mình thấy nó giống một trick hơn. Đây là trải nghiệm khi mua 2 món hàng của mình, đọc để giải trí thôi :smile:
 
 #### Điều mà ai cũng biết
