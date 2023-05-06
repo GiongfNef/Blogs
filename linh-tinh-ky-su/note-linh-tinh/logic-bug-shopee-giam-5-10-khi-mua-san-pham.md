@@ -66,7 +66,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-* Tiêu biểu như trên mình được hỗ trợ 17k khoản 9% từ shop
+* Tiêu biểu như trên mình được hỗ trợ 17k khoản 9% từ shop, dù có thử queue bao nhiều lần
 * Tuy nhiên do đây là hỗ trợ từ cửa hàng nên vẫn có thể áp dụng thêm các mã giảm giá khác và freeship&#x20;
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
