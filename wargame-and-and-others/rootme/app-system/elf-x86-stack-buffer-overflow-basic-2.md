@@ -39,7 +39,7 @@ void main()
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Cuối cùng ta chuyển địa chỉ sang little-endian, get shell và cat flag:
 

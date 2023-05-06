@@ -20,9 +20,9 @@ Một mùa Halloween thú dị, chụp vài tấm ảnh làm nhật kí nèooo
 
 ## Spookifier
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (21) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@ Một mùa Halloween thú dị, chụp vài tấm ảnh làm nhật kí nèooo
 ${open('/flag.txt').read()}
 ```
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Juggling Facts
 

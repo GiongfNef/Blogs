@@ -14,7 +14,7 @@ F12 for flag
 
 ### 2.[HTTP - IP restriction bypass](https://www.root-me.org/en/Challenges/Web-Server/HTTP-IP-restriction-bypass)
 
-``[`document`](https://medium.com/r3d-buck3t/bypass-ip-restrictions-with-burp-suite-fb4c72ec8e9c)``
+[`document`](https://medium.com/r3d-buck3t/bypass-ip-restrictions-with-burp-suite-fb4c72ec8e9c)
 
 ![](<../../.gitbook/assets/image (39) (1).png>)
 
@@ -66,13 +66,13 @@ for pwd in words:
 
 ![](<../../.gitbook/assets/image (33) (2).png>)
 
-``[`document`](https://portswigger.net/web-security/os-command-injection)``
+[`document`](https://portswigger.net/web-security/os-command-injection)
 
 ### 7.Backup file
 
 Use dirsearch find some interesting files:
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 > /web-serveur/ch11/index.php\~
 
@@ -98,7 +98,7 @@ add Header to request:
 
 ### 10.HTTP - POST
 
-![](<../../.gitbook/assets/image (2) (3) (1).png>)
+![](<../../.gitbook/assets/image (2) (3) (1) (1).png>)
 
 ### 11.HTTP - Improper redirect
 
@@ -284,13 +284,13 @@ print(x.text)
 
 The problem that we have to bypass blacklist because with each access\_token it will be added to blacklist:
 
-* with **rfc3548 we can** see that the character out of alphabet will be **** skipped
+* with **rfc3548 we can** see that the character out of alphabet will be skipped
 
 ![](<../../.gitbook/assets/image (1) (3) (1).png>)
 
 ![](<../../.gitbook/assets/image (29).png>)
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 * underscore **“\_” ,** then replace with “/” &#x20;
 
@@ -308,7 +308,7 @@ Input -> fuzz&#x20;
 
 Thử nhập bừa username và passoword ta thấy rõ log ghi lại username -> tấn công từ đây
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 Mục tiêu là có thể log lại`adminauthenticated.`&#x20;
 
@@ -322,19 +322,19 @@ gửi payload trên url và urlencode để server decode lại&#x20;
 
 ### 23. Insecure Code Management
 
-``[<mark style="color:blue;">`doc`</mark>](https://levelup.gitconnected.com/exploiting-insecure-code-management-23fcd00eba60)<mark style="color:blue;">``</mark>
+[<mark style="color:blue;">`doc`</mark>](https://levelup.gitconnected.com/exploiting-insecure-code-management-23fcd00eba60)
 
 > [http://challenge01.root-me.org/web-serveur/ch61/.git](http://challenge01.root-me.org/web-serveur/ch61/.git)
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 24.PHP - assert()
 
-``[`doc`](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert)``
+[`doc`](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert)
 
-[doc`2`](https://hoccyber.com/khai-thac-lfi/)``
+[doc`2`](https://hoccyber.com/khai-thac-lfi/)
 
 **Detect** lỗi **File Inclusion -> LFI via PHP's 'assert**
 

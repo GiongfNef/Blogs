@@ -8,7 +8,7 @@ coverY: 0
 
 ## #Intro
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 * [x] Đây là giải đầu tiên trong năm 2022 mình nghiêm túc dành thời gian nghiên cứu.
 * [x] Mình học được thêm một số kiến thức rất thú vị nên muốn note lại cũng như chia sẻ năng lượng tích cực này đến với mọi người.
@@ -61,7 +61,7 @@ Viết dưới dạng ma trận: ![](<../../.gitbook/assets/image (17) (1).png>)
 
 Lúc này d\*(e, sqrt(N)) + k\*(N, 0) = (ed_+k_N, d\*sqrt(N))
 
-như vậy vector v =( ed − kN, d√N ) là [<mark style="color:blue;">`a short vector of the lattice`</mark>](https://en.wikipedia.org/wiki/Lattice\_problem), đến đây dùng thuật toán [`Gaussian Reduction`](https://www.codesansar.com/numerical-methods/gauss-elimination-method-python-program.htm) hoặc [<mark style="color:blue;">`LLL`</mark>](https://cims.nyu.edu/\~regev/teaching/lattices\_fall\_2004/ln/lll.pdf) <mark style="color:blue;"></mark> để tìm vecto v từ đó tính được d.
+như vậy vector v =( ed − kN, d√N ) là [<mark style="color:blue;">`a short vector of the lattice`</mark>](https://en.wikipedia.org/wiki/Lattice\_problem), đến đây dùng thuật toán [`Gaussian Reduction`](https://www.codesansar.com/numerical-methods/gauss-elimination-method-python-program.htm) hoặc [<mark style="color:blue;">`LLL`</mark>](https://cims.nyu.edu/\~regev/teaching/lattices\_fall\_2004/ln/lll.pdf) để tìm vecto v từ đó tính được d.
 
 solve của mình:
 
@@ -230,7 +230,7 @@ print (f"Signature (r,s): ({sig.r},{sig.s})")
 
 * Mình sign thử 2 lần thì thấy r có giá trị khác nhau nên không thể là [<mark style="color:blue;">`ECDSA Nonces Reused`</mark>](https://billatnapier.medium.com/ecdsa-weakness-where-nonces-are-reused-2be63856a01a)
 * Đến đây mình để ý m sẽ không đổi mà phụ thuộc vào input trước đó mình nhập vào và k có khả năng tìm được.
-* Khi có m và k mình hoàn toàn có thể tìm lại private\_key từ đó tìm lại priv bằng [<mark style="color:blue;">`A Single Random Nonce`</mark>](https://medium.com/asecuritysite-when-bob-met-alice/cracking-ecdsa-with-a-leak-of-the-random-nonce-d72c67f201cd)<mark style="color:blue;">``</mark>
+* Khi có m và k mình hoàn toàn có thể tìm lại private\_key từ đó tìm lại priv bằng [<mark style="color:blue;">`A Single Random Nonce`</mark>](https://medium.com/asecuritysite-when-bob-met-alice/cracking-ecdsa-with-a-leak-of-the-random-nonce-d72c67f201cd)
 
 Ý tưởng ban đầu là vậy, workflow lúc mình làm:
 
@@ -330,4 +330,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
+* <img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" data-size="line">[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)

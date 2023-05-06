@@ -89,18 +89,18 @@ echo "$_COOKIE"
 Workflow:
 
 * At first, i just try to find around the key work "SHA256 collision" but we got [<mark style="color:blue;">this one</mark> ](https://crypto.stackexchange.com/questions/47809/why-havent-any-sha-256-collisions-been-found-yet)<mark style="color:blue;">,</mark> it takes about ≈3.6×1013 years to find, so that it's not a practical option.
-* After that i focused on '==' in php. Searching around and i got [<mark style="color:blue;">this</mark> ](https://www.invicti.com/blog/web-security/php-type-juggling-vulnerabilities/)and [<mark style="color:blue;">this</mark>](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)<mark style="color:blue;"></mark>
+* After that i focused on '==' in php. Searching around and i got [<mark style="color:blue;">this</mark> ](https://www.invicti.com/blog/web-security/php-type-juggling-vulnerabilities/)and [<mark style="color:blue;">this</mark>](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
 * Now you just put \[] in input and get flag.
 
 ## UMass CTF
 
 ## venting
 
-This challenge ended and the website was turned off. So i build it in docker from [<mark style="color:blue;">here</mark>](https://github.com/UMassCybersecurity/UMassCTF-2022-challenges)<mark style="color:blue;"></mark>
+This challenge ended and the website was turned off. So i build it in docker from [<mark style="color:blue;">here</mark>](https://github.com/UMassCybersecurity/UMassCTF-2022-challenges)
 
 * when you connectn try to see history in burpsuite, you can get the link redirect to the login page
 * Now read the hint with 'admin' in user and  password does't have fillter so that mean that may be SQLI. Exactly. that's is blind SQLI
-* I solve this challenge by burpsuite as same as [<mark style="color:blue;">this lab</mark>](https://portswigger.net/web-security/sql-injection/blind)<mark style="color:blue;"></mark>
+* I solve this challenge by burpsuite as same as [<mark style="color:blue;">this lab</mark>](https://portswigger.net/web-security/sql-injection/blind)
 
 otherway, try to bruteforce by python request:
 
@@ -143,4 +143,4 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" data-size="line"><mark style="color:blue;"></mark>[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;"></mark>
+* <img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" data-size="line">[<mark style="color:blue;">facebook</mark> ](https://www.facebook.com/rong.truong.372)

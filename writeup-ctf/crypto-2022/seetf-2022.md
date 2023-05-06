@@ -141,7 +141,7 @@ d=crt([tmp1,tmp2],[p-1,q-1])
 print(d)
 ```
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (2).png>)
 
 ### The True ECC <a href="#the-true-ecc" id="the-true-ecc"></a>
 

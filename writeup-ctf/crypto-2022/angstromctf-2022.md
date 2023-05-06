@@ -4,7 +4,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # ångstromCTF 2022
 
-![](<../../.gitbook/assets/image (24) (1).png>)
+![](<../../.gitbook/assets/image (24) (1) (2).png>)
 
 ### Caesar and Desister
 
@@ -227,7 +227,7 @@ print(flagbits)
 
 #### Idea
 
-* To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol) <mark style="color:blue;"></mark> then i got an interesting thing:
+* To solve this, we have to know a little bit about [<mark style="color:blue;">Legendre symbol</mark>](https://en.wikipedia.org/wiki/Legendre\_symbol)  then i got an interesting thing:
 
 ![](<../../.gitbook/assets/image (16) (2).png>)
 

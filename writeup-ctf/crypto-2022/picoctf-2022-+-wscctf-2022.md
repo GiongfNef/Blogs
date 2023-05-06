@@ -143,7 +143,7 @@ decrypt Vigenere with key: "CYLAB". That's quite easy.
 
 #### Very Smooth
 
-``[`smooth number`](https://en.wikipedia.org/wiki/Smooth\_number)``
+[`smooth number`](https://en.wikipedia.org/wiki/Smooth\_number)
 
 ```
 def get_prime(state, bits):
@@ -202,9 +202,9 @@ flag: picoCTF{94287e17}
 
 flag: picoCTF{_Yu\_toi\_nho\_em!_}
 
-****![](<../../.gitbook/assets/image (27) (1) (1).png>)****
+![](<../../.gitbook/assets/image (27) (1) (1).png>)
 
-****
+
 
 
 
@@ -346,7 +346,7 @@ After bruteforcing 8300951 times, you will get the flag :))))))&#x20;
 
 ### Web
 
-``[`link full file`](https://drive.google.com/drive/folders/14YIzr04T3z1TBsxIzGWS7ZNAOPoRw8oC?usp=sharing)``
+[`link full file`](https://drive.google.com/drive/folders/14YIzr04T3z1TBsxIzGWS7ZNAOPoRw8oC?usp=sharing)
 
 #### Warmup: Burp
 
@@ -386,5 +386,5 @@ Thanks for reading. Have a good day :heart: !
 
 Contact:
 
-* <mark style="color:blue;">``</mark><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" data-size="line"><mark style="color:blue;">``</mark>[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)<mark style="color:blue;">``</mark>
+* <img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" data-size="line">[<mark style="color:blue;">`facebook`</mark> ](https://www.facebook.com/rong.truong.372)
 

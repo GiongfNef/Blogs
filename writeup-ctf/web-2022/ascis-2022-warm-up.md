@@ -77,7 +77,7 @@ Lúc mới vào nhìn bài 1 mình hơi phân vân nên có nhảy sang bài 2 s
 
 Search quanh một xíu được vài tài liệu hay ho, chuẩn bị bắt tay vào code ... thì BTC fix lại đề, cập nhập thêm vế else uiiii thiên thời địa lợi nhân hòa, đến đây thì như cá gặp được nước rồi :)).
 
-* Mình tìm được doc [<mark style="color:blue;">này</mark>](https://github.com/fyxme/crc-32-hash-collider)<mark style="color:blue;"></mark>
+* Mình tìm được doc [<mark style="color:blue;">này</mark>](https://github.com/fyxme/crc-32-hash-collider)
 * Người ta đã code sẳn tool rồi việc còn lại là đổi số **target** và **length** string cần tìm
 
 ```
@@ -180,7 +180,7 @@ solve()py
 
 * Sau khi up lên ta thấy path trong đó có file image.php thì không còn nghi ngờ gì nữa -> path traversal for sure
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### solve
 

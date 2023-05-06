@@ -4,7 +4,7 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 # 🍃 OverTheWire: (old) - Bandit
 
-``[`Bandit`](https://overthewire.org/wargames/bandit/bandit0.html)``
+[`Bandit`](https://overthewire.org/wargames/bandit/bandit0.html)
 
 ## Bandit Level 0
 
@@ -54,7 +54,7 @@ bandit2@bandit:~$
 
 ![](<../../.gitbook/assets/image (39) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (9) (2).png>)
+![](<../../.gitbook/assets/image (9) (2) (1).png>)
 
 ```
 bandit3@bandit:~$ ls
@@ -72,7 +72,7 @@ bandit3@bandit:~/inhere$
 
 ![](<../../.gitbook/assets/image (10) (1) (3).png>)
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 ```
 bandit4@bandit:~$ ls
@@ -95,7 +95,7 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 ![](<../../.gitbook/assets/image (41).png>)
 
-``[`human-readable file`](https://unix.stackexchange.com/questions/313442/find-human-readable-files)``
+[`human-readable file`](https://unix.stackexchange.com/questions/313442/find-human-readable-files)
 
 ![](<../../.gitbook/assets/image (38).png>)
 
@@ -111,7 +111,7 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 > `find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission`
 
-[`2>&1 meaning`](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)``
+[`2>&1 meaning`](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)
 
 ![](<../../.gitbook/assets/image (30) (1).png>)
 
@@ -178,7 +178,7 @@ bandit10@bandit:~$
 
 ![](<../../.gitbook/assets/image (21) (2) (1).png>)
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (2).png>)
 
 ```
 bandit11@bandit:~$ cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-N'

@@ -52,7 +52,7 @@ Phân tích:
 * Như vậy ý tưởng lúc này chính là viết 40 bytes để chứa đủ biến buff sau đó truyền vào địa chỉ 0xdeadbeef
 *
 
-    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 * Đến đây có vẻ đúng hướng rồi, cuối cùng chuyển địa chỉ cần nhập sang little-endian là ok
 * Có thể dùng [<mark style="color:blue;">`pwntool`</mark> ](https://github.com/Gallopsled/pwntools)để đổi nhanh
 

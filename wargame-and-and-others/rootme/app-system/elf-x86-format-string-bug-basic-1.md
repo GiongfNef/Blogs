@@ -45,7 +45,7 @@ Work flow:
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 * Như vậy ý tưởng ở đây, ta chỉ việc leak hết các dữ liệu có thể đọc trong stack và tìm cụm có nghĩa
 
 ```

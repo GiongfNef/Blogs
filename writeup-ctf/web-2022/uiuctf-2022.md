@@ -43,7 +43,7 @@ error_reporting(E_ALL);
         ?>
 ```
 
-* know that: $allowed\_extensions = array(".jpg", ".jpeg", ".png", ".gif"); -> we can use ".gif" extension file. Finding around and i got [<mark style="color:blue;">`this doc`</mark>](https://doddsecurity.com/94/remote-code-execution-in-the-avatars/)<mark style="color:blue;">``</mark>
+* know that: $allowed\_extensions = array(".jpg", ".jpeg", ".png", ".gif"); -> we can use ".gif" extension file. Finding around and i got [<mark style="color:blue;">`this doc`</mark>](https://doddsecurity.com/94/remote-code-execution-in-the-avatars/)
 * We can use `gifsicle`  to embedd PHP code that runs the Linux command into a malicious image named output.php.gif.
 
 ### Exploit

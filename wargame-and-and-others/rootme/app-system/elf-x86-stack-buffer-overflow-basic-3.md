@@ -74,7 +74,7 @@ Phân tích:
 * Như vậy khác với các chall 1 và 2, lúc này biến `check` được khai báo sau biến `buffer` ta không thể nhập tràn để ghi đè giá trị  lên check&#x20;
 * Lúc này review lại code để ý một hàm lạ lẫm  `read(`[`fileno`](https://man7.org/linux/man-pages/man2/read.2.html)`(stdin),&i,1);`
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Như vậy hàm này giúp ta đọc từng kí tự của chuỗi nhập vào, nên nhớ buff được lưu dưới dạng chuỗi mình có thể truy xuất từng phần tử :
 
@@ -96,6 +96,6 @@ default:
   count++;
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 > flag: Sm4shM3ify0uC4n

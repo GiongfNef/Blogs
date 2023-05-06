@@ -2,7 +2,7 @@
 description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 ---
 
-# Financial Aid Application for Coursera
+# 💎 Financial Aid Application for Coursera
 
 ## 1.Why are you applying for Financial Aid? (150 words minimum required)
 
@@ -29,5 +29,5 @@ Best Regards
 Truong Van Rong
 ```
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
