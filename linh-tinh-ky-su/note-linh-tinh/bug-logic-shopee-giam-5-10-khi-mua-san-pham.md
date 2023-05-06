@@ -2,12 +2,12 @@
 description: cheatsheet túi tiền & cuộc sống :))))
 ---
 
-# Logic bug shopee: Giảm 5-10% khi mua sản phẩm ?
+# Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?
 
 #### Tản mạn
 
 * Từ đầu năm đến giờ chủ yếu viết trên notion, bỏ bê github lâu quá nhân dịp 5/5 big sale shopee mình muốn viết vài dòng về ~~logic~~ mẹo vặt khi mua hàng shopee để giảm 10% với mọi mặt hàng :))))
-* Nói logic bug cho vui vậy thôi, thật ra mình thấy nó giống một trick hơn. Đây là trải nghiệm khi mua 2 món hàng của mình, đọc để giải trí thôi :smile:
+* Nói bug logic cho vui vậy thôi, thật ra mình thấy nó giống một trick hơn. Đây là trải nghiệm khi mua 2 món hàng của mình, đọc để giải trí thôi :smile:
 
 #### Điều mà ai cũng biết
 
@@ -62,7 +62,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * &#x20;Tỉnh ngủ đi bạn eiiii, như đã đề cập ở trên đây chỉ là sale của cửa hàng dành riêng cho khách hàng cũ, tức là giờ đây bạn được hỗ trợ và trừ thẳng tiền từ phía cửa hàng có vẻ sẽ nhiều hơn nếu mua số lượng lớn 100 cái chẳng hạn ...
 
-> #### &#x20;Thật ra lỗi này chính là `logic bug - skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
+> #### &#x20;Thật ra lỗi này chính là `bug` logic `- skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
