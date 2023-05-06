@@ -43,7 +43,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
     <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * Để confirm lại với bên thứ 3 ta cần nhập số điện thoại và thanh toán như bình thường là xong
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Tuy nhiên, cùng đặt ra giả thuyết: chuyện gì sẽ xãy ra nếu ta bỏ qua bước này ?
 * Cùng nhảy sang URL giỏ hàng để xem thử
@@ -76,6 +76,10 @@ description: cheatsheet túi tiền & cuộc sống :))))
 > Một lưu ý nhỏ khác là đối với các đơn hàng ở trạng thái chờ thanh toán trong queue, do ta chưa
 >
 > verify bằng tài khoản ngân hàng do đó không thể mất tiền. Ta có thể hủy với lý do chọn lại sản phẩm hoặc đổi phương thức thanh toán khác -> điều này không làm ảnh hưởng đến doanh số hay đơn của cửa hàng do cần phải verify thành công mới chuyển đơn qua cho cửa hàng.
+
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Đây là khi đã thanh toán </p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Khi chưa verify và thanh toán online - không ảnh hưởng đến doanh thu của shop</p></figcaption></figure>
 
 * Impact có vẻ không cao lắm nhưng chuyện gì xãy ra nếu ta mua sản phẩm với số tiền lớn hơn ?
 
