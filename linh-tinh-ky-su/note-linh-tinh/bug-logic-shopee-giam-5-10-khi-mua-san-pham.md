@@ -2,7 +2,7 @@
 description: cheatsheet túi tiền & cuộc sống :))))
 ---
 
-# Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?
+# 🐞 Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?
 
 #### Tản mạn
 
