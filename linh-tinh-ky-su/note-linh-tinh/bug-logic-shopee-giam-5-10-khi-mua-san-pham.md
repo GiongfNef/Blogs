@@ -17,7 +17,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Vậy nếu có một cách nào đó để bạn giảm 10% giá trị đơn hàng mà không cần dùng mã giảm giá sau đó tiếp tục áp thêm mã giảm giá 50% và freeship toàn quốc thì sẽ như thế nào nhỉ ? Cùng tìm hiểu thử nào
 
-## Phương thức thanh toán&#x20;
+#### Phương thức thanh toán&#x20;
 
 * Phương thức thanh toán cũng rất đa dạng, phổ biến có thể kể đến như thanh toán khi nhận hàng và chuyển khoản, ngoài ra đối với Shoppe còn có ví ShopeePay có thể nạp tiền từ ngân hàng vào hoặc liên kết với tài khoản ngân hàng để được giảm giá
 
