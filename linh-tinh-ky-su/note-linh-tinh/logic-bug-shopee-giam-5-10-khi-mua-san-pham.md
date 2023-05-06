@@ -13,8 +13,6 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Bigsale hay đại giảm giá từ nhằm kích cầu sản lượng mua hàng không có gì quá là mới mẻ thông thường có thể giảm từ 10-50%
 
-
-
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 * Vậy nếu có một cách nào đó để bạn giảm 10% giá trị đơn hàng mà không cần dùng mã giảm giá sau đó tiếp tục áp thêm mã giảm giá 50% và freeship toàn quốc thì sẽ như thế nào nhỉ ? Cùng tìm hiểu thử nào
@@ -63,7 +61,8 @@ description: cheatsheet túi tiền & cuộc sống :))))
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * &#x20;Tỉnh ngủ đi bạn eiiii, như đã đề cập ở trên đây chỉ là sale của cửa hàng dành riêng cho khách hàng cũ, tức là giờ đây bạn được hỗ trợ và trừ thẳng tiền từ phía cửa hàng có vẻ sẽ nhiều hơn nếu mua số lượng lớn 100 cái chẳng hạn ...
-* Thật ra lỗi này chính là `logic bug - skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
+
+> #### &#x20;Thật ra lỗi này chính là `logic bug - skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
