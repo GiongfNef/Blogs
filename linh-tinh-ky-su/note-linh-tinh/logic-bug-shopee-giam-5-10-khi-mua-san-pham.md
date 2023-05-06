@@ -89,3 +89,4 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Vậy đó trick nhỏ để được giảm từ 5-10% khi chưa áp mã giảm giá, mà xem để biết thôi nha đừng áp dụng tội người ta (dù mình đã thanh toán và nhận thành công 2 đơn hàng nhưng vẫn thấy áy náy hic).
 
+Thanks for reading. Have a good day :heart: !
