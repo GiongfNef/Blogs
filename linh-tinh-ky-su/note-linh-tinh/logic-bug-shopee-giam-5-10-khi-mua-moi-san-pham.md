@@ -12,6 +12,7 @@ description: cheatsheet túi tiền cuộc sống :))))
 #### Điều mà ai cũng biết
 
 * Bigsale hay đại giảm giá từ nhằm kích cầu sản lượng mua hàng không có gì quá là mới mẻ thông thường có thể giảm từ 10-50%
+* Vậy nếu có một cách nào đó để bạn giảm 10% giá trị đơn hàng mà không cần dùng mã giảm giá sau đó tiếp tục áp thêm mã giảm giá 50% ...&#x20;
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
