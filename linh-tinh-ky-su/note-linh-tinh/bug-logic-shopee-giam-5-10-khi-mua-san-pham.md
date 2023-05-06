@@ -4,12 +4,12 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 # 🐞 Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?
 
-#### Tản mạn
+## Tản mạn
 
 * Từ đầu năm đến giờ chủ yếu viết trên notion, bỏ bê github lâu quá nhân dịp 5/5 big sale shopee mình muốn viết vài dòng về ~~logic~~ mẹo vặt khi mua hàng shopee để giảm 10% với mọi mặt hàng :))))
 * Nói bug logic cho vui vậy thôi, thật ra mình thấy nó giống một trick hơn. Đây là trải nghiệm khi mua 2 món hàng của mình, đọc để giải trí thôi :smile:
 
-#### Điều mà ai cũng biết
+## Điều mà ai cũng biết
 
 * Bigsale hay đại giảm giá từ nhằm gia tăng sản lượng mua hàng, không có gì quá là mới mẻ thông thường có thể giảm từ 10-50%
 
@@ -17,7 +17,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Vậy nếu có một cách nào đó để bạn giảm 10% giá trị đơn hàng mà không cần dùng mã giảm giá sau đó tiếp tục áp thêm mã giảm giá 50% và freeship toàn quốc thì sẽ như thế nào nhỉ ? Cùng tìm hiểu thử nào
 
-#### Phương thức thanh toán&#x20;
+## Phương thức thanh toán&#x20;
 
 * Phương thức thanh toán cũng rất đa dạng, phổ biến có thể kể đến như thanh toán khi nhận hàng và chuyển khoản, ngoài ra đối với Shoppe còn có ví ShopeePay có thể nạp tiền từ ngân hàng vào hoặc liên kết với tài khoản ngân hàng để được giảm giá
 
@@ -29,14 +29,14 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 
 
-#### Dịch vụ dành riêng cho khách hàng thân quen
+## Dịch vụ dành riêng cho khách hàng thân quen
 
 * Thông thường khi mua lại một sản phẩm đã mua trước đó mình sẽ được hỗ trợ từ 5-10% giá tiền tùy vào hỗ trợ của cửa hàng (tùy vào shop nữa nha)
 * Chính sách rất thú vị nhằm tri ân khách hàng cũ, tuy nhiên sẽ ra sao nếu là lần đầu tiên mua hàng nhưng vẫn nhận được chính sách này ?
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-#### Tính năng chắc chắn là tÍnH NĂnG
+## Tính năng chắc chắn là tÍnH NĂnG
 
 *   Quay lại với ví ShopeePay, khi mua hàng ta được chọn lựa&#x20;
 
