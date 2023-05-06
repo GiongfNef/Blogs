@@ -31,7 +31,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 #### Dịch vụ dành riêng cho khách hàng thân quen
 
-* Thông thường khi mua lại một sản phẩm đã mua trước đó mình sẽ được hỗ trợ từ 5-10% giá tiền tùy vào hỗ trợ của cửa hàng
+* Thông thường khi mua lại một sản phẩm đã mua trước đó mình sẽ được hỗ trợ từ 5-10% giá tiền tùy vào hỗ trợ của cửa hàng (tùy vào shop nữa nha)
 * Chính sách rất thú vị nhằm tri ân khách hàng cũ, tuy nhiên sẽ ra sao nếu là lần đầu tiên mua hàng nhưng vẫn nhận được chính sách này ?
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
