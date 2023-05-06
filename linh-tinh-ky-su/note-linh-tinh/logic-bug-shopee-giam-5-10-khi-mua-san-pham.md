@@ -73,9 +73,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 * Về cơ bản lỗi này là do khi được đưa vào danh sách giỏ hàng chờ thanh toán có vẻ đã được xử lý là mua hàng và chuyển ngay về phía các shop
 
-> Một lưu ý nhỏ khác là đối với các đơn hàng ở trạng thái chờ thanh toán trong queue, do ta chưa
->
-> verify bằng tài khoản ngân hàng do đó không thể mất tiền. Ta có thể hủy với lý do chọn lại sản phẩm hoặc đổi phương thức thanh toán khác -> điều này không làm ảnh hưởng đến doanh số hay đơn của cửa hàng do cần phải verify thành công mới chuyển đơn qua cho cửa hàng.
+> Một lưu ý nhỏ khác là đối với các đơn hàng ở trạng thái chờ thanh toán trong queue, do ta chưa verify bằng tài khoản ngân hàng do đó không thể mất tiền. Ta có thể hủy với lý do chọn lại sản phẩm hoặc đổi phương thức thanh toán khác -> điều này không làm ảnh hưởng đến doanh số hay đơn của cửa hàng do cần phải verify thành công mới chuyển đơn qua cho cửa hàng.
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Đây là khi đã thanh toán </p></figcaption></figure>
 
