@@ -23,9 +23,9 @@ description: cheatsheet túi tiền cuộc sống :))))
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-*   Thông thường khi dùng ví ShopeePay sẽ được giảm maximum là 40k (tất nhiên là đối với đơn hàng trên 40k) -> mua đơn vài củ để giảm 40k yeah yeah
+* Thông thường khi dùng ví ShopeePay sẽ được giảm maximum là 40k (tất nhiên là đối với đơn hàng trên 40k) -> mua đơn vài củ để giảm 40k yeah yeah&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 
