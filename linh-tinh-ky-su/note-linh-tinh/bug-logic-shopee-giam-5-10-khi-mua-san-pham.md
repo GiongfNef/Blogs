@@ -1,5 +1,5 @@
 ---
-description: cheatsheet túi tiền & cuộc sống :))))
+description: cheatsheet túi tiền & cuộc sống ?-?
 ---
 
 # 🐞 Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?
@@ -40,7 +40,7 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 *   Quay lại với ví ShopeePay, khi mua hàng ta được chọn lựa&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Để confirm lại với bên thứ 3 ta cần nhập số điện thoại và thanh toán như bình thường là xong
 
 <figure><img src="../../.gitbook/assets/image (25) (2).png" alt=""><figcaption></figcaption></figure>
@@ -83,9 +83,9 @@ description: cheatsheet túi tiền & cuộc sống :))))
 
 #### Vậy thử đặt ra một giả thiết cho đơn hàng có trị giá lớn của một shop nào đó ... ?
 
-* Quay lại với chiếc đồng hồ trên, dù không có tiền mua nhưng nhìn giảm gần 400k cũng khoái lắm,.... ước ai đó donate
+* Quay lại với chiếc đồng hồ ở đầu bài, dù không có tiền mua nhưng nhìn giảm gần 400k cũng khoái lắm,.... ước ai đó donate
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Vậy đó trick nhỏ để được giảm từ 5-10% khi chưa áp mã giảm giá, mà xem để biết thôi nha đừng áp dụng tội người ta (dù mình đã thanh toán và nhận thành công 2 đơn hàng nhưng vẫn thấy áy náy hic).
 
