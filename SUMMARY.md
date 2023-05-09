@@ -26,6 +26,7 @@
 ## 🍄 Linh tinh ký sự
 
 * [note linh tinh](linh-tinh-ky-su/note-linh-tinh/README.md)
+  * [Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?](linh-tinh-ky-su/note-linh-tinh/bug-logic-shopee-giam-5-10-khi-mua-san-pham.md)
   * [💎 Financial Aid Application for Coursera](linh-tinh-ky-su/note-linh-tinh/financial-aid-application-for-coursera.md)
 
 ## 🫖 Wargame && Others
