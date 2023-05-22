@@ -34,6 +34,8 @@
 * [🍀 OverTheWire: Bandit](wargame-and-and-others/overthewire-bandit/README.md)
   * [🌱 OverTheWire: Bandit 2022 (new) ](https://funky-dime-7e4.notion.site/OverTheWire-Bandit-2022-69d6efe638cc450fab3b76652512bad3)
   * [🍃 OverTheWire: (old) - Bandit](wargame-and-and-others/overthewire-bandit/overthewire-old-bandit.md)
+  * [Writeup EVABSv5.apk (12levels)](wargame-and-and-others/overthewire-bandit/writeup-evabsv5.apk-12levels.md)
+* [📲 Writeup EVABSv5.apk (Solution 12 levels)](wargame-and-and-others/writeup-evabsv5.apk-solution-12-levels.md)
 * [🌵 Rootme](wargame-and-and-others/rootme/README.md)
   * [🏝 Web - Server](wargame-and-and-others/rootme/web-server.md)
   * [📟 App - System](wargame-and-and-others/rootme/app-system/README.md)
