@@ -37,7 +37,7 @@
   * [Writeup EVABSv5.apk (12levels)](wargame-and-and-others/overthewire-bandit/writeup-evabsv5.apk-12levels.md)
 * [📲 Android](wargame-and-and-others/android/README.md)
   * [📲 Writeup EVABSv5.apk (Solution 12 levels)](wargame-and-and-others/android/writeup-evabsv5.apk-solution-12-levels.md)
-  * [🎮 Writeup droids CTF - (Solution 5 levels)](wargame-and-and-others/android/writeup-droids-ctf-solution-5-levels.md)
+  * [🎮 Writeup droids PicoCTF - (Solution 5 levels)](wargame-and-and-others/android/writeup-droids-picoctf-solution-5-levels.md)
 * [🌵 Rootme](wargame-and-and-others/rootme/README.md)
   * [🏝 Web - Server](wargame-and-and-others/rootme/web-server.md)
   * [📟 App - System](wargame-and-and-others/rootme/app-system/README.md)
