@@ -32,7 +32,7 @@
 ## 🫖 Wargame && Others
 
 * [🍀 OverTheWire: Bandit](wargame-and-and-others/overthewire-bandit/README.md)
-  * [🌱 OverTheWire: Bandit 2022 (new) ](https://funky-dime-7e4.notion.site/OverTheWire-Bandit-2022-69d6efe638cc450fab3b76652512bad3)
+  * [🌱 OverTheWire: Bandit 2022 (new) ](https://giongfnef.notion.site/OverTheWire-Bandit-2022-69d6efe638cc450fab3b76652512bad3?pvs=4)
   * [🍃 OverTheWire: (old) - Bandit](wargame-and-and-others/overthewire-bandit/overthewire-old-bandit.md)
   * [Writeup EVABSv5.apk (12levels)](wargame-and-and-others/overthewire-bandit/writeup-evabsv5.apk-12levels.md)
 * [📲 Android](wargame-and-and-others/android/README.md)
@@ -47,5 +47,5 @@
     * [🐻 ELF x86 - Stack buffer overflow basic 3](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-3.md)
     * [🐼 ELF x86 - Stack buffer overflow basic 4](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-4.md)
     * [🐧 ELF x86 - Stack buffer overflow basic 6](wargame-and-and-others/rootme/app-system/elf-x86-stack-buffer-overflow-basic-6.md)
-* [🏆 Pentest](https://funky-dime-7e4.notion.site/4ec26c1b26b9418bb5a2aa850899ec2e?v=6976af4dc1ff49caa9eb9067fc491621)
-* [🖇 Blockchain](https://funky-dime-7e4.notion.site/Blockchain-courses-2f5442cbe7444aa58d13d2ca1d0fcf17)
+* [🏆 Pentest](https://giongfnef.notion.site/4ec26c1b26b9418bb5a2aa850899ec2e?v=6976af4dc1ff49caa9eb9067fc491621\&pvs=4)
+* [🖇 Blockchain](https://giongfnef.notion.site/Blockchain-courses-2f5442cbe7444aa58d13d2ca1d0fcf17?pvs=4)
