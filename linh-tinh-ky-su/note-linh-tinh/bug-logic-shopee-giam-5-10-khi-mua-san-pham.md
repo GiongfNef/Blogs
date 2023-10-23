@@ -21,7 +21,7 @@ description: cheatsheet túi tiền & cuộc sống ?-?
 
 * Phương thức thanh toán cũng rất đa dạng, phổ biến có thể kể đến như thanh toán khi nhận hàng và chuyển khoản, ngoài ra đối với Shoppe còn có ví ShopeePay có thể nạp tiền từ ngân hàng vào hoặc liên kết với tài khoản ngân hàng để được giảm giá
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Thông thường khi dùng ví ShopeePay sẽ được giảm maximum là 40k (tất nhiên là đối với đơn hàng trên 40k) -> mua đơn vài củ để giảm 40k yeah yeah&#x20;
 
@@ -85,7 +85,7 @@ description: cheatsheet túi tiền & cuộc sống ?-?
 
 * Quay lại với chiếc đồng hồ ở đầu bài, dù không có tiền mua nhưng nhìn giảm gần 400k cũng khoái lắm,.... ước ai đó donate
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 * Vậy đó trick nhỏ để được giảm từ 5-10% khi chưa áp mã giảm giá, mà xem để biết thôi nha đừng áp dụng tội người ta (dù mình đã thanh toán và nhận thành công 2 đơn hàng nhưng vẫn thấy áy náy hic).
 

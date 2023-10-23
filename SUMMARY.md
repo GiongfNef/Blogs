@@ -2,6 +2,10 @@
 
 * [📧 Readme](README.md)
 
+## 🥑 CVE
+
+* [CVE-2023-5311](cve/cve-2023-5311.md)
+
 ## ☕ Writeup CTF
 
 * [Crypto ](writeup-ctf/crypto-2022/README.md)

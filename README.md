@@ -9,7 +9,7 @@ coverY: 0
 {% hint style="info" %}
 Hi there!, i'm GiongfNef
 
-This is my blog which includes write-up for CTF challenges and some notes about interesting things in my journey
+This is my blog which includes write-up for CTF challenges and some CVE or notes about interesting things in my journey
 {% endhint %}
 
 ### `Table of content:`
