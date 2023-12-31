@@ -2,6 +2,10 @@
 
 * [📧 Readme](README.md)
 
+## 💰 Bug Bounty
+
+* [Page 1](bug-bounty/page-1.md)
+
 ## 🥑 CVE
 
 * [CVE-2023-5311](cve/cve-2023-5311.md)
@@ -30,6 +34,7 @@
 ## 🍄 Linh tinh ký sự
 
 * [📚 Books](linh-tinh-ky-su/books.md)
+* [Writeup Intigriti challenge-0923](linh-tinh-ky-su/writeup-intigriti-challenge-0923.md)
 * [note linh tinh](linh-tinh-ky-su/note-linh-tinh/README.md)
   * [🐞 Bug logic Shopee: Giảm 5-10% khi mua sản phẩm ?](linh-tinh-ky-su/note-linh-tinh/bug-logic-shopee-giam-5-10-khi-mua-san-pham.md)
   * [💎 Financial Aid Application for Coursera](linh-tinh-ky-su/note-linh-tinh/financial-aid-application-for-coursera.md)
