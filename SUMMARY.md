@@ -4,7 +4,7 @@
 
 ## 💰 Bug Bounty
 
-* [Page 1](bug-bounty/page-1.md)
+* [Business Logic: Bypass 2FA to ATO](bug-bounty/business-logic-bypass-2fa-to-ato.md)
 
 ## 🥑 CVE
 
