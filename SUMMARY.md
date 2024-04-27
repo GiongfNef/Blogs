@@ -5,7 +5,7 @@
 ## 💰 Bug Bounty
 
 * [Business Logic: Bypass 2FA to ATO](bug-bounty/business-logic-bypass-2fa-to-ato.md)
-* [1 Click Account Take Over](bug-bounty/1-click-account-take-over.md)
+* [One-Click Account Take Over](bug-bounty/one-click-account-take-over.md)
 
 ## 🥑 CVE
 
