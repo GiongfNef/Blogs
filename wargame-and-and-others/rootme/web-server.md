@@ -4,7 +4,7 @@ cover: ../../.gitbook/assets/web.webp
 coverY: 0
 ---
 
-# 🏝 Web - Server
+# 🏝️ Web - Server
 
 ## Web - Server
 
@@ -290,7 +290,7 @@ The problem that we have to bypass blacklist because with each access\_token it 
 
 ![](<../../.gitbook/assets/image (29).png>)
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 * underscore **“\_” ,** then replace with “/” &#x20;
 

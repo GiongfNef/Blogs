@@ -9,3 +9,5 @@ description: 'Note : A JOURNEY TO GAIN KNOWLEDGE'
 
 
 > I write on Medium, so you may need a VPN or simply use Warp to read if you are in Vietnam.
+
+Thanks for reading, have a nice day :heartbeat:
