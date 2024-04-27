@@ -21,7 +21,7 @@ description: cheatsheet túi tiền & cuộc sống ?-?
 
 * Phương thức thanh toán cũng rất đa dạng, phổ biến có thể kể đến như thanh toán khi nhận hàng và chuyển khoản, ngoài ra đối với Shoppe còn có ví ShopeePay có thể nạp tiền từ ngân hàng vào hoặc liên kết với tài khoản ngân hàng để được giảm giá
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Thông thường khi dùng ví ShopeePay sẽ được giảm maximum là 40k (tất nhiên là đối với đơn hàng trên 40k) -> mua đơn vài củ để giảm 40k yeah yeah&#x20;
 
@@ -40,7 +40,7 @@ description: cheatsheet túi tiền & cuộc sống ?-?
 
 *   Quay lại với ví ShopeePay, khi mua hàng ta được chọn lựa&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Để confirm lại với bên thứ 3 ta cần nhập số điện thoại và thanh toán như bình thường là xong
 
 <figure><img src="../../.gitbook/assets/image (25) (2).png" alt=""><figcaption></figcaption></figure>
