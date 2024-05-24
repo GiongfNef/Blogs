@@ -62,7 +62,7 @@ description: cheatsheet túi tiền & cuộc sống ?-?
 
 * &#x20;Tỉnh ngủ đi bạn eiiii, như đã đề cập ở trên đây chỉ là sale của cửa hàng dành riêng cho khách hàng cũ, tức là giờ đây bạn được hỗ trợ và trừ thẳng tiền từ phía cửa hàng có vẻ sẽ nhiều hơn nếu mua số lượng lớn 100 cái chẳng hạn ...
 
-> #### &#x20;Thật ra lỗi này chính là `bug` logic `- skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
+> #### &#x20;Thật ra lỗi này chính là `bug logic - skip step`, các bạn có thể hiểu rõ hơn khi xem [video này](https://www.youtube.com/watch?v=Brhjs7LZ9PY) và hiểu rõ hơn khi làm lab [bypass via flawed state machine](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine) trên portswigger
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
