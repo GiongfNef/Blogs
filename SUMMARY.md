@@ -9,6 +9,7 @@
 
 ## 🥑 CVE
 
+* [CVE-2024-40492: Stored XSS to ATO](cve/cve-2024-40492-stored-xss-to-ato.md)
 * [CVE-2023-5311](cve/cve-2023-5311.md)
 
 ## ☕ Writeup CTF
